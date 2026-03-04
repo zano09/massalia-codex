@@ -1,0 +1,13 @@
+:root {
+    /* Palette Massalia */
+    --abysse: #1a2a3a;
+    --or: #C5A059;
+    --or-clair: #e2c999;
+    --blanc-pur: #ffffff;
+    --creme-leger: #fcfaf5; /* Un blanc "Codex" très propre */
+    --texte: #2c3e50;
+
+    /* Typographies (Rappel pour référence, définies dans les imports Google Fonts) */
+    --font-titre: 'Cinzel', serif;
+    --font-texte: 'Lora', serif;
+}

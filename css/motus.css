@@ -1,0 +1,66 @@
+/* Animation d'erreur (Tremblement) */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.shake {
+    animation: shake 0.4s ease-in-out;
+}
+
+/* --- GRILLE RESPONSIVE --- */
+#motus-grid {
+    width: 100%;
+    max-width: 350px; /* Largeur max de la grille entière */
+    margin: 0 auto 15px auto;
+    padding: 0 10px; /* Petite marge de sécurité sur les bords */
+    box-sizing: border-box;
+}
+
+.motus-row {
+    display: flex;
+    justify-content: center;
+    gap: 5px; /* Espace entre les cases */
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.motus-cell {
+    flex: 1; /* La case prend la place dispo */
+    max-width: 45px; /* Mais pas plus large que ça */
+    aspect-ratio: 1 / 1; /* RESTE TOUJOURS CARRÉE */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: var(--abysse);
+    border: 2px solid var(--or);
+    color: white;
+    font-weight: bold;
+    
+    /* La police s'adapte à la taille de l'écran (min 1rem, max 1.5rem) */
+    font-size: clamp(1rem, 6vw, 1.5rem); 
+    border-radius: 4px;
+    
+    user-select: none;
+    transition: transform 0.3s, background-color 0.3s, border-color 0.3s;
+}
+
+/* Animation quand on se trompe (ça secoue) */
+.shake {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% { transform: translateX(1px); }
+    10% { transform: translateX(-1px); }
+    20% { transform: translateX(-3px); }
+    30% { transform: translateX(3px); }
+    40% { transform: translateX(1px); }
+    50% { transform: translateX(-1px); }
+    100% { transform: translateX(0); }
+}

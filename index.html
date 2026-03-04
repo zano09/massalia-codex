@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Massalia Codex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Massalia">
+    <meta name="theme-color" content="#1a2a3a">
+    
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="assets/icons/icon.png">
+    <link rel="apple-touch-icon" href="assets/icons/icon.png">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">  
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/motus.css">               
+    <link rel="stylesheet" href="css/quiz.css">           
+        
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="splash-screen">
+        <div class="splash-content">
+            <div class="splash-logo">M</div>
+            <div class="splash-quote-container">
+                <p id="splash-text">"Chargement des archives..."</p>
+                <div id="splash-author"></div>
+            </div>
+            <div class="loader-line"></div>
+        </div>
+    </div>
+
+    <div id="profil-modal" class="modal-overlay">
+        <div class="modal-card">
+            <div id="modal-content"></div> </div>
+    </div>
+
+    <div id="parametres-modal" class="modal-overlay">
+        <div class="modal-card">
+            <button onclick="toggleParametresModal()" class="btn-close-modal">×</button>
+            <div id="parametres-content"></div> </div>
+    </div>
+
+    <div id="enregistrement-modal" class="modal-overlay">
+        <div class="modal-card">
+            <button onclick="toggleEnregistrementModal()" class="btn-close-modal">×</button>
+            <div id="enregistrement-content"></div> </div>
+    </div>
+
+    <div id="recette-modal" class="modal-overlay">
+        <div class="modal-card">
+            <button onclick="closeRecetteModal()" class="btn-close-modal">×</button>
+            
+            <div class="modal-body">
+                
+                <h2 id="modal-titre" class="titre-page" style="margin-top:10px; color:#c0392b; border:none; text-align:left;"></h2>
+                
+                <button id="modal-save-btn" class="btn-secondary" style="margin-bottom:20px; width:auto; padding:5px 15px; font-size:0.8rem;"></button>
+
+                <img id="modal-img" class="recette-img-bleed" style="display:none;">
+
+                <div style="background:#f9f9f9; padding:15px; border-radius:10px; margin-bottom:20px; border:1px solid #eee;">
+                    <h3 class="titre-card" style="font-size:0.9rem; margin-top:0; color:#444;">🛒 INGRÉDIENTS</h3>
+                    <ul id="modal-ingredients" style="padding-left:20px; font-family:'Lora'; font-size:0.9rem; color:#555; margin-bottom:0;"></ul>
+                </div>
+
+                <div style="margin-bottom:20px;">
+                    <h3 class="titre-card" style="font-size:0.9rem; color:#444;">🔥 PRÉPARATION</h3>
+                    <ul id="modal-prep" style="padding-left:20px; font-family:'Lora'; font-size:0.9rem; color:#444; line-height:1.6;"></ul>
+                </div>
+
+                <div class="info-box" style="border-left:4px solid #c0392b; background:#fff5f5; border-color:#c0392b;">
+                    <strong style="color:#c0392b; font-family:'Cinzel';">L'Astuce du Chef :</strong><br>
+                    <span id="modal-astuce" style="font-size:0.85rem; font-style:italic;"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="confirm-modal" class="modal-overlay" style="z-index:11000;">
+        <div class="modal-card" style="max-width:300px; text-align:center; padding:30px; border-top:6px solid #e74c3c;">
+            <div style="font-size:3rem; margin-bottom:10px;">⚠️</div>
+            <h3 class="titre-page" style="color:#c0392b; margin:0; border:none;">ATTENTION</h3>
+            <p id="confirm-message" class="texte-courant" style="text-align:center; margin-bottom:20px;">Voulez-vous vraiment faire ça ?</p>
+            
+            <div style="display:flex; gap:10px; justify-content:center;">
+                <button onclick="closeConfirmModal()" class="btn-secondary" style="background:#eee; color:#333;">NON</button>
+                <button id="btn-confirm-yes" class="btn-primary" style="background:#c0392b;">OUI, EFFACER</button>
+            </div>
+        </div>
+    </div>
+
+    <header id="main-header">
+        <h1>MASSALIA CODEX</h1>
+        <div style="display:flex; justify-content:center; align-items:center; gap:10px; margin-top:10px; cursor:pointer;" onclick="toggleProfilModal()">
+            <div id="display-pseudo-top" style="font-size:0.7rem; letter-spacing:1px; font-family:'Cinzel'; color:var(--or);">CITOYEN</div>
+            <img id="user-avatar-img" src="https://openclipart.org/image/800px/277081" style="width:30px; height:30px; border-radius:50%; border:1px solid var(--or); object-fit:cover;">
+        </div>
+    </header>
+
+    <nav>
+        <button id="nav-btn-accueil" onclick="loadSection('accueil')">
+            <span>🏛️</span>
+            ACCUEIL
+        </button>
+        <button id="nav-btn-chrono" onclick="loadSection('chrono')">
+            <span>📜</span>
+            CHRONO
+        </button>
+        <button id="nav-btn-epreuves" onclick="loadSection('epreuves')">
+            <span>⚔️</span>
+            ÉPREUVES
+        </button>
+    </nav>
+
+    <main id="app">
+        <div id="loader">Chargement du Codex...</div>
+    </main>
+
+    <div id="toast-notification">Message enregistré !</div>
+
+    <script src="js/quiz.js"></script>
+    <script src="js/motus.js"></script>
+    <script src="js/profil.js"></script>      
+    <script src="js/parametres.js"></script>  
+    <script src="js/accueil.js"></script>     
+    <script src="js/chrono.js"></script>     
+    <script src="js/epreuves.js"></script>
+    
+    <script src="js/enregistrements.js"></script> 
+    
+    <script src="js/main.js"></script>
+    
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(reg => console.log('SW enregistré !'))
+                    .catch(err => console.log('Erreur SW:', err));
+            });
+        }
+    </script>
+</body>
+</html>

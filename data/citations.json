@@ -1,0 +1,367 @@
+[
+    {
+        "auteur": "Jean-Claude Izzo",
+        "ouvrage": "Total Khéops",
+        "texte": "Marseille n'est pas une ville pour touristes. Il n'y a rien à voir. Sa beauté ne se photographie pas. Elle se partage."
+    },
+    {
+        "auteur": "Albert Londres",
+        "ouvrage": "Marseille, porte du Sud",
+        "texte": "Marseille est la ville de l'arrivée. On n'y passe pas, on y débarque."
+    },
+    {
+        "auteur": "Arthur Rimbaud",
+        "ouvrage": "Lettre à sa famille (1891)",
+        "texte": "Je loue une belle chambre sur le port. Je vois tout le trafic de la Méditerranée."
+    },
+    {
+        "auteur": "Jean Contrucci",
+        "ouvrage": "L'Énigme de la Blancarde",
+        "texte": "À Marseille, l'étranger n'est pas celui qui vient d'ailleurs, mais celui qui ne partage pas l'amour de la ville."
+    },
+    {
+        "auteur": "Edmond Rostand",
+        "ouvrage": "L'Aiglon",
+        "texte": "C'est une ville qui a l'accent avant d'ouvrir la bouche."
+    },
+    {
+        "auteur": "Blaise Cendrars",
+        "ouvrage": "L'Homme foudroyé",
+        "texte": "Marseille appartient à qui vient du large."
+    },
+    {
+        "auteur": "Marcel Pagnol",
+        "ouvrage": "Marius",
+        "texte": "Si tu veux aller nulle part, tu peux prendre n'importe quel bateau, ils y vont tous. Mais si tu veux aller à Marseille, c'est une autre paire de manches."
+    },
+    {
+        "auteur": "Gustave Flaubert",
+        "ouvrage": "Voyage en Orient",
+        "texte": "On sent ici quelque chose de l'Orient, on marche sur une terre antique, foulée par des dieux disparus."
+    },
+    {
+        "auteur": "Alexandre Dumas",
+        "ouvrage": "Le Comte de Monte-Cristo",
+        "texte": "Marseille, la ville blanche, qui semble, comme une mouette rieuse, guetter sa proie au bord des flots."
+    },
+    {
+        "auteur": "Stendhal",
+        "ouvrage": "Mémoires d'un touriste",
+        "texte": "La rue de la Canebière, dont les habitants sont si fiers, est certainement la plus belle qu'il y ait en France."
+    },
+    {
+        "auteur": "Akhenaton (IAM)",
+        "ouvrage": "La Face B",
+        "texte": "Marseille n'est pas la France. C'est une ville à part, une île sans mer autour."
+    },
+    {
+        "auteur": "Maylis de Kerangal",
+        "ouvrage": "Corniche Kennedy",
+        "texte": "Marseille est une ville de fictions, une ville qui s'invente en permanence, une ville de tchatche et de lumière."
+    },
+    {
+        "auteur": "Alphonse de Lamartine",
+        "ouvrage": "Voyage en Orient",
+        "texte": "Marseille nous apparut comme une éclatante vision de l'Orient ; c'est le port de toutes les mers, l'échelle de toutes les nations."
+    },
+    {
+        "auteur": "Louis Brauquier",
+        "ouvrage": "Eau douce pour navires",
+        "texte": "Ici, la mer est dans la ville. Elle est au bout de chaque rue, comme une promesse de départ."
+    },
+    {
+        "auteur": "Walter Benjamin",
+        "ouvrage": "Marseille (1928)",
+        "texte": "Les maisons de Marseille sont comme des visages qui se tournent vers le soleil pour être vus."
+    },
+    {
+        "auteur": "Éric Cantona",
+        "ouvrage": "Interview",
+        "texte": "Marseille, c'est la passion. On aime ou on déteste, mais on ne reste jamais indifférent. C'est une ville qui a du sang dans les veines."
+    },
+    {
+        "auteur": "Le Corbusier",
+        "ouvrage": "À propos de la Cité Radieuse",
+        "texte": "Marseille est la ville la plus magnifique de France. C'est une capitale. Elle a du caractère, elle a du relief."
+    },
+    {
+        "auteur": "Guy de Maupassant",
+        "ouvrage": "Au Soleil",
+        "texte": "Marseille sue le soleil, pue l'ail, l'oignon et la bouillabaisse ; c'est une ville gaie, bruyante, malpropre et vivante."
+    },
+    {
+        "auteur": "André Suarès",
+        "ouvrage": "Marsiho",
+        "texte": "Marseille est une ville antique sans antiquités. Son passé, c'est sa lumière."
+    },
+    {
+        "auteur": "René Frégni",
+        "ouvrage": "Marseille, la ville bleue",
+        "texte": "Ici, la lumière ne tombe pas du ciel, elle jaillit du sol, elle ricoche sur la mer, elle vous frappe au visage."
+    },
+    {
+        "auteur": "Thierry Fabre",
+        "ouvrage": "Éloge de la Méditerranée",
+        "texte": "Marseille n'est pas une ville française comme les autres, c'est une ville-monde, un port-carrefour où se croisent les destins."
+    },
+    {
+        "auteur": "Soprano",
+        "ouvrage": "Cosmopolitanie",
+        "texte": "À la bien ! Ici on mélange les couleurs, les odeurs et les accents pour faire une seule voix."
+    },
+    {
+        "auteur": "Paul Valéry",
+        "ouvrage": "Inspirations méditerranéennes",
+        "texte": "Ce port est un des plus grands théâtres du monde. Chaque jour s'y joue la pièce de l'arrivée et du départ."
+    },
+    {
+        "auteur": "Marcel Pagnol",
+        "ouvrage": "Marius",
+        "texte": "L'honneur, c'est comme les allumettes : ça ne sert qu'une fois."
+    },
+    {
+        "auteur": "IAM",
+        "ouvrage": "Je danse le Mia",
+        "texte": "Marseille la nuit, c'est pas le jour en moins clair. C'est autre chose."
+    },
+    {
+        "auteur": "Bernard Tapie",
+        "ouvrage": "Interview",
+        "texte": "À Marseille, on ne ment pas, on exagère la vérité pour la rendre plus belle."
+    },
+    {
+        "auteur": "Jean-Claude Izzo",
+        "ouvrage": "Chourmo",
+        "texte": "Face à la mer, le bonheur est une idée simple."
+    },
+    {
+        "auteur": "Zinedine Zidane",
+        "ouvrage": "Interview",
+        "texte": "Je suis parti très tôt, mais je n'ai jamais quitté Marseille. Elle est en moi."
+    },
+    {
+        "auteur": "Victor Hugo",
+        "ouvrage": "Choses vues",
+        "texte": "Marseille est un amas de maisons sous un tas de soleil."
+    },
+    {
+        "auteur": "Massilia Sound System",
+        "ouvrage": "Chanson",
+        "texte": "Marseille c'est le oai, mais c'est notre oai !"
+    },
+    {
+        "auteur": "Émile Zola",
+        "ouvrage": "Naïs Micoulin",
+        "texte": "La mer, à l'horizon, n'était qu'une ligne d'un bleu indigo, si foncée qu'elle paraissait noire."
+    },
+    {
+        "auteur": "Jul",
+        "ouvrage": "Expression populaire",
+        "texte": "C'est Marseille bébé !"
+    },
+    {
+        "auteur": "Fernandel",
+        "ouvrage": "Interview",
+        "texte": "Le pastis, c'est comme les seins. Un c'est pas assez, et trois c'est trop."
+    },
+    {
+        "auteur": "Simone de Beauvoir",
+        "ouvrage": "La Force de l'âge",
+        "texte": "J'aimais Marseille, son désordre, ses cris, sa lumière crue."
+    },
+    {
+        "auteur": "Keny Arkana",
+        "ouvrage": "La Mère des enfants perdus",
+        "texte": "Marseille, c'est la rage de vivre, le cœur sur la main et le poing levé."
+    },
+    {
+        "auteur": "Alain Damasio",
+        "ouvrage": "La Zone du Dehors",
+        "texte": "Cette ville a une gueule. Cassée, peut-être, mais une gueule."
+    },
+    {
+        "auteur": "Jean Giono",
+        "ouvrage": "Noé",
+        "texte": "Marseille est la plus grande ville de Grèce."
+    },
+    {
+        "auteur": "Le Rat Luciano (Fonky Family)",
+        "ouvrage": "Art de Rue",
+        "texte": "Ici, on ne subit pas l'histoire, on la crie."
+    },
+    {
+        "auteur": "Théophile Gautier",
+        "ouvrage": "Voyage en Espagne",
+        "texte": "La canebière est le rendez-vous des nations ; on y coudoie des Turcs, des Grecs, des Arabes."
+    },
+    {
+        "auteur": "Robert Guédiguian",
+        "ouvrage": "À propos de ses films",
+        "texte": "Marseille n'est pas une ville, c'est un décor de cinéma permanent où chacun joue son propre rôle."
+    },
+    {
+        "auteur": "Philippe Caubère",
+        "ouvrage": "L'Homme qui danse",
+        "texte": "L'accent marseillais, c'est la langue française qui se met en tenue de plage."
+    },
+    {
+        "auteur": "Franz-Olivier Giesbert",
+        "ouvrage": "L'Immortel",
+        "texte": "Marseille est une ville de tragédie antique jouée par des enfants."
+    },
+    {
+        "auteur": "Soprano",
+        "ouvrage": "Halla Halla",
+        "texte": "Au bord de la mer, la misère est moins pénible au soleil."
+    },
+    {
+        "auteur": "Gaston Defferre",
+        "ouvrage": "Discours",
+        "texte": "Le vent qui souffle à Marseille rend fou ou génial, il n'y a pas de milieu."
+    },
+    {
+        "auteur": "Didier Drogba",
+        "ouvrage": "Autobiographie",
+        "texte": "L'Orange Vélodrome, c'est le seul endroit au monde où le bruit a une couleur."
+    },
+    {
+        "auteur": "César (Marcel Pagnol)",
+        "ouvrage": "Marius",
+        "texte": "Tu me fends le cœur !"
+    },
+    {
+        "auteur": "Gérard Gelu",
+        "ouvrage": "Marseille",
+        "texte": "Marseille est une ville qui se mérite. Elle ne s'offre pas au premier regard."
+    },
+    {
+        "auteur": "Patrick Fiori",
+        "ouvrage": "Chez nous",
+        "texte": "On a l'accent du soleil et le cœur en bandoulière."
+    },
+    {
+        "auteur": "Honoré de Balzac",
+        "ouvrage": "La Peau de chagrin",
+        "texte": "Marseille est une jolie ville, mais on y mange trop d'ail."
+    },
+    {
+        "auteur": "Paul Arène",
+        "ouvrage": "Contes de Paris et de Provence",
+        "texte": "Le mistral, c'est le balayeur municipal de Marseille. Il nettoie le ciel et les rues."
+    },
+    {
+        "auteur": "Taxi (Le Film)",
+        "ouvrage": "Dialogue de Daniel Morales",
+        "texte": "Marseille, c'est pas la France. C'est... Marseille."
+    },
+    {
+        "auteur": "Frédéric Mistral",
+        "ouvrage": "Mes origines",
+        "texte": "Qui a vu Paris et pas Cassis, n'a rien vu."
+    },
+    {
+        "auteur": "Jean-Pierre Foucault",
+        "ouvrage": "Interview",
+        "texte": "Quand je vois la Bonne Mère, je sais que je suis à la maison."
+    },
+    {
+        "auteur": "Louis-Ferdinand Céline",
+        "ouvrage": "Voyage au bout de la nuit",
+        "texte": "C'est une ville qui a l'air de promettre beaucoup."
+    },
+    {
+        "auteur": "Shurik'n (IAM)",
+        "ouvrage": "Demain c'est loin",
+        "texte": "Le soleil se lève à l'Est, mais ici il se couche sur nos rêves."
+    },
+    {
+        "auteur": "Anonyme",
+        "ouvrage": "Proverbe local",
+        "texte": "À Marseille, on craint dégun."
+    },
+    {
+        "auteur": "Maurice Genevoix",
+        "ouvrage": "Routes de l'aventure",
+        "texte": "Ce port est une porte ouverte sur l'infini."
+    },
+    {
+        "auteur": "Jean Bouin",
+        "ouvrage": "Athlète marseillais",
+        "texte": "Courir ici, c'est courir avec le vent."
+    },
+    {
+        "auteur": "Jean Vilar",
+        "ouvrage": "Notes de théâtre",
+        "texte": "Le public marseillais ne juge pas, il ressent."
+    },
+    {
+        "auteur": "André Malraux",
+        "ouvrage": "Discours",
+        "texte": "Marseille est la plus vieille ville de France, et pourtant la plus jeune d'esprit."
+    },
+    {
+        "auteur": "Bengous",
+        "ouvrage": "Vidéos web",
+        "texte": "Oewww ! Tié la famille !"
+    },
+    {
+        "auteur": "Charles Baudelaire",
+        "ouvrage": "Correspondance",
+        "texte": "Je n'aime pas Marseille, c'est une ville trop bruyante pour mon âme."
+    },
+    {
+        "auteur": "Edmonde Charles-Roux",
+        "ouvrage": "Oublier Palerme",
+        "texte": "Marseille est une ville secrète. Elle cache ses trésors dans les replis de ses collines."
+    },
+    {
+        "auteur": "Sch",
+        "ouvrage": "Lyrics",
+        "texte": "J'ai le sang de la veine qui coule bleu et blanc."
+    },
+    {
+        "auteur": "Rudy Ricciotti (Architecte du MUCEM)",
+        "ouvrage": "Interview",
+        "texte": "Marseille est une ville punk. Elle est brute, elle est vraie."
+    },
+    {
+        "auteur": "Daudet",
+        "ouvrage": "Tartarin de Tarascon",
+        "texte": "Tout le midi est là : de la gueule, mais du cœur."
+    },
+    {
+        "auteur": "Raymond Depardon",
+        "ouvrage": "Photographe",
+        "texte": "La lumière de Marseille à 17h est la plus belle du monde."
+    },
+    {
+        "auteur": "Basile Boli",
+        "ouvrage": "Après Munich 93",
+        "texte": "Cette tête, c'est pour le peuple de Marseille. À jamais les premiers."
+    },
+    {
+        "auteur": "Gilles Ascaride",
+        "ouvrage": "La Conquête de Marsègue",
+        "texte": "Marseille n'est pas une ville, c'est une mythologie vivante."
+    },
+    {
+        "auteur": "Redouane Bougheraba",
+        "ouvrage": "Spectacle",
+        "texte": "Ici, même les mouettes elles ont l'accent."
+    },
+    {
+        "auteur": "Clara Malraux",
+        "ouvrage": "Le Bruit de nos pas",
+        "texte": "J'ai aimé cette ville comme on aime un homme, avec passion et déchirement."
+    },
+    {
+        "auteur": "René Char",
+        "ouvrage": "Feuillets d'Hypnos",
+        "texte": "La Provence cache ses mystères derrière le soleil."
+    },
+    {
+        "auteur": "Le Vieux-Port (Inscription)",
+        "ouvrage": "Plaque commémorative",
+        "texte": "Ici, vers l'an 600 avant Jésus-Christ, des marins grecs ont abordé..."
+    }
+]

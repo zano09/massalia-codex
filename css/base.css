@@ -1,0 +1,207 @@
+body {
+    background-color: var(--blanc-pur);
+    font-family: var(--font-texte);
+    margin: 0;
+    padding-bottom: 90px; /* Important pour ne pas cacher le contenu derrière le menu */
+    color: var(--texte);
+}
+
+/* HEADER */
+header {
+    background-color: var(--abysse);
+    color: var(--or);
+    text-align: center;
+    padding: 25px 10px;
+    border-bottom: 4px solid var(--or);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-family: var(--font-titre);
+    margin: 0;
+    letter-spacing: 4px;
+    font-size: 1.8rem;
+}
+
+/* CONTENEUR PRINCIPAL */
+#app {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    animation: fadeInPage 0.6s ease-out;
+}
+
+/* NAVIGATION FIXE */
+/* --- NAVIGATION GLASSMORPHISM --- */
+
+/* 1. On décolle le contenu du bas pour pas qu'il soit caché par la barre */
+#app {
+    padding-bottom: 90px; /* IMPORTANT : Laisse de la place pour la nav */
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    
+    /* L'effet Verre Dépoli */
+    background: rgba(26, 42, 58, 0.85); /* Bleu Abysse transparent */
+    backdrop-filter: blur(12px); /* Le flou magique */
+    -webkit-backdrop-filter: blur(12px); /* Pour Safari/iPhone */
+    
+    border-top: 1px solid rgba(197, 160, 89, 0.3); /* Liseré Or discret */
+    box-shadow: 0 -5px 20px rgba(0,0,0,0.3);
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+    
+    /* Arrondi en haut pour faire "Carte" */
+    border-radius: 20px 20px 0 0;
+}
+
+nav button {
+    background: none;
+    border: none;
+    color: #8899a6; /* Gris bleuté (inactif) */
+    font-family: 'Cinzel', serif;
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Rebond */
+    padding: 10px;
+    width: 33%;
+}
+
+nav button span {
+    font-size: 1.4rem;
+    margin-bottom: 2px;
+    transition: transform 0.3s;
+}
+
+/* L'état ACTIF (Quand on est sur la page) */
+nav button.active {
+    color: var(--or); /* Devient Or */
+    transform: translateY(-5px); /* Monte un petit peu */
+}
+
+nav button.active span {
+    transform: scale(1.2); /* L'icône grossit */
+    text-shadow: 0 0 10px rgba(197, 160, 89, 0.6); /* Lueur dorée */
+}
+
+/* ANIMATION GLOBALE */
+@keyframes fadeInPage {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- SPLASH SCREEN (ÉCRAN D'OUVERTURE) --- */
+#splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, #2c3e50 0%, #1a252f 100%); /* Fond Bleu Nuit */
+    z-index: 9999; /* Au-dessus de tout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    transition: opacity 0.8s ease-out, visibility 0.8s; /* Fondu de sortie */
+}
+
+.splash-content {
+    padding: 20px;
+    max-width: 85%;
+}
+
+.splash-logo {
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;
+    color: var(--or); /* Ton or habituel */
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px rgba(197, 160, 89, 0.5);
+    animation: pulse 2s infinite;
+}
+
+#splash-text {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #fcfaf5;
+}
+
+#splash-author {
+    font-family: 'Cinzel', serif;
+    font-size: 0.8rem;
+    color: var(--or);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* La petite barre qui charge */
+.loader-line {
+    width: 0%;
+    height: 2px;
+    background: var(--or);
+    margin: 30px auto 0;
+    border-radius: 2px;
+    animation: loadBar 5s ease-in-out forwards;
+}
+
+/* Animations */
+@keyframes loadBar {
+    0% { width: 0%; opacity: 0.5; }
+    50% { width: 50%; opacity: 1; }
+    100% { width: 100%; opacity: 0; }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 0.9; }
+    50% { transform: scale(1.05); opacity: 1; }
+    100% { transform: scale(1); opacity: 0.9; }
+}
+
+/* Classe pour cacher l'écran (ajoutée par le JS) */
+.hidden-splash {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+/* --- NOTIFICATION TOAST (Pop-up discret) --- */
+#toast-notification {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #333; /* Fond noir */
+    color: #fff; /* Texte blanc */
+    text-align: center;
+    border-radius: 50px; /* Bien arrondi */
+    padding: 16px;
+    position: fixed;
+    z-index: 10001; /* Au-dessus de tout */
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    font-size: 0.9rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    opacity: 0;
+    transition: opacity 0.5s, bottom 0.5s;
+}
+
+#toast-notification.show {
+    visibility: visible;
+    opacity: 1;
+    bottom: 50px; /* Petite animation de montée */
+}

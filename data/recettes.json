@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1,
+    "titre": "La Vraie Bouillabaisse",
+    "date": "XIXe siècle",
+    "photo": "assets/img/recettes/bouillabaisse.jpg",
+    "description": "Le plat du pêcheur devenu roi. Le secret ? Le poisson de roche et le safran.",
+    "ingredients": [
+      "2 kg de poissons de roche (rascasses, vives, grondins)",
+      "1 kg de pommes de terre à chair ferme",
+      "4 gousses d'ail",
+      "2 oignons",
+      "1 bulbe de fenouil",
+      "2 doses de safran",
+      "10 cl d'huile d'olive",
+      "Sel, poivre, écorce d'orange séchée"
+    ],
+    "preparation": [
+      "Vider et écailler les poissons. Couper les plus gros en tronçons.",
+      "Faire revenir oignons, ail, fenouil dans l'huile. Ajouter les têtes et petits poissons.",
+      "Couvrir d'eau bouillante, ajouter le safran. Cuire 20 min à gros bouillons puis mouliner la soupe.",
+      "Remettre sur le feu, cuire les pommes de terre en rondelles 10 min.",
+      "Ajouter enfin les gros poissons et cuire 10-15 min à feu vif."
+    ],
+    "astuce": "Le feu doit être très vif pour émulsionner l'huile et le bouillon."
+  },
+  {
+    "id": 2,
+    "titre": "L'Aïoli Provençal",
+    "date": "Moyen Âge",
+    "photo": "assets/img/recettes/aioli.jpg",
+    "description": "Plus qu'une sauce, un rituel. De l'ail, de l'huile, et de la force.",
+    "ingredients": [
+      "800g de morue salée (dessalée 24h)",
+      "500g de bulots",
+      "6 carottes",
+      "500g de haricots verts",
+      "8 pommes de terre",
+      "4 oeufs durs",
+      "Pour la sauce : 6 gousses d'ail, 1 jaune d'oeuf, 25cl d'huile d'olive"
+    ],
+    "preparation": [
+      "Pocher la morue 10 min (ne pas bouillir) et cuire les légumes à la vapeur.",
+      "Préparer la sauce : piler l'ail en pommade dans un mortier.",
+      "Ajouter le jaune d'oeuf et une pincée de sel.",
+      "Verser l'huile en filet très fin en tournant sans cesse avec le pilon jusqu'à fermeté."
+    ],
+    "astuce": "Tous les ingrédients (surtout l'huile et l'oeuf) doivent être à la même température ambiante."
+  },
+  {
+    "id": 3,
+    "titre": "Les Navettes de Saint-Victor",
+    "date": "1781",
+    "photo": "assets/img/recettes/navettes.jpg",
+    "description": "Le biscuit en forme de barque qui protège Marseille.",
+    "ingredients": [
+      "500g de farine",
+      "200g de sucre",
+      "60g de beurre pommade",
+      "3 oeufs",
+      "3 cuillères à soupe d'eau de fleur d'oranger",
+      "1 zeste de citron"
+    ],
+    "preparation": [
+      "Blanchir les oeufs avec le sucre. Ajouter le beurre, le zeste et la fleur d'oranger.",
+      "Incorporer la farine et pétrir pour obtenir une boule. Laisser reposer 1h.",
+      "Couper en morceaux, rouler des boudins et pincer les bouts.",
+      "Fendre le dessus au couteau.",
+      "Cuire 15 à 20 min à 180°C (elles doivent rester pâles)."
+    ],
+    "astuce": "Elles se conservent des mois dans une boîte en fer."
+  },
+  {
+    "id": 4,
+    "titre": "La Daube Provençale",
+    "date": "XVIIIe siècle",
+    "photo": "assets/img/recettes/daube.jpg",
+    "description": "Le plat du dimanche qui mijote doucement.",
+    "ingredients": [
+      "1.5 kg de boeuf (paleron, joue)",
+      "1 bouteille de vin rouge corsé",
+      "4 carottes",
+      "2 oignons",
+      "1 zeste d'orange",
+      "Thym, laurier, clou de girofle"
+    ],
+    "preparation": [
+      "La veille : mettre la viande en cubes à mariner avec vin, légumes et aromates (12h).",
+      "Le jour J : égoutter la viande et la saisir à l'huile d'olive.",
+      "Verser la marinade complète.",
+      "Couvrir et laisser mijoter à feu très doux pendant 3h à 4h."
+    ],
+    "astuce": "Meilleure réchauffée le lendemain."
+  },
+  {
+    "id": 5,
+    "titre": "L'Anchoïade",
+    "date": "Antiquité",
+    "photo": "assets/img/recettes/anchoiade.jpg",
+    "description": "L'héritage romain. Ça pique et ça donne soif !",
+    "ingredients": [
+      "200g d'anchois à l'huile",
+      "2 gousses d'ail",
+      "1 cuillère à café de vinaigre",
+      "10 cl d'huile d'olive",
+      "Légumes crus (céleri, carotte, radis)"
+    ],
+    "preparation": [
+      "Écraser les anchois et l'ail jusqu'à obtenir une pâte lisse.",
+      "Incorporer l'huile d'olive petit à petit en fouettant.",
+      "Ajouter le trait de vinaigre et poivrer.",
+      "Servir froid avec les légumes."
+    ],
+    "astuce": "Servir avec des légumes crus très frais."
+  },
+  {
+    "id": 6,
+    "titre": "Les Panisses de l'Estaque",
+    "date": "1830",
+    "photo": "assets/img/recettes/panisse.webp",
+    "description": "L'or jaune apporté par les Italiens.",
+    "ingredients": [
+      "250g de farine de pois chiches",
+      "1 litre d'eau",
+      "Huile de friture",
+      "Sel, Poivre"
+    ],
+    "preparation": [
+      "Délayer la farine dans l'eau froide salée. Cuire à feu doux en remuant jusqu'à épaississement.",
+      "Verser dans des moules cylindriques et laisser durcir 2h au frais.",
+      "Démouler, couper en tranches épaisses.",
+      "Frire dans l'huile très chaude jusqu'à dorure."
+    ],
+    "astuce": "Mangez-les brûlants avec beaucoup de poivre."
+  },
+  {
+    "id": 7,
+    "titre": "La Soupe au Pistou",
+    "date": "XVIIIe siècle",
+    "photo": "assets/img/recettes/soupe_pistou.jpg",
+    "description": "L'hymne à l'été et au basilic.",
+    "ingredients": [
+      "400g de haricots (rouges et blancs)",
+      "3 courgettes",
+      "3 pommes de terre",
+      "2 tomates",
+      "1 poignée de pâtes",
+      "Pistou : 1 bouquet de basilic, 3 gousses d'ail, huile d'olive, parmesan"
+    ],
+    "preparation": [
+      "Couper les légumes en dés. Les cuire 45 min dans l'eau salée.",
+      "Ajouter les pâtes 10 min avant la fin.",
+      "Préparer le pistou au mortier (ail, basilic, huile).",
+      "Incorporer le pistou hors du feu avant de servir."
+    ],
+    "astuce": "Ne jamais faire bouillir le pistou."
+  },
+  {
+    "id": 8,
+    "titre": "Les Pieds Paquets",
+    "date": "1880",
+    "photo": "assets/img/recettes/pieds_paquets.jpg",
+    "description": "L'invention de la mère Ginouvès.",
+    "ingredients": [
+      "12 paquets (tripes farcies)",
+      "6 pieds de mouton",
+      "150g de petit salé",
+      "50 cl de vin blanc",
+      "1 boîte de concentré de tomate",
+      "Oignon, carotte, ail"
+    ],
+    "preparation": [
+      "Faire revenir oignons, carottes et petit salé.",
+      "Ajouter les pieds et les paquets.",
+      "Mouiller avec le vin et le concentré dilué.",
+      "Cuire à l'étouffée (couvercle scellé) 7h au four à 150°C."
+    ],
+    "astuce": "Un plat de patience, encore meilleur réchauffé."
+  },
+  {
+    "id": 9,
+    "titre": "La Pizza Moitié-Moitié",
+    "date": "1962",
+    "photo": "assets/img/recettes/pizza.jpg",
+    "description": "Née avec le premier camion pizza de France à Marseille.",
+    "ingredients": [
+      "1 boule de pâte à pizza",
+      "200g de sauce tomate",
+      "100g d'emmental râpé",
+      "6 anchois à l'huile",
+      "Olives noires, origan"
+    ],
+    "preparation": [
+      "Étaler la pâte très finement.",
+      "Couvrir de sauce tomate.",
+      "Mettre le fromage sur une moitié, les anchois sur l'autre.",
+      "Ajouter olives et origan. Cuire à four max (240°C+) pendant 10 min."
+    ],
+    "astuce": "La pâte doit être très fine, pas comme l'américaine."
+  },
+  {
+    "id": 10,
+    "titre": "Les Chichis Frégi",
+    "date": "1900",
+    "photo": "assets/img/recettes/chichis.jpg",
+    "description": "Le goûter des ouvriers des tuileries.",
+    "ingredients": [
+      "500g de farine",
+      "20g de levure boulangère",
+      "2 cuillères à soupe de fleur d'oranger",
+      "Zeste de citron",
+      "Sucre en poudre",
+      "Huile de friture"
+    ],
+    "preparation": [
+      "Mélanger farine, levure diluée, fleur d'oranger et un peu d'eau pour faire une pâte souple.",
+      "Laisser lever 2h (elle doit doubler).",
+      "Façonner de longs boudins et frire à l'huile.",
+      "Rouler dans le sucre dès la sortie."
+    ],
+    "astuce": "À l'Estaque, on le mange traditionnellement nature ou au sucre."
+  }
+]

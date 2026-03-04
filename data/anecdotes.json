@@ -1,0 +1,1803 @@
+[
+  {
+    "id": 1,
+    "annee": -600,
+    "titre": "Le Mythe Fondateur",
+    "date": "-600 av. J.-C.",
+    "categorie": "Antiquité",
+    "texte": "Vers 600 av. J.-C., des marins grecs venus de Phocée (Asie Mineure) pénètrent dans la calanque du Lacydon. À leur tête, le jeune chef Protis cherche une terre pour établir un comptoir commercial. Le destin veut que ce jour-là, Nann, le roi des Ségobriges (la tribu celto-ligure locale), organise un grand banquet pour les noces de sa fille, la princesse Gyptis. \n\nSelon la coutume, la jeune femme doit entrer à la fin du repas et offrir une coupe d'eau à celui qu'elle choisit pour époux parmi les prétendants. Invitées par courtoisie, les étrangers grecs se mêlent aux guerriers locaux. Contre toute attente, Gyptis ignore les chefs ligures et tend sa coupe à l'étranger, Protis. De cette union pacifique, scellée par l'amour plutôt que par le glaive, le roi Nann offre aux Grecs les terres bordant le Lacydon pour y fonder Massalia.",
+    "leSaviezVous": "Ce mythe possède deux versions historiques. Celle d'Aristote nomme les héros Euxène et Petta, tandis que celle de Trogue Pompée les appelle Protis et Gyptis. Aristote précise que de cette union naquit une lignée, les « Prôtiades », qui dirigea la cité durant des siècles.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Colonie_Grecque_%C3%A0_Marseille_-_Puvis_de_Chavannes.jpg/330px-Colonie_Grecque_%C3%A0_Marseille_-_Puvis_de_Chavannes.jpg"
+  },
+  {
+    "id": 2,
+    "annee": -325,
+    "titre": "Pythéas, l’Explorateur Polaire",
+    "date": "-325 av. J.-C.",
+    "categorie": "Antiquité",
+    "texte": "Bien avant les Vikings, le Massaliote Pythéas quitte le Vieux-Port pour explorer l’Atlantique Nord. Il atteint le cercle polaire et décrit le soleil de minuit et les glaces de l’Arctique (la 'Thulé'). À son retour, personne ne le croit, ses récits semblant trop fantastiques. Il fut pourtant le premier à comprendre le lien entre la Lune et les marées.",
+    "leSaviezVous": "Pythéas est aujourd’hui considéré comme l’un des plus grands scientifiques de l’Antiquité."
+  },
+  {
+    "id": 3,
+    "annee": 1423,
+    "titre": "Les Trois Jours de Cendres",
+    "date": "Novembre 1423",
+    "categorie": "Moyen-Âge",
+    "texte": "Alphonse V d’Aragon, furieux de ses échecs en Italie, se venge sur Marseille. Le 20 novembre, sa marine entre dans le port. Pendant trois jours, la ville est pillée et incendiée. Les troupes emportent tout, même les chaînes qui fermaient l’entrée du port, marquant la fin d’une ère de prospérité médiévale.",
+    "leSaviezVous": "Les chaînes du port sont toujours exposées dans la cathédrale de Valence, en Espagne."
+  },
+  {
+    "id": 4,
+    "annee": 1524,
+    "titre": "Le Rhinocéros du Château d'If",
+    "date": "Janvier 1524",
+    "categorie": "Légende",
+    "texte": "Bien avant d'être une prison, l'île d'If accueillit un hôte étrange. Un rhinocéros, cadeau du roi du Portugal au Pape, fit escale sur l'île. C'était le premier spécimen vu en Europe depuis l'Antiquité. François Ier fit exprès le voyage pour admirer la 'bête blindée' qui émerveilla les Marseillais.",
+    "leSaviezVous": "C'est à partir des croquis de ce séjour que Dürer réalisa sa célèbre gravure du rhinocéros."
+  },
+  {
+    "id": 5,
+    "annee": 1666,
+    "titre": "L’Inauguration de la Canebière",
+    "date": "1666",
+    "categorie": "Urbanisme",
+    "texte": "Le nom vient du provençal 'canebe' (chanvre). À l’origine, le quartier était occupé par les cordiers. Sous Louis XIV, la rue est tracée pour devenir l’artère majestueuse que l’on connaît. Elle devint le symbole du cosmopolitisme marseillais, où les marins du monde entier se croisaient.",
+    "leSaviezVous": "On disait autrefois que la Canebière était la rue où le monde entier se donnait rendez-vous."
+  },
+  {
+    "id": 6,
+    "annee": 1688,
+    "titre": "L’Édit du Savon de Marseille",
+    "date": "Octobre 1688",
+    "categorie": "Artisanat",
+    "texte": "Colbert promulgue un édit strict : le savon ne doit contenir aucune graisse animale. Seules les huiles végétales pures sont autorisées. Cette règle d’or a fait de Marseille la capitale mondiale du savon, garantissant un produit pur qui a traversé les siècles.",
+    "leSaviezVous": "Le véritable savon de Marseille doit impérativement contenir 72% d’huiles végétales."
+  },
+  {
+    "id": 7,
+    "annee": 1720,
+    "titre": "La Peste de 1720",
+    "date": "Mai 1720",
+    "categorie": "Tragédie",
+    "texte": "Le navire 'Le Grand Saint-Antoine' apporte la peste à Marseille. Malgré les alertes, les tissus précieux sont débarqués. L’épidémie tue près de la moitié de la population. Le Chevalier Roze s'illustre par son courage en nettoyant les rues jonchées de cadavres.",
+    "leSaviezVous": "Le mur de la peste, construit pour protéger la Provence, est encore visible dans le Vaucluse."
+  },
+  {
+    "id": 8,
+    "annee": 1780,
+    "titre": "La Sardine du Vieux-Port",
+    "date": "Mai 1780",
+    "categorie": "Moderne",
+    "texte": "Le navire la Sartine s’échoue à l'entrée du Vieux-Port. Sa coque immense bloque totalement le chenal, paralysant le port. Avec l’accent marseillais, le « t » s’est transformé en « d », créant la légende de la sardine géante qui boucha le port.",
+    "leSaviezVous": "C'était une erreur de navigation, pas un poisson, qui bloqua l'économie de la ville."
+  },
+  {
+    "id": 9,
+    "annee": 1792,
+    "titre": "Le Chant des Marseillais",
+    "date": "Juin 1792",
+    "categorie": "Histoire",
+    "texte": "Un bataillon de fédérés marseillais entonne un chant de guerre composé à Strasbourg lors de sa marche vers Paris. Ce chant, puissant et révolutionnaire, devient si populaire auprès des Parisiens qu'ils le nomment 'L'Hymne des Marseillais'.",
+    "leSaviezVous": "C'est ainsi que l'hymne national de la France a hérité du nom de la cité phocéenne."
+  },
+  {
+    "id": 10,
+    "annee": 1840,
+    "titre": "Le Prisonnier du Château d’If",
+    "date": "Années 1840",
+    "categorie": "Légende",
+    "texte": "Le Château d’If est devenu célèbre grâce au 'Comte de Monte-Cristo'. Si Edmond Dantès est fictif, la prison était réelle. Les pauvres croupissaient dans les fosses sombres en bas, tandis que les riches louaient des cellules avec cheminée en haut.",
+    "leSaviezVous": "Le château n'a jamais été pris par l'ennemi durant toute son histoire militaire."
+  },
+  {
+    "id": 11,
+    "annee": 1849,
+    "titre": "Le Canal qui sauva la Ville",
+    "date": "8 juillet 1849",
+    "categorie": "Moderne",
+    "texte": "Marseille meurt de soif et de choléra au XIXe siècle. L’ingénieur Franz Mayor de Montricher amène l’eau de la Durance par un canal de 80 km. Ce chantier colossal a transformé la ville et éradiqué les grandes épidémies.",
+    "leSaviezVous": "Le Palais Longchamp est un monument élevé à la gloire de l'arrivée de cette eau précieuse."
+  },
+  {
+    "id": 12,
+    "annee": 1870,
+    "titre": "La Bonne Mère et sa Vierge",
+    "date": "Septembre 1870",
+    "categorie": "Patrimoine",
+    "texte": "La statue monumentale de la Vierge dorée est installée au sommet du clocher de Notre-Dame de la Garde. Visible par tous les marins arrivant au port, elle devient instantanément la protectrice de la cité. Elle mesure près de 10 mètres de haut.",
+    "leSaviezVous": "La statue est recouverte de feuilles d'or tous les 30 ans environ pour garder son éclat."
+  },
+  {
+    "id": 13,
+    "annee": 1905,
+    "titre": "Le Transbordeur : Le Géant de Fer",
+    "date": "1905",
+    "categorie": "Moderne",
+    "texte": "Le Pont Transbordeur dominait le Vieux-Port. Il permettait de traverser sans gêner les mâts des navires grâce à une nacelle suspendue. Symbole de la modernité, il fut détruit par les Allemands en 1944.",
+    "leSaviezVous": "Un restaurant se trouvait sur la plateforme supérieure, offrant une vue unique à 50m de haut."
+  },
+  {
+    "id": 14,
+    "annee": 1915,
+    "titre": "Le Petit Train de la Côte Bleue",
+    "date": "1915",
+    "categorie": "Ingénierie",
+    "texte": "Reliant Marseille à Miramas, cette ligne traverse des falaises et calanques. Avec 23 tunnels et 18 viaducs, c’est un exploit technique offrant une vue imprenable sur les eaux turquoise de la rade.",
+    "leSaviezVous": "Certains tunnels sont si proches de la mer que les embruns mouillent parfois les vitres."
+  },
+  {
+    "id": 15,
+    "annee": 1943,
+    "titre": "La Rafle du Vieux-Port",
+    "date": "Janvier 1943",
+    "categorie": "Tragédie",
+    "texte": "Les autorités allemandes décident de raser les vieux quartiers nord du port, jugés 'insalubres' et nids de résistance. 20 000 personnes sont expulsées et le quartier historique est dynamité. Un vide immense remplace alors le cœur battant de la cité.",
+    "leSaviezVous": "Seule la Maison Diamantée et l'Hôtel de Ville furent épargnés par les explosifs."
+  },
+  {
+    "id": 16,
+    "annee": 1944,
+    "titre": "La Libération de Marseille",
+    "date": "Août 1944",
+    "categorie": "Contemporain",
+    "texte": "Les troupes d’Afrique et les résistants libèrent la ville. Le moment fort est la prise de Notre-Dame de la Garde. Les murs de la basilique portent encore les impacts de balles de cette bataille décisive.",
+    "leSaviezVous": "Le char 'Jeanne d'Arc', détruit pendant l'assaut, est toujours exposé au pied de la colline."
+  },
+  {
+    "id": 17,
+    "annee": 1952,
+    "titre": "La Cité Radieuse du Corbusier",
+    "date": "Octobre 1952",
+    "categorie": "Architecture",
+    "texte": "L'architecte Le Corbusier inaugure 'La Maison du Fada'. Ce bâtiment révolutionnaire est conçu comme un village vertical avec commerces, école et gymnase sur le toit. C'est l'acte de naissance de l'architecture moderne à Marseille.",
+    "leSaviezVous": "À l'époque, les Marseillais étaient si choqués qu'ils pensaient que l'architecte était fou."
+  },
+  {
+    "id": 18,
+    "annee": 1977,
+    "titre": "Gaston Defferre et le Métro",
+    "date": "26 novembre 1977",
+    "categorie": "Contemporain",
+    "texte": "Inauguré par le maire Gaston Defferre, le métro marseillais se distingue par ses rames sur pneus. Son chantier fut complexe, creusant sous des quartiers historiques et gérant la proximité de la mer.",
+    "leSaviezVous": "La station Vieux-Port est ultra-renforcée pour supporter le poids de l'eau juste au-dessus."
+  },
+  {
+    "id": 19,
+    "annee": 859,
+    "titre": "L'Incursion des Vikings",
+    "date": "An 859",
+    "categorie": "Moyen-Âge",
+    "texte": "On l'oublie souvent, mais les navires à proue de dragon ont bien hanté les côtes marseillaises. Les chefs vikings Hasting et Björn Côtes-de-Fer, après avoir pillé l'Espagne, entrent en Méditerranée. Ils installent leur camp sur l'île de la Camargue et lancent des raids sur Marseille et Arles. La cité phocéenne, protégée par ses remparts, résiste tant bien que mal à la fureur des hommes du Nord.",
+    "leSaviezVous": "C'est l'une des rares fois où les tactiques de siège scandinaves ont été confrontées aux fortifications romaines encore debout à Marseille."
+  },
+  {
+    "id": 20,
+    "annee": 1248,
+    "titre": "Le Départ des Croisades",
+    "date": "Août 1248",
+    "categorie": "Moyen-Âge",
+    "texte": "Le roi Louis IX (Saint Louis) choisit le port de Marseille comme point de ralliement pour la septième croisade. La ville devient un immense chantier naval et militaire. Des milliers de chevaliers et de pèlerins envahissent les rues, tandis que les navires sont chargés de chevaux, de vivres et d'armures. Marseille s'enrichit considérablement grâce au transport des troupes vers la Terre Sainte.",
+    "leSaviezVous": "Le quartier de l'Agneau (près du port) doit son nom aux sceaux officiels des Templiers qui géraient une partie de ces embarquements."
+  },
+  {
+    "id": 21,
+    "annee": 1536,
+    "titre": "Charles Quint aux Portes de la Ville",
+    "date": "Automne 1536",
+    "categorie": "Renaissance",
+    "texte": "L'empereur Charles Quint tente d'envahir la Provence avec une armée colossale. Face à lui, les Marseillais pratiquent la politique de la 'terre brûlée'. Les habitants détruisent eux-mêmes leurs faubourgs situés hors des murs pour ne laisser aucun abri à l'ennemi. Affamée et frappée par la dysenterie, l'armée impériale bat en retraite sans jamais avoir pu franchir les remparts de la cité.",
+    "leSaviezVous": "C'est suite à ce siège que François Ier décida de renforcer massivement les fortifications de la ville."
+  },
+  {
+    "id": 22,
+    "annee": 1815,
+    "titre": "La Terreur Blanche",
+    "date": "Juin 1815",
+    "categorie": "Histoire",
+    "texte": "Après la défaite de Napoléon à Waterloo, Marseille explose. Les partisans du Roi (les Royalistes) s'en prennent violemment aux sympathisants de l'Empereur. C'est le massacre des Mamelouks : ces soldats orientaux de la Garde Impériale, installés avec leurs familles près du cours Franklin Roosevelt, sont traqués et massacrés. Un épisode sanglant qui montre la passion politique dévorante de la ville.",
+    "leSaviezVous": "Napoléon avait une relation complexe avec Marseille, ville qu'il jugeait 'trop rebelle' et difficile à discipliner."
+  },
+  {
+    "id": 23,
+    "annee": 1891,
+    "titre": "La Mort de Rimbaud",
+    "date": "10 novembre 1891",
+    "categorie": "Culture",
+    "texte": "Le 'voleur de feu', Arthur Rimbaud, termine sa vie à l'Hôpital de la Conception à Marseille. Revenu d'Afrique avec une jambe amputée et rongé par la maladie, le poète maudit passe ses derniers jours face à la mer qu'il a tant aimée. Il s'éteint à seulement 37 ans, loin de la gloire littéraire qu'il avait fuie.",
+    "leSaviezVous": "L'acte de décès à l'hôpital mentionnait simplement : 'Rimbaud (Arthur), négociant', ignorant totalement son génie poétique."
+  },
+  {
+    "id": 24,
+    "annee": 1962,
+    "titre": "L'Arrivée des Pieds-Noirs",
+    "date": "Été 1962",
+    "categorie": "Contemporain",
+    "texte": "À la fin de la guerre d'Algérie, Marseille est le théâtre d'un exode massif. En quelques mois, des centaines de milliers de rapatriés débarquent sur les quais, avec pour tout bagage une valise. La ville est submergée, les hôtels sont pleins, et des familles dorment sur les trottoirs du Vieux-Port. Cet événement a profondément transformé la démographie et la culture de la ville moderne.",
+    "leSaviezVous": "En un seul été, la population de Marseille a augmenté de près de 15%, un défi logistique sans précédent."
+  },
+  {
+    "id": 25,
+    "annee": 1993,
+    "titre": "Marseille sur le Toit de l'Europe",
+    "date": "26 mai 1993",
+    "categorie": "Sport",
+    "texte": "Une date gravée à jamais dans le cœur des Marseillais. Grâce à un coup de tête de Basile Boli à Munich contre le Milan AC, l'Olympique de Marseille devient le premier (et seul à ce jour) club français à remporter la Ligue des Champions. La ville bascule dans une liesse indescriptible qui dure plusieurs jours. Le slogan 'À jamais les premiers' entre dans l'histoire.",
+    "leSaviezVous": "Le soir du match, la consommation d'électricité à Marseille a battu des records, personne ne voulant manquer la finale."
+  },
+  {
+    "id": 26,
+    "annee": -49,
+    "titre": "Le Siège de César",
+    "date": "-49 av. J.-C.",
+    "categorie": "Antiquité",
+    "texte": "Pendant la guerre civile romaine, Marseille choisit le camp de Pompée contre Jules César. Furieux, César assiège la ville par terre et par mer. Les Marseillais résistent avec un courage héroïque, utilisant des machines de guerre sophistiquées. Mais après des mois de blocus et deux batailles navales perdues, la cité affamée doit capituler. César l'épargne mais lui retire ses flottes, son trésor et ses colonies.",
+    "leSaviezVous": "C'est à cause de cette défaite que Marseille perdit sa domination commerciale sur la Méditerranée au profit de Narbonne et Arles."
+  },
+  {
+    "id": 27,
+    "annee": 1516,
+    "titre": "La Visite de Léonard de Vinci",
+    "date": "1516",
+    "categorie": "Renaissance",
+    "texte": "Peu de gens le savent, mais le génie italien a foulé le sol marseillais. Accompagnant le roi François Ier, Léonard de Vinci séjourne quelques jours dans la cité phocéenne. Fasciné par la mer et les techniques portuaires, on raconte qu'il aurait observé avec attention le mouvement des vagues dans le Vieux-Port pour ses études sur l'hydraulique.",
+    "leSaviezVous": "Léonard voyageait alors avec ses carnets et un tableau mystérieux qu'il ne quittait jamais : la Joconde."
+  },
+  {
+    "id": 28,
+    "annee": 1660,
+    "titre": "Louis XIV dompte la Ville",
+    "date": "2 mars 1660",
+    "categorie": "Monarchie",
+    "texte": "Marseille a toujours été rebelle. Pour punir une énième révolte, le jeune Louis XIV arrive avec ses troupes. Symbole ultime de domination : il ne passe pas par les portes, mais fait ouvrir une brèche dans les remparts à coups de canon. Il ordonne la construction du Fort Saint-Nicolas et du Fort Saint-Jean, non pas pour protéger la ville des ennemis, mais pour pointer les canons vers... les Marseillais eux-mêmes.",
+    "leSaviezVous": "C'est à cette occasion que le Roi Soleil déclara que Marseille devait enfin devenir une ville française comme les autres."
+  },
+  {
+    "id": 29,
+    "annee": 1895,
+    "titre": "L'Arrivée du Cinéma",
+    "date": "Septembre 1895",
+    "categorie": "Culture",
+    "texte": "Quelques mois avant la célèbre séance de Paris, les frères Lumière testent leur invention à La Ciotat et Marseille. Ils filment l'arrivée d'un train et la sortie des usines. Le premier cinéma public du monde, l'Eden Théâtre, ouvre ses portes tout près d'ici. Les Marseillais sont parmi les premiers humains au monde à voir des images bouger sur un écran blanc.",
+    "leSaviezVous": "La légende raconte que certains spectateurs ont fui la salle, croyant que le train à l'écran allait réellement les écraser."
+  },
+  {
+    "id": 30,
+    "annee": 1927,
+    "titre": "Le Tunnel du Rove",
+    "date": "Avril 1927",
+    "categorie": "Ingénierie",
+    "texte": "Un exploit technique mondial oublié. Pour relier le port de Marseille au Rhône, les ingénieurs creusent le plus grand tunnel maritime du monde sous la chaîne de l'Estaque. Long de 7 kilomètres et assez large pour que deux péniches se croisent, ce canal souterrain est une prouesse qui a nécessité 15 ans de travaux titanesques.",
+    "leSaviezVous": "Le tunnel est aujourd'hui fermé à cause d'un éboulement survenu en 1963, créant un écosystème mystérieux à l'intérieur."
+  },
+  {
+    "id": 31,
+    "annee": 1934,
+    "titre": "L'Attentat Royal",
+    "date": "9 octobre 1934",
+    "categorie": "Histoire",
+    "texte": "Le roi Alexandre Ier de Yougoslavie débarque sur le Vieux-Port pour une visite officielle. Alors que son cortège remonte la Canebière, un révolutionnaire bulgare surgit et abat le Roi ainsi que le ministre français Louis Barthou. C'est le premier attentat filmé de l'histoire. La nouvelle fait le tour de la planète et Marseille se retrouve au centre d'une crise diplomatique mondiale.",
+    "leSaviezVous :": "Une plaque commémorative se trouve toujours à l'angle de la Canebière et de la rue de la Bourse."
+  },
+  {
+    "id": 32,
+    "annee": 1991,
+    "titre": "La Tragédie d'Habiba Messika",
+    "date": "1991",
+    "categorie": "Patrimoine",
+    "texte": "Marseille a toujours été une terre d'accueil pour les artistes méditerranéens. En fouillant les archives de l'Opéra, on redécouvre l'influence immense des musiques d'Afrique du Nord et d'Orient qui résonnaient dans les cabarets du centre-ville, faisant de Marseille le premier port musical de France bien avant l'explosion du Rap.",
+    "leSaviezVous": "Marseille est la ville de France qui compte le plus grand nombre de salles de spectacles par habitant au début du XXe siècle."
+  },
+  {
+    "id": 33,
+    "annee": -600,
+    "titre": "Le Trésor des Marseillais",
+    "date": "-600 av. J.-C.",
+    "categorie": "Antiquité",
+    "texte": "Dès sa fondation, Marseille devient si riche qu'elle fait construire son propre édifice à Delphes, en Grèce : le 'Trésor des Marseillais'. C'était une manière d'étaler sa puissance face au monde grec. Les colons y déposaient des offrandes d'or et d'argent pour remercier Apollon de leur réussite commerciale en Gaule.",
+    "leSaviezVous": "Les archéologues ont retrouvé les fondations de ce monument à Delphes, prouvant l'importance internationale de la cité dès ses débuts."
+  },
+  {
+    "id": 34,
+    "annee": 415,
+    "titre": "L'Abbaye de Saint-Victor",
+    "date": "An 415",
+    "categorie": "Moyen-Âge",
+    "texte": "Jean Cassien fonde l'un des premiers monastères d'Occident sur les vestiges d'une nécropole grecque. L'abbaye devient une véritable forteresse spirituelle. Ses cryptes abritent les restes de martyrs et une vierge noire sculptée dans le bois qui fascine encore aujourd'hui les pèlerins du monde entier.",
+    "leSaviezVous": "Chaque année à la Chandeleur, on y bénit les célèbres Navettes de Marseille, dont la forme rappelle la barque qui aurait amené les Saintes sur les côtes provençales."
+  },
+  {
+    "id": 35,
+    "annee": 1564,
+    "titre": "La Visite de Charles IX",
+    "date": "Novembre 1564",
+    "categorie": "Histoire",
+    "texte": "Le jeune roi Charles IX et sa mère Catherine de Médicis entrent à Marseille lors d'un grand tour de France. Ils sont éblouis par le spectacle de la mer. Pour les honorer, la ville organise une joute nautique géante dans le port, une tradition qui perdure encore aujourd'hui dans les villages de la côte.",
+    "leSaviezVous": "Catherine de Médicis, friande de spécialités locales, aurait particulièrement apprécié les poissons de la Méditerranée lors du banquet royal."
+  },
+  {
+    "id": 36,
+    "annee": 1591,
+    "titre": "La Dictature de Casaulx",
+    "date": "1591-1596",
+    "categorie": "Histoire",
+    "texte": "Pendant cinq ans, Charles de Casaulx instaure une 'République marseillaise' indépendante, défiant le pouvoir royal de Henri IV. Il se comporte en véritable dictateur local avant d'être assassiné par un capitaine à la solde du Roi. C'est l'un des moments où l'esprit d'indépendance de Marseille a été le plus radical.",
+    "leSaviezVous": "Henri IV aurait déclaré en apprenant la reprise de la ville : 'C'est maintenant que je suis vraiment roi de France'."
+  },
+  {
+    "id": 37,
+    "annee": 1702,
+    "titre": "L'Hôtel de Ville Épargné",
+    "date": "1702",
+    "categorie": "Urbanisme",
+    "texte": "Le superbe bâtiment de la mairie, sur le quai du Port, est achevé sous Louis XIV. Inspiré des palais italiens, il a survécu à toutes les guerres et révolutions. Même en 1943, lorsque les Allemands dynamitèrent tout le quartier du Panier, ils reçurent l'ordre de ne pas toucher à ce joyau architectural.",
+    "leSaviezVous": "Fait unique : l'escalier ne se trouve pas à l'intérieur, mais dans le bâtiment adjacent, relié par une passerelle !"
+  },
+  {
+    "id": 38,
+    "annee": 1800,
+    "titre": "La Montée de la Bonne Mère",
+    "date": "XIXe siècle",
+    "categorie": "Patrimoine",
+    "texte": "Avant la basilique actuelle, il n'y avait qu'une petite chapelle sur la colline de la Garde. Pour y accéder, les pèlerins devaient grimper des sentiers poussiéreux à dos d'âne. La dévotion pour la 'Bonne Mère' était déjà si forte que même les marins étrangers venaient y déposer des ex-voto après avoir survécu à des tempêtes.",
+    "leSaviezVous": "De nombreux navires miniatures sont suspendus au plafond de la basilique pour remercier la Vierge."
+  },
+  {
+    "id": 39,
+    "annee": 1837,
+    "titre": "Stendhal au Vieux-Port",
+    "date": "1837",
+    "categorie": "Culture",
+    "texte": "Le célèbre écrivain Stendhal séjourne à Marseille et décrit avec passion l'animation de la Canebière et l'accent chantant des habitants. Il est fasciné par le mélange des cultures et l'énergie brute qui se dégage du port, qu'il juge bien plus vivant que les rues froides de Paris.",
+    "leSaviezVous": "Il comparait Marseille à une ville d'Italie pour sa lumière et son tempérament volcanique."
+  },
+  {
+    "id": 40,
+    "annee": 1860,
+    "titre": "Le Palais du Pharo",
+    "date": "1860",
+    "categorie": "Architecture",
+    "texte": "Napoléon III fait construire ce palais pour l'impératrice Eugénie, afin qu'elle ait 'les pieds dans l'eau'. Situé à l'entrée du port, il offre la plus belle vue sur la côte. Pourtant, le couple impérial n'y séjournera quasiment jamais, et le palais deviendra plus tard une école de médecine.",
+    "leSaviezVous": "Le parc du Pharo reste aujourd'hui le meilleur endroit pour regarder les ferrys entrer et sortir du port."
+  },
+  {
+    "id": 41,
+    "annee": 1883,
+    "titre": "L'Arrivée de l'Électricité",
+    "date": "1883",
+    "categorie": "Moderne",
+    "texte": "Le café de la Cascade, au Palais Longchamp, est le premier établissement de la ville à s'éclairer à l'électricité. Les Marseillais s'y bousculent pour admirer ces ampoules qui brillent sans feu. C'est le début d'une révolution technologique qui transformera les nuits de la Canebière.",
+    "leSaviezVous": "Marseille fut l'une des premières villes de province à installer un réseau d'éclairage public électrique."
+  },
+  {
+    "id": 42,
+    "annee": 1899,
+    "titre": "La Création de l'OM",
+    "date": "1899",
+    "categorie": "Sport",
+    "texte": "René Dufaure de Montmirail fonde l'Olympique de Marseille. À l'origine, le club pratique surtout le rugby. Le nom 'Olympique' est un hommage aux racines grecques de la ville, et les couleurs bleu et blanc symbolisent la pureté et la mer.",
+    "leSaviezVous": "La devise 'Droit au But' figurait déjà sur le premier écusson du club dès sa création."
+  },
+  {
+    "id": 43,
+    "annee": 1920,
+    "titre": "L'Âge d'Or de l'Opéra",
+    "date": "1920-1924",
+    "categorie": "Architecture",
+    "texte": "Suite à un incendie, l'Opéra de Marseille est reconstruit dans un style Art Déco magnifique. Il devient l'un des plus grands théâtres de province. Le public marseillais acquiert une réputation de connaisseur terrible : si un ténor chante faux, il peut se faire huer par toute la salle !",
+    "leSaviezVous": "C'est l'un des rares opéras de France à être géré directement par la municipalité et non par l'État."
+  },
+  {
+    "id": 44,
+    "annee": 1932,
+    "titre": "Paul Ricard et le Pastis",
+    "date": "1932",
+    "categorie": "Artisanat",
+    "texte": "Après l'interdiction de l'absinthe, un jeune marseillais de 23 ans, Paul Ricard, invente une recette à base d'anis, de réglisse et de plantes de Provence. Il parcourt les bars du port pour faire goûter son breuvage. Le succès est fulgurant : le pastis devient la boisson officielle de l'apéro marseillais.",
+    "leSaviezVous": "Le mot 'Pastis' signifie 'mélange' ou 'confusion' en vieux provençal."
+  },
+  {
+    "id": 45,
+    "annee": 1941,
+    "titre": "Le Réseau Varian Fry",
+    "date": "1940-1941",
+    "categorie": "Contemporain",
+    "texte": "Pendant l'Occupation, un journaliste américain, Varian Fry, s'installe à Marseille. Depuis la Villa Air-Bel, il organise la fuite de milliers d'artistes et d'intellectuels menacés par les nazis, dont Marc Chagall et Max Ernst, vers les États-Unis.",
+    "leSaviezVous": "Fry fut l'un des premiers américains à être nommé 'Juste parmi les nations' pour ses actions héroïques à Marseille."
+  },
+  {
+    "id": 46,
+    "annee": 1967,
+    "titre": "Le Tunnel sous le Vieux-Port",
+    "date": "1967",
+    "categorie": "Urbanisme",
+    "texte": "Pour désengorger le centre-ville, on décide de construire un tunnel routier passant littéralement sous l'eau du Vieux-Port. C'est un défi colossal. Lors de son inauguration, les Marseillais sont fiers de pouvoir traverser le port en quelques secondes sans attendre le célèbre bac.",
+    "leSaviezVous": "Pendant le chantier, on a découvert de nombreux vestiges de navires antiques parfaitement conservés dans la boue."
+  },
+  {
+    "id": 47,
+    "annee": 1984,
+    "titre": "L'Euro de Platini au Vélodrome",
+    "date": "Juin 1984",
+    "categorie": "Sport",
+    "texte": "Lors du championnat d'Europe, la France affronte le Portugal dans une demi-finale de légende au Stade Vélodrome. Michel Platini marque le but de la victoire à la dernière minute des prolongations, déclenchant un séisme de joie dans tout Marseille.",
+    "leSaviezVous": "Le stade n'avait pas encore son toit actuel, et les supporters chantaient sous les étoiles."
+  },
+  {
+    "id": 48,
+    "annee": 1990,
+    "titre": "IAM et l'explosion du Rap",
+    "date": "Années 1990",
+    "categorie": "Culture",
+    "texte": "Le groupe IAM sort son premier album, 'De la planète Mars'. Marseille devient la capitale du hip-hop français. Les textes parlent de l'histoire de la ville, de ses quartiers et de ses racines égyptiennes et africaines, influençant toute une génération.",
+    "leSaviezVous": "Le nom du groupe signifie 'Imperial Asiatic Men' mais aussi 'Je suis' en anglais."
+  },
+  {
+    "id": 49,
+    "annee": 2013,
+    "titre": "Marseille Capitale de la Culture",
+    "date": "2013",
+    "categorie": "Urbanisme",
+    "texte": "La ville se transforme radicalement. On inaugure le MuCEM, un musée moderne relié au Fort Saint-Jean par une passerelle aérienne. Le front de mer est totalement redessiné, attirant des millions de visiteurs et changeant l'image de la ville à l'international.",
+    "leSaviezVous": "La résille de béton qui entoure le MuCEM est conçue pour laisser passer la lumière et le vent, rappelant les motifs de l'Orient."
+  },
+  {
+    "id": 50,
+    "annee": 2020,
+    "titre": "La Grotte Cosquer révélée",
+    "date": "2022",
+    "categorie": "Antiquité",
+    "texte": "Bien que découverte en 1985 par Henri Cosquer, une réplique exacte de cette grotte sous-marine préhistorique ouvre à la Villa Méditerranée. On y découvre des peintures de pingouins et de mains datant de 27 000 ans, prouvant que Marseille était déjà habitée bien avant les Grecs.",
+    "leSaviezVous": "L'entrée originale de la grotte se trouve à 37 mètres de profondeur dans les calanques."
+  },
+  {
+    "id": 51,
+    "annee": -540,
+    "titre": "La Route de l'Étain",
+    "date": "-540 av. J.-C.",
+    "categorie": "Antiquité",
+    "texte": "Marseille ne vend pas que du vin. Elle devient la plaque tournante de l'étain, qui vient de Bretagne et des îles Britanniques. Ce métal précieux, indispensable pour fabriquer du bronze, transite par le Rhône avant d'être expédié vers toute la Méditerranée depuis le Vieux-Port.",
+    "leSaviezVous": "Cette route commerciale a fait de Marseille la cité la plus riche de Gaule pendant des siècles."
+  },
+  {
+    "id": 52,
+    "annee": 50,
+    "titre": "Le Vin de Massalia",
+    "date": "Ier siècle",
+    "categorie": "Gastronomie",
+    "texte": "À l'époque romaine, le vin produit à Marseille est célèbre, mais pas forcément pour les bonnes raisons. Les auteurs romains disent qu'il est 'fumé' et très fort. On l'exporte dans des amphores marquées d'une palme, que l'on retrouve aujourd'hui jusqu'en Allemagne.",
+    "leSaviezVous": "Les Marseillais utilisaient de l'eau de mer pour clarifier leur vin, une technique très particulière de l'époque."
+  },
+  {
+    "id": 53,
+    "annee": 476,
+    "titre": "La Chute de l'Empire",
+    "date": "476",
+    "categorie": "Histoire",
+    "texte": "Quand Rome tombe, Marseille ne s'effondre pas. Grâce à son port, elle reste une enclave de culture latine et de commerce avec l'Orient (Byzance). Les papyrus, les épices et la soie continuent d'arriver sur les quais alors que le reste de la Gaule plonge dans les 'âges sombres'.",
+    "leSaviezVous": "Marseille a battu sa propre monnaie d'or bien après la fin officielle de l'Empire romain."
+  },
+  {
+    "id": 54,
+    "annee": 950,
+    "titre": "La Renaissance des Remparts",
+    "date": "Xe siècle",
+    "categorie": "Moyen-Âge",
+    "texte": "Après les raids sarrasins et vikings, Marseille se reconstruit. La ville se divise en deux : la 'Ville Haute' tenue par l'Évêque (le Panier actuel) et la 'Ville Basse' tenue par les Vicomtes. Cette rivalité va durer des siècles et façonner l'urbanisme de la ville.",
+    "leSaviezVous": "Il y avait de véritables murs de séparation à l'intérieur même de la ville entre les deux clans."
+  },
+  {
+    "id": 55,
+    "annee": 1214,
+    "titre": "La Confrérie du Saint-Esprit",
+    "date": "1214",
+    "categorie": "Justice",
+    "texte": "Les Marseillais créent une forme de gouvernement autonome dirigé par des confréries. Ils refusent de se soumettre aux seigneurs et prônent une gestion collective de la cité. C'est l'embryon de l'esprit démocratique et rebelle de Marseille.",
+    "leSaviezVous": "Leur cri de ralliement était 'Marseille aux Marseillais', déjà à l'époque !"
+  },
+  {
+    "id": 56,
+    "annee": 1524,
+    "titre": "Les Femmes au Siège de 1524",
+    "date": "1524",
+    "categorie": "Histoire",
+    "texte": "Lors du siège par les troupes de Charles Quint, les femmes de Marseille jouent un rôle décisif. Menées par des figures locales, elles creusent des fossés et transportent des pierres sous les boulets de canon pour réparer les remparts brisés par l'ennemi.",
+    "leSaviezVous": "Le 'Boulevard des Dames' à Marseille porte ce nom en hommage à leur courage héroïque."
+  },
+  {
+    "id": 57,
+    "annee": 1575,
+    "titre": "La Grande Peste de Saint-Jean",
+    "date": "1575",
+    "categorie": "Tragédie",
+    "texte": "Bien avant 1720, une terrible épidémie frappe la ville. Elle décime un tiers de la population. Les médecins de l'époque, désemparés, utilisent des parfums et du vinaigre pour tenter de purifier l'air, sans succès.",
+    "leSaviezVous": "C'est après cette peste que les contrôles sanitaires des navires devinrent permanents sur l'île de Pomègues."
+  },
+  {
+    "id": 58,
+    "annee": 1640,
+    "titre": "La Révolte des Cascavèus",
+    "date": "1640",
+    "categorie": "Révolte",
+    "texte": "Le peuple marseillais se soulève contre de nouvelles taxes imposées par Richelieu. Les révoltés portent des grelots (cascavèus) pour se reconnaître dans la foule. Ils prennent le contrôle de la ville pendant plusieurs jours avant d'être réprimés.",
+    "leSaviezVous": "Cette révolte est le signe précurseur de la grande défiance de Marseille envers le pouvoir central de Paris."
+  },
+  {
+    "id": 59,
+    "annee": 1671,
+    "titre": "Le Premier Café de France",
+    "date": "1671",
+    "categorie": "Insolite",
+    "texte": "C'est à Marseille, et non à Paris, qu'ouvre le premier café public de France. Le 'breuvage noir' apporté par les marchands levantins fascine les locaux. On s'y retrouve pour discuter politique et commerce autour d'une tasse fumante.",
+    "leSaviezVous": "Le café était au début considéré comme un médicament avant de devenir une boisson sociale."
+  },
+  {
+    "id": 60,
+    "annee": 1741,
+    "titre": "L'Hôpital de la Vieille Charité",
+    "date": "1741",
+    "categorie": "Architecture",
+    "texte": "Pierre Puget achève son chef-d'œuvre au cœur du Panier. Ce bâtiment, avec sa magnifique coupole ovoïde, était destiné à enfermer les pauvres et les mendiants de la ville pour les mettre au travail. Un joyau architectural pour une fonction sociale sombre.",
+    "leSaviezVous": "Le bâtiment a failli être démoli avant d'être sauvé par Le Corbusier dans les années 50."
+  },
+  {
+    "id": 61,
+    "annee": 1790,
+    "titre": "La Prise des Forts",
+    "date": "Mai 1790",
+    "categorie": "Révolte",
+    "texte": "Au début de la Révolution, les Marseillais prennent d'assaut les forts Saint-Jean et Saint-Nicolas. Ils détestaient ces citadelles dont les canons étaient tournés vers la ville. Ils commencent même à démolir le Fort Saint-Nicolas pierre par pierre.",
+    "leSaviezVous": "L'Assemblée Nationale a dû ordonner l'arrêt de la démolition pour préserver une défense contre les attaques maritimes."
+  },
+  {
+    "id": 62,
+    "annee": 1823,
+    "titre": "L'Arc de Triomphe de la Porte d'Aix",
+    "date": "1823",
+    "categorie": "Urbanisme",
+    "texte": "On décide de construire un arc de triomphe pour célébrer les victoires françaises. Le monument mettra plus de 10 ans à être terminé. Ses bas-reliefs célèbrent des batailles aujourd'hui oubliées, mais il reste l'entrée majestueuse du nord de la ville.",
+    "leSaviezVous": "Il est construit sur l'emplacement exact de l'ancienne porte des remparts romains."
+  },
+  {
+    "id": 63,
+    "annee": 1830,
+    "titre": "L'Arrivée de la Bouillabaisse",
+    "date": "XIXe siècle",
+    "categorie": "Gastronomie",
+    "texte": "La bouillabaisse était à l'origine un plat de pauvres : les pêcheurs faisaient bouillir les poissons invendus (la 'racasse') dans l'eau de mer sur la plage. Au XIXe siècle, les restaurants de luxe s'en emparent et y ajoutent du safran et des poissons nobles.",
+    "leSaviezVous": "Le nom vient du provençal 'boui abaisso' : quand ça bout, tu abaisses le feu."
+  },
+  {
+    "id": 64,
+    "annee": 1852,
+    "titre": "La Gare Saint-Charles",
+    "date": "1852",
+    "categorie": "Urbanisme",
+    "texte": "Le train arrive enfin à Marseille. La gare est construite sur une colline. À l'origine, elle n'a pas son célèbre escalier monumental, qui ne sera ajouté que 70 ans plus tard pour l'Exposition Coloniale.",
+    "leSaviezVous": "Le trajet Paris-Marseille prenait alors 19 heures, contre 3 heures aujourd'hui en TGV."
+  },
+  {
+    "id": 65,
+    "annee": 1858,
+    "titre": "Le Phare de Planier",
+    "date": "1858",
+    "categorie": "Insolite",
+    "texte": "Sur un îlot entouré de récifs dangereux, on construit l'un des phares les plus puissants de Méditerranée. De nombreux navires s'y sont fracassés avant son installation. Il est le dernier signe de terre pour les marins partant vers l'Orient.",
+    "leSaviezVous": "Le phare actuel est le troisième construit sur l'île, les précédents ayant été détruits ou jugés trop faibles."
+  },
+  {
+    "id": 66,
+    "annee": 1864,
+    "titre": "La Corniche Kennedy",
+    "date": "1864",
+    "categorie": "Urbanisme",
+    "texte": "On crée une route panoramique qui longe les calanques de la ville. C'est un chantier complexe qui nécessite de tailler la roche. Elle permet aux riches Marseillais de construire des villas incroyables avec vue sur les îles du Frioul.",
+    "leSaviezVous": "Elle possède le banc le plus long du monde, courant sur près de 3 kilomètres face à la mer."
+  },
+  {
+    "id": 67,
+    "annee": 1867,
+    "titre": "La Cathédrale de la Major",
+    "date": "1867",
+    "categorie": "Architecture",
+    "texte": "Napoléon III pose la première pierre de cette cathédrale immense au style romano-byzantin. Ses rayures de pierre verte et blanche rappellent les églises d'Italie. Elle est si grande qu'elle peut accueillir 3 000 personnes.",
+    "leSaviezVous": "Elle est construite juste à côté de la 'Vieille Major', une église du XIIe siècle que l'on a failli détruire."
+  },
+  {
+    "id": 68,
+    "annee": 1871,
+    "titre": "La Commune de Marseille",
+    "date": "Mars 1871",
+    "categorie": "Révolte",
+    "texte": "Inspirés par Paris, les Marseillais proclament leur propre Commune. L'avocat Gaston Crémieux prend la tête du mouvement. L'armée intervient brutalement et bombarde la Préfecture depuis la colline de Notre-Dame de la Garde.",
+    "leSaviezVous": "Gaston Crémieux fut fusillé au Pharo, devenant un martyr de la cause populaire marseillaise."
+  },
+  {
+    "id": 69,
+    "annee": 1880,
+    "titre": "L'invention du Chichi Frégi",
+    "date": "Années 1880",
+    "categorie": "Gastronomie",
+    "texte": "Dans le quartier de l'Estaque, les familles d'ouvriers italiens importent une recette de beignet frit dans l'huile et roulé dans le sucre. Le 'Chichi Frégi' devient le goûter incontournable des dimanches au bord de l'eau.",
+    "leSaviezVous": "La recette exacte est souvent un secret de famille jalousement gardé depuis des générations."
+  },
+  {
+    "id": 70,
+    "annee": 1892,
+    "titre": "Le Canal de Roquefavour",
+    "date": "1892",
+    "categorie": "Ingénierie",
+    "texte": "Pour le canal de Marseille, on bâtit le plus grand aqueduc en pierre du monde. Il traverse la vallée de l'Arc près d'Aix. Ses dimensions dépassent celles du Pont du Gard romain, prouvant la supériorité technique du XIXe siècle.",
+    "leSaviezVous": "Il est toujours en service et achemine une grande partie de l'eau potable des Marseillais."
+  },
+  {
+    "id": 71,
+    "annee": 1897,
+    "titre": "La Mort de Maupassant à Marseille ?",
+    "date": "1897",
+    "categorie": "Insolite",
+    "texte": "L'écrivain Guy de Maupassant, perdant la raison, est interné dans une clinique. Marseille a souvent été une ville refuge ou terminale pour les grands auteurs en quête de lumière ou de fin de vie.",
+    "leSaviezVous :": "Sa célèbre réplique sur Marseille : 'C'est une ville de mouvement, une ville de commerce, une ville de bruit'."
+  },
+  {
+    "id": 72,
+    "annee": 1903,
+    "titre": "Le Premier Vol en Hydravion",
+    "date": "1910",
+    "categorie": "Sciences",
+    "texte": "Henri Fabre réalise le premier décollage au monde d'un avion sur l'eau, sur l'étang de Berre, juste à côté de Marseille. Son appareil, le 'Canard', vole sur 500 mètres avant de se poser avec succès.",
+    "leSaviezVous": "Fabre était un ingénieur marseillais qui n'avait jamais piloté d'avion avant ce jour-là !"
+  },
+  {
+    "id": 73,
+    "annee": 1918,
+    "titre": "Le Retour des Poilus",
+    "date": "1918",
+    "categorie": "Histoire",
+    "texte": "À la fin de la Grande Guerre, le port de Marseille voit passer des troupes du monde entier : Américains, Indiens, Sénégalais. La ville est un tourbillon de célébrations et de retrouvailles après quatre ans de conflit.",
+    "leSaviezVous": "De nombreux soldats coloniaux sont restés à Marseille après la guerre, renforçant son mix culturel."
+  },
+  {
+    "id": 74,
+    "annee": 1923,
+    "titre": "L'Explosion du Navire Capitaine-Rémy",
+    "date": "1923",
+    "categorie": "Tragédie",
+    "texte": "Un navire chargé d'explosifs prend feu dans le port. L'explosion est si puissante qu'elle brise les vitres de toute la ville et projette des débris à des kilomètres. C'est l'une des plus grandes catastrophes industrielles du port.",
+    "leSaviezVous": "Le bruit de l'explosion a été entendu jusqu'à Toulon."
+  },
+  {
+    "id": 75,
+    "annee": 1929,
+    "titre": "Marseille et Al Capone",
+    "date": "Années 30",
+    "categorie": "Insolite",
+    "texte": "La rumeur dit que le célèbre gangster Al Capone avait des liens avec le milieu marseillais pour l'importation d'alcool pendant la prohibition. C'est le début de la réputation sulfureuse de Marseille comme plaque tournante internationale.",
+    "leSaviezVous": "Marseille était surnommée la 'Chicago française' à cette époque."
+  },
+  {
+    "id": 76,
+    "annee": 1930,
+    "titre": "Pagnol et la Trilogie Marseillaise",
+    "date": "1931",
+    "categorie": "Culture",
+    "texte": "Marcel Pagnol sort 'Marius' au cinéma. C'est un choc culturel national. Pour la première fois, on entend l'accent marseillais au cinéma sans que ce soit pour une moquerie. Le bar de la Marine devient mythique.",
+    "leSaviezVous": "Les acteurs comme Raimu sont devenus des stars mondiales grâce à ces rôles."
+  },
+  {
+    "id": 77,
+    "annee": 1932,
+    "titre": "L'Assassinat d'Alexandre Ier",
+    "date": "1934",
+    "categorie": "Histoire",
+    "texte": "Le roi de Yougoslavie est abattu sur la Canebière. Le ministre Louis Barthou meurt aussi. C'est le premier attentat filmé par les actualités cinématographiques au monde. Marseille est en état de choc.",
+    "leSaviezVous": "L'assassin a été tué par la foule et les sabres des policiers quelques secondes après les tirs."
+  },
+  {
+    "id": 78,
+    "annee": 1938,
+    "titre": "L'Incendie des Nouvelles Galeries",
+    "date": "Octobre 1938",
+    "categorie": "Tragédie",
+    "texte": "Un immense incendie ravage les grands magasins de la Canebière. Les pompiers marseillais, mal équipés, sont dépassés. On doit faire venir les pompiers de Paris par train spécial. Suite à ce drame, le corps des Marins-Pompiers de Marseille est créé.",
+    "leSaviezVous": "Cet événement a entraîné la mise sous tutelle de la ville par l'État français."
+  },
+  {
+    "id": 79,
+    "annee": 1941,
+    "titre": "Le Camp des Milles",
+    "date": "1940-1942",
+    "categorie": "Tragédie",
+    "texte": "Près de Marseille, une ancienne tuilerie est transformée en camp d'internement. De nombreux artistes et intellectuels juifs y sont enfermés avant d'être déportés. C'est un lieu de mémoire sombre et important de la région.",
+    "leSaviezVous": "Les artistes prisonniers ont laissé des centaines de peintures sur les murs de la tuilerie."
+  },
+  {
+    "id": 80,
+    "annee": 1943,
+    "titre": "Le Sabotage du Port",
+    "date": "1943",
+    "categorie": "Histoire",
+    "texte": "Les résistants marseillais multiplient les sabotages contre l'occupant allemand. Des navires sont coulés dans le port pour empêcher les troupes nazies de fuir ou de se ravitailler. La tension est à son comble.",
+    "leSaviezVous": "Marseille fut l'une des villes les plus actives de la Résistance urbaine en France."
+  },
+  {
+    "id": 81,
+    "annee": 1947,
+    "titre": "Le Plan Marshall à Marseille",
+    "date": "1947",
+    "categorie": "Histoire",
+    "texte": "Le port reçoit les premières cargaisons d'aide américaine pour reconstruire l'Europe après la guerre. Blé, charbon et machines arrivent par tonnes pour relancer l'économie locale dévastée.",
+    "leSaviezVous": "Marseille a été le port d'entrée principal de l'aide américaine pour tout le sud de la France."
+  },
+  {
+    "id": 82,
+    "annee": 1950,
+    "titre": "La 'French Connection'",
+    "date": "Années 50-70",
+    "categorie": "Justice",
+    "texte": "Marseille devient le centre mondial de transformation de l'héroïne. Des laboratoires clandestins s'installent dans les villas des collines. La drogue part ensuite vers les États-Unis. Ce trafic inspirera de nombreux films cultes.",
+    "leSaviezVous": "Le juge Michel, qui luttait contre ce trafic, fut assassiné en plein jour en 1981."
+  },
+  {
+    "id": 83,
+    "annee": 1953,
+    "titre": "Le Miracle du Pétrole",
+    "date": "1953",
+    "categorie": "Ingénierie",
+    "texte": "On inaugure les terminaux pétroliers de Fos-sur-Mer. Marseille devient l'un des plus grands ports pétroliers du monde, alimentant toute l'Europe en énergie. C'est une période de boom économique incroyable.",
+    "leSaviezVous :": "La zone industrielle de Fos est si vaste qu'elle est visible depuis l'espace."
+  },
+  {
+    "id": 84,
+    "annee": 1960,
+    "titre": "L'Invention du Détendeur (Cousteau)",
+    "date": "Années 40-60",
+    "categorie": "Sciences",
+    "texte": "Le Commandant Cousteau teste ses inventions de plongée autonome dans les calanques marseillaises. Avec l'ingénieur Gagnan, il crée le détendeur moderne qui permet à l'homme de respirer sous l'eau sans lien avec la surface.",
+    "leSaviezVous": "Cousteau considérait Marseille comme son laboratoire à ciel ouvert."
+  },
+  {
+    "id": 85,
+    "annee": 1969,
+    "titre": "La Première Transplantation à Marseille",
+    "date": "1969",
+    "categorie": "Sciences",
+    "texte": "L'hôpital de la Timone réalise l'une des premières greffes de rein en France. Marseille s'affirme comme un pôle médical de pointe mondial, attirant des chercheurs du monde entier.",
+    "leSaviezVous": "La Timone reste aujourd'hui le plus grand centre hospitalier du sud de la France."
+  },
+  {
+    "id": 86,
+    "annee": 1970,
+    "titre": "L'Explosion de la Variété",
+    "date": "Années 70",
+    "categorie": "Culture",
+    "texte": "Marseille devient une étape obligatoire pour toutes les stars de la chanson. Le mythique Palais des Sports accueille les Stones, Pink Floyd et Johnny. Le public marseillais est connu pour être le plus chaud de France.",
+    "leSaviezVous": "Certains artistes avaient peur du public marseillais car il n'hésitait pas à siffler s'il n'était pas convaincu."
+  },
+  {
+    "id": 87,
+    "annee": 1980,
+    "titre": "Le Parc National des Calanques",
+    "date": "1980-2012",
+    "categorie": "Nature",
+    "texte": "On commence à protéger sérieusement cet espace sauvage unique au monde situé aux portes d'une métropole. Le combat est long pour limiter la pollution et le bétonnage des côtes.",
+    "leSaviezVous": "C'est le seul parc national en Europe qui est à la fois terrestre, marin et périurbain."
+  },
+  {
+    "id": 88,
+    "annee": 1985,
+    "titre": "Découverte de la Grotte Cosquer",
+    "date": "1985",
+    "categorie": "Sciences",
+    "texte": "Henri Cosquer, plongeur professionnel, découvre par hasard une grotte préhistorique dont l'entrée est à 37m de profondeur. Les parois sont couvertes de mains dessinées il y a 27 000 ans.",
+    "leSaviezVous": "À l'époque préhistorique, le niveau de la mer était 120 mètres plus bas et on y allait à pied !"
+  },
+  {
+    "id": 89,
+    "annee": 1992,
+    "titre": "La Tragédie de Furiani (Le lien)",
+    "date": "1992",
+    "categorie": "Tragédie",
+    "texte": "Lors du match Bastia-OM, une tribune s'effondre. Marseille se mobilise immédiatement pour envoyer ses médecins et marins-pompiers en Corse. La ville est en deuil avec ses voisins insulaires.",
+    "leSaviezVous": "Cet événement a changé radicalement les normes de sécurité dans tous les stades français."
+  },
+  {
+    "id": 90,
+    "annee": 1995,
+    "titre": "Le Film 'Taxi' et Marseille",
+    "date": "1998",
+    "categorie": "Culture",
+    "texte": "Luc Besson choisit Marseille pour son film d'action. La Peugeot 406 blanche fonçant dans les rues du Panier devient une icône mondiale. Marseille devient un décor de cinéma ultra-prisé.",
+    "leSaviezVous": "Le film a tellement popularisé Marseille que le tourisme a bondi après sa sortie."
+  },
+  {
+    "id": 91,
+    "annee": 1996,
+    "titre": "La Création de la L2",
+    "date": "Années 90-2018",
+    "categorie": "Ingénierie",
+    "texte": "Le chantier de l'autoroute urbaine L2 devient une légende urbaine à Marseille à cause de sa durée. Commencée dans les années 30, réellement lancée en 90, elle mettra des décennies à être terminée.",
+    "leSaviezVous": "Elle est aujourd'hui l'un des axes les plus décorés de street-art en Europe."
+  },
+  {
+    "id": 92,
+    "annee": 2000,
+    "titre": "L'Arrivée du TGV Méditerranée",
+    "date": "2001",
+    "categorie": "Moderne",
+    "texte": "Marseille est désormais à 3h de Paris. C'est un séisme pour l'économie et le tourisme. La gare Saint-Charles est rénovée avec sa grande verrière moderne.",
+    "leSaviezVous": "Plus de 15 millions de voyageurs transitent par la gare chaque année."
+  },
+  {
+    "id": 93,
+    "annee": 2004,
+    "titre": "Plus Belle la Vie",
+    "date": "2004",
+    "categorie": "Culture",
+    "texte": "Lancement de la série télévisée qui va durer 18 ans. Le quartier fictif du 'Mistral' s'inspire directement du Panier. Marseille entre chaque soir dans le salon de millions de Français.",
+    "leSaviezVous": "Les studios de la Belle de Mai sont devenus un lieu de visite incontournable."
+  },
+  {
+    "id": 94,
+    "annee": 2010,
+    "titre": "La Rénovation du Vieux-Port",
+    "date": "2013",
+    "categorie": "Urbanisme",
+    "texte": "L'architecte Norman Foster rend le port aux piétons. On installe l'Ombrière miroir qui devient le lieu de selfie préféré des touristes et des Marseillais.",
+    "leSaviezVous": "Le Vieux-Port est désormais l'une des plus grandes zones piétonnes d'Europe."
+  },
+  {
+    "id": 95,
+    "annee": 2015,
+    "titre": "Marseille en Mode Street-Art",
+    "date": "2015",
+    "categorie": "Culture",
+    "texte": "Le quartier du Cours Julien devient l'un des plus grands musées à ciel ouvert du monde. Des artistes internationaux viennent peindre sur ses murs.",
+    "leSaviezVous": "Certaines œuvres changent chaque semaine, créant une galerie éphémère permanente."
+  },
+  {
+    "id": 96,
+    "annee": 2017,
+    "titre": "Capitale Européenne du Sport",
+    "date": "2017",
+    "categorie": "Sport",
+    "texte": "Marseille est mise à l'honneur pour son dynamisme sportif. De la voile au foot en passant par la pétanque, la ville vibre pour tous les défis.",
+    "leSaviezVous": "Marseille compte plus de 150 000 licenciés sportifs."
+  },
+  {
+    "id": 97,
+    "annee": 2019,
+    "titre": "L'Inauguration de la réplique Cosquer",
+    "date": "2022",
+    "categorie": "Sciences",
+    "texte": "Un défi technologique : reproduire au millimètre près la grotte sous-marine dans le bâtiment de la Villa Méditerranée. Un voyage dans le temps incroyable.",
+    "leSaviezVous": "Les peintures originales seront bientôt englouties par la montée des eaux."
+  },
+  {
+    "id": 98,
+    "annee": 2023,
+    "titre": "La Visite du Pape François",
+    "date": "2023",
+    "categorie": "Histoire",
+    "texte": "Le Pape vient à Marseille non pas pour une visite d'État, mais pour parler de la Méditerranée et des migrants. Une messe géante au Vélodrome réunit 60 000 personnes.",
+    "leSaviezVous": "C'était la première visite d'un Pape à Marseille depuis 500 ans."
+  },
+  {
+    "id": 99,
+    "annee": 2024,
+    "titre": "Les Jeux Olympiques à Marseille",
+    "date": "2024",
+    "categorie": "Sport",
+    "texte": "Marseille accueille les épreuves de voile et des matchs de football. La rade de Marseille est considérée par les athlètes comme l'un des plus beaux plans d'eau au monde.",
+    "leSaviezVous": "La flamme olympique est arrivée en France par le Vieux-Port à bord du Belem."
+  },
+  {
+    "id": 100,
+    "annee": 2025,
+    "titre": "Le Codex de Massalia",
+    "date": "Aujourd'hui",
+    "categorie": "Insolite",
+    "texte": "Vous tenez entre vos mains (ou sur votre écran) le Codex de la cité. 100 fragments d'histoire pour ne jamais oublier que Marseille est la plus ancienne et la plus vivante des villes françaises.",
+    "leSaviezVous": "Si vous avez tout lu, vous êtes désormais un véritable Gardien du Codex !"
+  },
+  {
+    "id": 101,
+    "annee": -500,
+    "titre": "Les Trésors de la Bourse",
+    "date": "Ve siècle av. J.-C.",
+    "categorie": "Antiquité",
+    "texte": "Lors de la construction du centre commercial de la Bourse en 1967, les ouvriers ont découvert les remparts grecs et le jardin des vestiges. On y a trouvé des bateaux de commerce romains si bien conservés qu'ils ont permis de comprendre comment les anciens naviguaient.",
+    "leSaviezVous": "Le 'Jardin des Vestiges' est aujourd'hui l'un des rares endroits au monde où l'on peut toucher des murs vieux de 2500 ans en plein centre-ville."
+  },
+  {
+    "id": 102,
+    "annee": 1200,
+    "titre": "Le Port des Galères",
+    "date": "Moyen-Âge",
+    "categorie": "Justice",
+    "texte": "Marseille fut le plus grand port de galères du monde. Les condamnés, les 'galériens', vivaient dans des conditions atroces, enchaînés à leurs bancs de nage. L'Arsenal des Galères occupait tout le côté sud du Vieux-Port (le cours Estienne d'Orves actuel).",
+    "leSaviezVous": "Le cri 'Aïoli !' servait, selon la légende, à donner le rythme aux rameurs pour qu'ils tirent tous ensemble sur les rames."
+  },
+  {
+    "id": 103,
+    "annee": 1516,
+    "titre": "La Paix des Dames",
+    "date": "1516",
+    "categorie": "Histoire",
+    "texte": "Après la bataille de Marignan, François Ier vient à Marseille. Il est fasciné par la piété des Marseillais envers Notre-Dame de la Garde. C'est lors de ce séjour qu'il décide que la ville doit devenir le rempart ultime du Royaume de France face à l'Espagne.",
+    "leSaviezVous": "C'est aussi lui qui ordonna la construction du premier fort sur l'île d'If."
+  },
+  {
+    "id": 104,
+    "annee": 1600,
+    "titre": "L'Agrandissement de Louis XIV",
+    "date": "1666",
+    "categorie": "Urbanisme",
+    "texte": "Marseille étouffait dans ses vieux murs médiévaux. Louis XIV signe l'agrandissement de la ville. On rase les remparts pour créer de larges avenues (les actuels Cours Belsunce et Cours Lieutaud). La ville triple sa surface en quelques années.",
+    "leSaviezVous": "C'est la première fois qu'une ville française était 'pensée' pour le commerce et la circulation plutôt que pour la défense."
+  },
+  {
+    "id": 105,
+    "annee": 1792,
+    "titre": "Le Bataillon des 500",
+    "date": "Juillet 1792",
+    "categorie": "Révolte",
+    "texte": "500 volontaires marseillais partent pour Paris pour défendre la Révolution. Ils marchent 800 km en chantant 'L'Hymne pour l'armée du Rhin'. Leur arrivée triomphale à Paris avec ce chant guerrier marquera tellement les esprits que l'hymne sera renommé La Marseillaise.",
+    "leSaviezVous": "Ils portaient tous le célèbre bonnet phrygien rouge, devenu symbole de la République."
+  },
+  {
+    "id": 106,
+    "annee": 1854,
+    "titre": "La Construction de la Major",
+    "date": "1854",
+    "categorie": "Architecture",
+    "texte": "La nouvelle cathédrale de la Major est construite sur des dimensions colossales. Elle est aussi longue que la basilique Saint-Pierre de Rome ! Son style byzantin avec ses dômes et ses pierres bicolores devait montrer la richesse de Marseille vers l'Orient.",
+    "leSaviezVous": "On a dû importer des tonnes de marbre d'Italie et de pierre verte de Florence pour sa construction."
+  },
+  {
+    "id": 107,
+    "annee": 1860,
+    "titre": "L'Arrivée de la Photographie",
+    "date": "Années 1860",
+    "categorie": "Culture",
+    "texte": "Marseille devient l'un des premiers centres mondiaux de la photographie. Les studios s'installent sur la Canebière. Le port, les bateaux et les nouveaux monuments comme le Palais Longchamp sont photographiés sous tous les angles.",
+    "leSaviezVous": "De nombreux marins repartaient avec leur portrait en photo pour le montrer à leur famille à l'autre bout du monde."
+  },
+  {
+    "id": 108,
+    "annee": 1884,
+    "titre": "Le Choléra de 1884",
+    "date": "1884",
+    "categorie": "Tragédie",
+    "texte": "Malgré le canal de la Durance, une dernière épidémie de choléra frappe la ville. C'est à cette époque que l'on comprend l'importance de l'hygiène moderne. On commence à goudronner les rues pour supprimer la poussière et les maladies.",
+    "leSaviezVous": "Le Dr Laveran, qui travaillait à Marseille, a découvert peu après le parasite du paludisme."
+  },
+  {
+    "id": 109,
+    "annee": 1900,
+    "titre": "Les Expositions Coloniales",
+    "date": "1906 - 1922",
+    "categorie": "Histoire",
+    "texte": "Marseille accueille des expositions mondiales géantes au Parc Chanot. On y construit des palais éphémères représentant l'Indochine, l'Afrique et Madagascar. C'est l'époque où Marseille est surnommée 'La Porte de l'Orient'.",
+    "leSaviezVous": "La célèbre grande roue du Vieux-Port a été inspirée par ces fêtes monumentales."
+  },
+  {
+    "id": 110,
+    "annee": 1914,
+    "titre": "Les Troupes Hindoues",
+    "date": "Septembre 1914",
+    "categorie": "Insolite",
+    "texte": "Au début de la guerre, des milliers de soldats indiens en turban débarquent sur les quais du Vieux-Port pour aller se battre au front. Les Marseillais sont fascinés par ces guerriers venus du bout du monde qui installent leurs campements au parc Borély.",
+    "leSaviezVous": "Ils apportaient avec eux leurs propres troupeaux de chèvres pour respecter leurs régimes alimentaires."
+  },
+  {
+    "id": 111,
+    "annee": 1920,
+    "titre": "La Savonnerie du Midi",
+    "date": "Années 1920",
+    "categorie": "Artisanat",
+    "texte": "L'industrie du savon atteint son apogée. Des dizaines de cheminées fument dans les quartiers nord. Le savon de Marseille est exporté par millions de tonnes, lavant le linge de la moitié de la planète.",
+    "leSaviezVous": "Pendant la guerre, le savon était si précieux qu'il servait de monnaie d'échange sur le marché noir."
+  },
+  {
+    "id": 112,
+    "annee": 1930,
+    "titre": "Le Phénomène de l'Aïoli",
+    "date": "Toujours",
+    "categorie": "Gastronomie",
+    "texte": "Plus qu'un plat, l'Aïoli est un rituel social. Traditionnellement servi le vendredi, il réunit la famille autour du mortier en marbre. Monter une mayonnaise à l'ail sans qu'elle 'tourne' est le test ultime de tout bon cuisinier marseillais.",
+    "leSaviezVous": "Le véritable aïoli ne contient pas d'œuf, seulement de l'ail, de l'huile d'olive et de la patience."
+  },
+  {
+    "id": 113,
+    "annee": 1938,
+    "titre": "L'Hôpital Salvador",
+    "date": "1938",
+    "categorie": "Architecture",
+    "texte": "Conçu avec une architecture moderne pour l'époque, cet hôpital devait être un modèle de santé publique. Pendant la guerre, il servira de refuge et de centre de soins clandestin pour de nombreux résistants blessés.",
+    "leSaviezVous": "Ses jardins étaient conçus pour que les malades puissent guérir grâce à l'air marin et au soleil."
+  },
+  {
+    "id": 114,
+    "annee": 1940,
+    "titre": "L'Exode des Intellectuels",
+    "date": "1940",
+    "categorie": "Histoire",
+    "texte": "Marseille devient la dernière porte de sortie de l'Europe nazie. Des artistes comme André Breton ou Max Ernst se retrouvent aux terrasses des cafés du Vieux-Port, attendant désespérément un visa pour les USA.",
+    "leSaviezVous": "C'est à Marseille qu'est né le célèbre 'Jeu de Marseille', un jeu de cartes surréaliste créé par ces artistes en exil."
+  },
+  {
+    "id": 115,
+    "annee": 1944,
+    "titre": "Le Dynamitage du Transbordeur",
+    "date": "Août 1944",
+    "categorie": "Tragédie",
+    "texte": "Les Allemands en retraite font sauter le pont transbordeur pour bloquer l'entrée du port. Ce géant de fer, qui était le symbole de la ville, s'effondre dans les eaux. Les Marseillais pleureront leur 'Tour Eiffel' pendant des années.",
+    "leSaviezVous": "Une partie de l'acier du pont a été récupérée pour reconstruire des infrastructures après la guerre."
+  },
+  {
+    "id": 116,
+    "annee": 1950,
+    "titre": "La Reconstruction du Vieux-Port",
+    "date": "Années 1950",
+    "categorie": "Urbanisme",
+    "texte": "L'architecte Fernand Pouillon est chargé de reconstruire le quai du Port détruit par les Allemands. Il utilise des pierres massives pour donner un aspect noble et éternel. Ces bâtiments sont aujourd'hui classés au patrimoine du XXe siècle.",
+    "leSaviezVous": "Pouillon a réussi à construire ces immeubles en un temps record pour loger les sinistrés de la guerre."
+  },
+  {
+    "id": 117,
+    "annee": 1960,
+    "titre": "Le Marché aux Puces",
+    "date": "Années 1960",
+    "categorie": "Insolite",
+    "texte": "Le marché aux puces de Marseille (quartier des Crottes) devient l'un des plus grands d'Europe. On y trouve tout : des antiquités marines aux épices d'Afrique. C'est le cœur battant de l'économie informelle et de la débrouille marseillaise.",
+    "leSaviezVous": "C'est l'un des rares endroits où l'on pratique encore le 'troc' et la discussion infinie sur les prix."
+  },
+  {
+    "id": 118,
+    "annee": 1966,
+    "titre": "Le Record de Température",
+    "date": "Juillet 1966",
+    "categorie": "Nature",
+    "texte": "Marseille enregistre l'un de ses plus grands pics de chaleur. La ville apprend à vivre au rythme de la sieste. C'est cette culture du soleil qui a façonné l'habitat, avec des volets persiennes qui laissent passer l'air mais pas la lumière.",
+    "leSaviezVous": "Marseille est la ville la plus ensoleillée de France avec plus de 2800 heures de soleil par an."
+  },
+  {
+    "id": 119,
+    "annee": 1972,
+    "titre": "Le Scandale de la Boue Rouge",
+    "date": "Années 1970",
+    "categorie": "Nature",
+    "texte": "Une usine d'alumine rejette des déchets rouges dans les calanques. C'est le début de la prise de conscience écologique à Marseille. Les pêcheurs se révoltent pour protéger la biodiversité marine unique de la région.",
+    "leSaviezVous": "C'est à cause de ce combat que la protection des calanques est devenue une priorité nationale."
+  },
+  {
+    "id": 120,
+    "annee": 1980,
+    "titre": "L'Arrivée du Kebab",
+    "date": "Années 1980",
+    "categorie": "Gastronomie",
+    "texte": "Avec les nouvelles vagues d'immigration, la cuisine de rue se transforme. Le kebab devient le concurrent direct de la pizza. Marseille devient une ville où l'on peut manger les cuisines de 50 pays différents en une seule rue.",
+    "leSaviezVous": "La sauce 'blanche' marseillaise est souvent plus épicée que dans le reste de la France."
+  },
+  {
+    "id": 121,
+    "annee": -300,
+    "titre": "Les Fortifications Grecques",
+    "date": "IIIe siècle av. J.-C.",
+    "categorie": "Antiquité",
+    "texte": "Marseille était entourée de murs de calcaire rose. Les ingénieurs grecs avaient conçu des tours carrées capables de résister aux premières catapultes. On en voit encore les bases au Jardin des Vestiges.",
+    "leSaviezVous": "Ces murs étaient si impressionnants que les tribus gauloises alentours appelaient Marseille 'la cité d'argent'."
+  },
+  {
+    "id": 122,
+    "annee": 500,
+    "titre": "Le Sel de Marseille",
+    "date": "Ve siècle",
+    "categorie": "Nature",
+    "texte": "Depuis l'Antiquité, les marais salants entourent la ville. Le sel était 'l'or blanc' de Marseille. Il servait à conserver les aliments pour les longs voyages en mer et était l'une des principales monnaies d'échange.",
+    "leSaviezVous": "Le quartier de la 'Saline' doit son nom à ces anciens marais aujourd'hui disparus."
+  },
+  {
+    "id": 123,
+    "annee": 1300,
+    "titre": "La confrérie des Pêcheurs",
+    "date": "1350",
+    "categorie": "Artisanat",
+    "texte": "Le 'Prud'homie de Pêche' est créé. C'est un tribunal de pêcheurs qui règle les conflits en mer. C'est l'une des plus vieilles institutions de Marseille, prouvant que la mer appartient à ceux qui la travaillent.",
+    "leSaviezVous": "Leurs jugements ont toujours force de loi aujourd'hui pour les zones de pêche locales."
+  },
+  {
+    "id": 124,
+    "annee": 1500,
+    "titre": "L'Arrivée du Chanvre",
+    "date": "1550",
+    "categorie": "Artisanat",
+    "texte": "Marseille devient le centre mondial de la corde. Le chanvre (canebe en provençal) est cultivé partout. Les cordiers travaillent dans une immense allée qui deviendra plus tard la Canebière.",
+    "leSaviezVous": "La qualité des cordages marseillais était telle que même la marine royale anglaise en achetait en secret."
+  },
+  {
+    "id": 125,
+    "annee": 1650,
+    "titre": "La création de la Chambre de Commerce",
+    "date": "1650",
+    "categorie": "Moderne",
+    "texte": "C'est la plus ancienne Chambre de Commerce de France. Elle gère le port, les phares et même la diplomatie avec l'Empire Ottoman. C'est elle qui a fait de Marseille un état dans l'état.",
+    "leSaviezVous": "Son siège actuel, le Palais de la Bourse, a été construit pour montrer la puissance des marchands."
+  },
+  {
+    "id": 126,
+    "annee": 1750,
+    "titre": "Les Indiennes de Marseille",
+    "date": "XVIIIe siècle",
+    "categorie": "Artisanat",
+    "texte": "Marseille fabrique des tissus en coton imprimé appelés 'Indiennes'. C'est une révolution dans la mode. Les couleurs vives et les motifs de fleurs plaisent à toute l'Europe.",
+    "leSaviezVous": "Le roi a un temps interdit ces tissus car ils faisaient trop d'ombre à la soie lyonnaise !"
+  },
+  {
+    "id": 127,
+    "annee": 1800,
+    "titre": "Le retour d'Égypte",
+    "date": "1801",
+    "categorie": "Histoire",
+    "texte": "Les troupes de Napoléon reviennent d'Égypte et débarquent au Lazaret. Ils rapportent des objets antiques mais aussi des idées nouvelles. Marseille devient la porte de l'égyptomanie en France.",
+    "leSaviezVous": "De nombreux immeubles marseillais de cette époque ont des visages de pharaons sculptés sur les façades."
+  },
+  {
+    "id": 128,
+    "annee": 1840,
+    "titre": "La fin des remparts",
+    "date": "1848",
+    "categorie": "Urbanisme",
+    "texte": "On décide de démolir les dernières murailles qui empêchaient la ville de s'étendre. Marseille devient une ville ouverte. C'est la naissance des quartiers comme Castellane ou la Joliette.",
+    "leSaviezVous": "On a utilisé les pierres des remparts pour construire les fondations de nombreux nouveaux immeubles."
+  },
+  {
+    "id": 129,
+    "annee": 1860,
+    "titre": "Le succès du Pastis artisanal",
+    "date": "XIXe siècle",
+    "categorie": "Gastronomie",
+    "texte": "Bien avant les grandes marques, chaque bar fabriquait son propre 'anisette'. Les marins rapportaient des épices d'Orient (badiane, réglisse) que les patrons de bar faisaient macérer.",
+    "leSaviezVous": "À l'époque, on buvait le pastis très pur, avec juste une goutte d'eau."
+  },
+  {
+    "id": 130,
+    "annee": 1880,
+    "titre": "L'école de la Marine",
+    "date": "1885",
+    "categorie": "Sciences",
+    "texte": "On fonde une école pour former les capitaines de navires. Marseille devient la tête pensante de la navigation moderne. On y apprend l'astronomie et la cartographie.",
+    "leSaviezVous": "Le diplôme de capitaine de Marseille était reconnu dans tous les ports du monde."
+  },
+  {
+    "id": 131,
+    "annee": 1900,
+    "titre": "L'invention du Cinématographe",
+    "date": "1895",
+    "categorie": "Culture",
+    "texte": "Les frères Lumière tournent certains de leurs premiers films sur le Vieux-Port et à La Ciotat. Les Marseillais sont les premiers à voir leur propre vie projetée sur un écran.",
+    "leSaviezVous": "Le film 'L'Arrivée d'un train en gare de La Ciotat' a terrifié les spectateurs qui pensaient que le train allait sortir de l'écran."
+  },
+  {
+    "id": 132,
+    "annee": 1910,
+    "titre": "La naissance de l'aviation",
+    "date": "1910",
+    "categorie": "Sciences",
+    "texte": "Le premier hydravion du monde décolle de l'étang de Berre. Marseille devient une ville pionnière du ciel. Les vols vers l'Algérie et l'Orient se développent rapidement.",
+    "leSaviezVous": "L'aéroport d'Istres possède toujours l'une des plus longues pistes d'Europe, utilisée autrefois par la navette spatiale."
+  },
+  {
+    "id": 133,
+    "annee": 1920,
+    "titre": "Les cabanons de Malmousque",
+    "date": "1920",
+    "categorie": "Nature",
+    "texte": "Les ouvriers marseillais construisent de petits cabanons au bord de l'eau pour passer le dimanche. C'est l'art de vivre marseillais : simplicité, pêche et soleil.",
+    "leSaviezVous": "Ces cabanons sont aujourd'hui des trésors immobiliers que les familles se transmettent jalousement."
+  },
+  {
+    "id": 134,
+    "annee": 1930,
+    "titre": "La foire aux Santons",
+    "date": "Décembre",
+    "categorie": "Culture",
+    "texte": "Chaque année, les maîtres santonniers exposent leurs figurines d'argile. C'est une tradition qui remonte à la Révolution. On y trouve tous les métiers de Marseille en miniature.",
+    "leSaviezVous": "Le santon 'le Ravi' (les bras en l'air) est le symbole de la joie simple marseillaise."
+  },
+  {
+    "id": 135,
+    "annee": 1940,
+    "titre": "Le courage des Marins-Pompiers",
+    "date": "1940",
+    "categorie": "Histoire",
+    "texte": "Pendant les bombardements, les Marins-Pompiers risquent leur vie pour sauver la ville. Ils sont militaires et marins, une spécificité unique à Marseille.",
+    "leSaviezVous": "Leur devise est 'Courage et Dévouement', ils interviennent aussi bien en mer que sur terre."
+  },
+  {
+    "id": 136,
+    "annee": 1950,
+    "titre": "L'Unité d'Habitation",
+    "date": "1952",
+    "categorie": "Architecture",
+    "texte": "Le Corbusier construit la Cité Radieuse. C'est une révolution. Les appartements sont en duplex, il y a une école sur le toit et des rues intérieures.",
+    "leSaviezVous": "On l'appelait 'la Maison du Fada' car les gens ne comprenaient pas ce style bizarre à l'époque."
+  },
+  {
+    "id": 137,
+    "annee": 1960,
+    "titre": "Le tunnel de la Joliette",
+    "date": "1960",
+    "categorie": "Urbanisme",
+    "texte": "Pour moderniser le port, on construit de nouveaux axes. Marseille devient une ville de transit moderne. C'est l'époque des grands travaux de l'après-guerre.",
+    "leSaviezVous": "On a dû déplacer des tonnes de sédiments marins pour stabiliser le sol du tunnel."
+  },
+  {
+    "id": 138,
+    "annee": 1970,
+    "titre": "La plongée profonde",
+    "date": "1970",
+    "categorie": "Sciences",
+    "texte": "La COMEX bat des records mondiaux de plongée sous-marine à Marseille. L'homme apprend à vivre et travailler à des centaines de mètres sous la mer.",
+    "leSaviezVous": "Leurs caissons hyperbares sont toujours utilisés pour entraîner les astronautes aujourd'hui."
+  },
+  {
+    "id": 139,
+    "annee": 1980,
+    "titre": "Le festival de Jazz",
+    "date": "Années 80",
+    "categorie": "Culture",
+    "texte": "Marseille devient une terre de Jazz. Les jardins du Palais Longchamp accueillent les plus grands musiciens du monde sous les étoiles.",
+    "leSaviezVous": "Le public marseillais est réputé pour son écoute religieuse et ses applaudissements volcaniques."
+  },
+  {
+    "id": 140,
+    "annee": 1990,
+    "titre": "La victoire en Coupe d'Europe",
+    "date": "1993",
+    "categorie": "Sport",
+    "texte": "L'OM gagne la Ligue des Champions. La ville explose de joie. Le Vieux-Port est envahi par un million de personnes. C'est la plus grande fête de l'histoire moderne de la ville.",
+    "leSaviezVous": "Le soir du match, on raconte que même les sirènes des navires dans le port ne s'arrêtaient plus de sonner."
+  },
+  {
+    "id": 141,
+    "annee": -200,
+    "titre": "L'influence Celte",
+    "date": "IIe siècle av. J.-C.",
+    "categorie": "Antiquité",
+    "texte": "Marseille n'était pas qu'une île grecque. Les tribus celtes des environs (les Salyens) commerçaient quotidiennement. On retrouve des poteries mélangeant les deux styles : le savoir-faire celte et le design grec.",
+    "leSaviezVous": "Les Salyens avaient leur capitale à Entremont, juste à côté d'Aix-en-Provence."
+  },
+  {
+    "id": 142,
+    "annee": 600,
+    "titre": "Le retour de la monnaie",
+    "date": "VIIe siècle",
+    "categorie": "Justice",
+    "texte": "Après des siècles de troc, Marseille recommence à frapper des 'tremissis' d'or. La ville redevient un centre financier stable alors que l'Europe est en plein chaos.",
+    "leSaviezVous": "Ces pièces portaient souvent le nom du graveur, prouvant la fierté des artisans marseillais."
+  },
+  {
+    "id": 143,
+    "annee": 1400,
+    "titre": "L'arrivée des Catalans",
+    "date": "1450",
+    "categorie": "Insolite",
+    "texte": "Après le sac de la ville en 1423, de nombreux marchands catalans s'installent pour reconstruire. Ils apportent des techniques de pêche et de commerce qui vont booster la ville.",
+    "leSaviezVous": "Le quartier des 'Catalans' doit son nom à ces pêcheurs venus d'Espagne."
+  },
+  {
+    "id": 144,
+    "annee": 1550,
+    "titre": "Le premier plan de la ville",
+    "date": "1575",
+    "categorie": "Architecture",
+    "texte": "On dessine le premier plan précis de Marseille. On y voit un dédale de rues étroites, signe que la ville s'est construite de manière organique et passionnée.",
+    "leSaviezVous": "Ce plan a permis de décider où percer les grandes avenues du futur."
+  },
+  {
+    "id": 145,
+    "annee": 1650,
+    "titre": "La manufacture de Tabac",
+    "date": "1660",
+    "categorie": "Artisanat",
+    "texte": "Marseille reçoit le monopole du tabac venu des Amériques. On construit des manufactures géantes (Belle de Mai) qui feront vivre des milliers de familles.",
+    "leSaviezVous": "La Friche Belle de Mai est aujourd'hui un centre culturel installé dans ces anciennes usines."
+  },
+  {
+    "id": 146,
+    "annee": 1780,
+    "titre": "Le premier journal marseillais",
+    "date": "1781",
+    "categorie": "Culture",
+    "texte": "Le 'Journal de Provence' commence à paraître. Les Marseillais peuvent enfin lire les nouvelles du port et de la politique locale chaque matin.",
+    "leSaviezVous": "C'est l'ancêtre des journaux comme 'Le Provençal' ou 'La Provence'."
+  },
+  {
+    "id": 147,
+    "annee": 1830,
+    "titre": "Le Phare de Sainte-Marie",
+    "date": "1835",
+    "categorie": "Ingénierie",
+    "texte": "Pour sécuriser le nouveau port de la Joliette, on construit une tour élégante en pierre blanche. C'est l'un des premiers phares à utiliser des lentilles de Fresnel modernes.",
+    "leSaviezVous": "Il est aujourd'hui situé au milieu des bassins du port de commerce."
+  },
+  {
+    "id": 148,
+    "annee": 1910,
+    "titre": "La colonie italienne",
+    "date": "1910",
+    "categorie": "Histoire",
+    "texte": "Près de 100 000 Italiens vivent à Marseille. Ils apportent leur cuisine, leur musique et leur force de travail. Marseille devient une ville franco-italienne.",
+    "leSaviezVous": "De nombreux mots marseillais comme 'fada' ou 'pichauris' viennent des dialectes italiens et provençaux mélangés."
+  },
+  {
+    "id": 149,
+    "annee": 1950,
+    "titre": "La fête du Panier",
+    "date": "Années 50",
+    "categorie": "Culture",
+    "texte": "Le quartier du Panier, bien que pauvre, est le cœur festif de la ville. Les voisins installent des tables dans la rue pour partager le repas. C'est l'esprit de solidarité marseillais.",
+    "leSaviezVous": "Le tournage de nombreux films a popularisé cette ambiance de village en pleine ville."
+  },
+  {
+    "id": 150,
+    "annee": 2024,
+    "titre": "Le renouveau de la Joliette",
+    "date": "2024",
+    "categorie": "Urbanisme",
+    "texte": "Les anciens docks sont transformés en bureaux et magasins de luxe. Marseille devient une capitale économique du sud de l'Europe, tournée vers le futur.",
+    "leSaviezVous": "Les Docks de Marseille sont considérés comme l'un des plus beaux chantiers de réhabilitation au monde."
+  },
+  {
+    "id": 151,
+    "annee": -200,
+    "titre": "L'Épave du Grand Congloué",
+    "date": "IIe siècle av. J.-C.",
+    "categorie": "Antiquité",
+    "texte": "Au pied de l'île du Riou, gît l'une des épaves les plus célèbres de l'Antiquité. Ce navire de commerce transportait plus de 10 000 amphores de vin et de la vaisselle de luxe. Sa découverte par Cousteau en 1952 a marqué la naissance de l'archéologie sous-marine moderne.",
+    "leSaviezVous": "On a découvert que le navire appartenait à un riche marchand nommé Marcus Sestius, installé à Marseille."
+  },
+  {
+    "id": 152,
+    "annee": 533,
+    "titre": "Marseille et les Francs",
+    "date": "VIe siècle",
+    "categorie": "Moyen-Âge",
+    "texte": "Marseille est si stratégique que les rois Francs (les fils de Clovis) se battent pour la posséder. La ville devient une co-seigneurie unique où deux rois se partagent les revenus du port. C'est la preuve que Marseille était le poumon économique de la Gaule.",
+    "leSaviezVous": "La ville était la seule à pouvoir fournir des produits de luxe (soie, poivre) à la cour mérovingienne."
+  },
+  {
+    "id": 153,
+    "annee": 1200,
+    "titre": "Le Château d'If avant le Fort",
+    "date": "1200",
+    "categorie": "Nature",
+    "texte": "Avant que François Ier n'y bâtisse son fort, l'île d'If n'était qu'un rocher sauvage servant de repaire aux pirates et aux contrebandiers. Les pêcheurs marseillais évitaient l'endroit, le jugeant maudit ou hanté par les esprits de la mer.",
+    "leSaviezVous": "If signifie 'le rocher' en vieux provençal, rappelant sa nature aride."
+  },
+  {
+    "id": 154,
+    "annee": 1348,
+    "titre": "L'arrivée de la Peste Noire",
+    "date": "Novembre 1347",
+    "categorie": "Tragédie",
+    "texte": "Marseille est la première ville française touchée par la Grande Peste Noire médiévale. Le virus arrive par une galère venue de Crimée. En quelques mois, la moitié de la ville disparaît, changeant à jamais le visage de la Provence.",
+    "leSaviezVous": "Malgré l'horreur, la ville se repeupla en moins de 10 ans grâce à une immigration massive venue d'Italie."
+  },
+  {
+    "id": 155,
+    "annee": 1481,
+    "titre": "Le Rattachement à la France",
+    "date": "1481",
+    "categorie": "Histoire",
+    "texte": "À la mort du Roi René, la Provence (et donc Marseille) est rattachée au Royaume de France de Louis XI. Les Marseillais acceptent, mais à une condition : garder leurs privilèges fiscaux et leur autonomie municipale.",
+    "leSaviezVous": "C'est de là que vient l'esprit 'État dans l'État' qui caractérise encore parfois Marseille aujourd'hui."
+  },
+  {
+    "id": 156,
+    "annee": 1548,
+    "titre": "L'Hôtel de Cabre",
+    "date": "1548",
+    "categorie": "Architecture",
+    "texte": "C'est la plus vieille maison de Marseille. Située près du Panier, elle a survécu à tous les incendies et aux démolitions allemandes. Sa façade mélange les styles gothique et renaissance, témoignant de la richesse des marchands de l'époque.",
+    "leSaviezVous": "Lors des travaux de 1954, on a pivoté la maison de 90 degrés sur des rails pour l'aligner avec les nouvelles rues !"
+  },
+  {
+    "id": 157,
+    "annee": 1600,
+    "titre": "Le Jardin des Plantes",
+    "date": "XVIIe siècle",
+    "categorie": "Nature",
+    "texte": "Les botanistes marseillais rapportent des graines du monde entier. On crée des jardins d'acclimatation où l'on teste la culture du tabac, du café et de plantes médicinales exotiques pour le compte du Roi.",
+    "leSaviezVous": "Le parc Borély fut l'un de ces lieux où l'on tentait de faire pousser des arbres tropicaux."
+  },
+  {
+    "id": 158,
+    "annee": 1660,
+    "titre": "L'Arsenal des Galères",
+    "date": "1665",
+    "categorie": "Ingénierie",
+    "texte": "Louis XIV transforme le sud du Vieux-Port en une usine de guerre géante : l'Arsenal des Galères. On y construit les plus beaux navires du Roi. 10 000 forçats y travaillent et y vivent dans des conditions terribles.",
+    "leSaviezVous": "La place aux Huiles était autrefois un canal où l'on déchargeait le bois pour les navires."
+  },
+  {
+    "id": 159,
+    "annee": 1700,
+    "titre": "La Navette de Saint-Victor",
+    "date": "1781",
+    "categorie": "Gastronomie",
+    "texte": "Un boulanger du nom d'Aveyrous crée un biscuit en forme de barque, parfumé à la fleur d'oranger. Selon la légende, il commémore l'arrivée des Saintes Maries sur les côtes de Provence. C'est le biscuit le plus sacré de la ville.",
+    "leSaviezVous": "Le four des navettes, rue Sainte, fonctionne toujours depuis 1781 sans jamais s'être arrêté."
+  },
+  {
+    "id": 160,
+    "annee": 1720,
+    "titre": "Le courage du Chevalier Roze",
+    "date": "1720",
+    "categorie": "Histoire",
+    "texte": "Pendant la grande peste, Nicolas Roze organise le nettoyage du quartier de la Tourette, jonché de milliers de cadavres. Il survit miraculeusement à la maladie et devient un héros national célébré pour son dévouement.",
+    "leSaviezVous": "Une rue et un quartier de Marseille portent son nom pour honorer sa mémoire."
+  },
+  {
+    "id": 161,
+    "annee": 1792,
+    "titre": "La guillotine sur la Canebière",
+    "date": "1793",
+    "categorie": "Tragédie",
+    "texte": "Pendant la Terreur, Marseille (renommée 'Ville-sans-Nom' par les révolutionnaires parisiens) voit la guillotine s'installer sur la Canebière. Les exécutions se succèdent sous les yeux d'une foule terrifiée ou exaltée.",
+    "leSaviezVous": "Marseille fut punie pour s'être révoltée contre le pouvoir central des Jacobins."
+  },
+  {
+    "id": 162,
+    "annee": 1820,
+    "titre": "Le premier escalier de Saint-Charles",
+    "date": "1820",
+    "categorie": "Urbanisme",
+    "texte": "Avant l'escalier monumental, la colline Saint-Charles était un terrain vague escarpé. Pour monter à la gare naissante, les voyageurs devaient emprunter des sentiers tortueux. L'urbanisation a dû littéralement 'dompter' la roche calcaire.",
+    "leSaviezVous": "L'escalier actuel pèse plusieurs tonnes et symbolise l'ouverture vers les colonies d'Afrique et d'Asie."
+  },
+  {
+    "id": 163,
+    "annee": 1845,
+    "titre": "La Madrague de Montredon",
+    "date": "XIXe siècle",
+    "categorie": "Artisanat",
+    "texte": "Le quartier était le centre de la pêche au thon grâce à la technique de la 'madrague' (un labyrinthe de filets). C'était une industrie vitale qui faisait vivre des centaines de familles de pêcheurs.",
+    "leSaviezVous": "Le terme 'madrague' vient de l'arabe 'madra' (lieu où l'on frappe)."
+  },
+  {
+    "id": 164,
+    "annee": 1850,
+    "titre": "La naissance du savon 'Le Chat'",
+    "date": "1853",
+    "categorie": "Artisanat",
+    "texte": "La savonnerie Ferrier lance une marque iconique qui deviendra mondiale. Utilisant les règles de Colbert, ils produisent un savon d'une pureté absolue. Marseille inonde le marché de la propreté.",
+    "leSaviezVous": "Le logo du chat noir sur fond jaune est devenu l'un des plus reconnaissables de France."
+  },
+  {
+    "id": 165,
+    "annee": 1860,
+    "titre": "L'Inauguration de la Bourse",
+    "date": "1860",
+    "categorie": "Architecture",
+    "texte": "Napoléon III inaugure le Palais de la Bourse. C'est le premier grand monument du Second Empire à Marseille. Il célèbre la puissance maritime et commerciale de la cité, tournée vers le monde.",
+    "leSaviezVous": "Les statues en façade représentent les continents avec lesquels Marseille commerçait."
+  },
+  {
+    "id": 166,
+    "annee": 1869,
+    "titre": "L'ouverture du Canal de Suez",
+    "date": "1869",
+    "categorie": "Histoire",
+    "texte": "C'est l'événement qui change tout pour Marseille. Avec le canal de Suez, la route des Indes s'ouvre. Le port de Marseille devient l'escale incontournable entre Londres et Bombay.",
+    "leSaviezVous": "Le trafic du port a été multiplié par dix en seulement quelques années après l'ouverture du canal."
+  },
+  {
+    "id": 167,
+    "annee": 1870,
+    "titre": "Le Siège des Royalistes",
+    "date": "1870",
+    "categorie": "Révolte",
+    "texte": "Marseille refuse la fin de l'Empire. Des émeutes éclatent entre partisans de la République et nostalgiques de Napoléon III. La ville est en ébullition politique constante.",
+    "leSaviezVous": "Marseille a toujours été l'une des villes les plus politisées et passionnées de France."
+  },
+  {
+    "id": 168,
+    "annee": 1880,
+    "titre": "L'invention de la Panisse",
+    "date": "Années 1880",
+    "categorie": "Gastronomie",
+    "texte": "Les immigrés liguriens (Italie) apportent la farine de pois chiche. Frite en disques ou en batonnets, la panisse devient le repas rapide et pas cher des ouvriers du port et de l'Estaque.",
+    "leSaviezVous": "La véritable panisse se mange brûlante, juste avec un peu de poivre."
+  },
+  {
+    "id": 169,
+    "annee": 1890,
+    "titre": "Le retour de Rimbaud",
+    "date": "1891",
+    "categorie": "Culture",
+    "texte": "Arthur Rimbaud revient d'Aden, malade. Il débarque à Marseille et meurt à l'hôpital de la Conception. La ville fut son dernier port, lui qui avait tant cherché l'aventure par-delà les mers.",
+    "leSaviezVous": "Sa sœur Isabelle a veillé ses derniers instants dans une chambre modeste de l'hôpital."
+  },
+  {
+    "id": 170,
+    "annee": 1898,
+    "titre": "La grotte du Roland",
+    "date": "1898",
+    "categorie": "Nature",
+    "texte": "Dans les calanques, on explore des grottes terrestres. La légende veut que le neveu de Charlemagne y ait séjourné. C'est le début du tourisme de randonnée dans les massifs marseillais.",
+    "leSaviezVous": "On y a trouvé des ossements d'animaux préhistoriques disparus depuis des millénaires."
+  },
+  {
+    "id": 171,
+    "annee": 1900,
+    "titre": "Le Grand Café des Négociants",
+    "date": "1900",
+    "categorie": "Insolite",
+    "texte": "Sur la Canebière, les cafés sont des bourses de commerce miniatures. On y vend des cargaisons entières de blé ou d'huile d'olive autour d'un verre d'absinthe. Les fortunes se font et se défont en quelques heures.",
+    "leSaviezVous": "Chaque profession avait son café attitré sur l'avenue."
+  },
+  {
+    "id": 172,
+    "annee": 1910,
+    "titre": "La grève des inscrits maritimes",
+    "date": "1910",
+    "categorie": "Révolte",
+    "texte": "Marseille est paralysée par une grève historique des marins. Les navires restent à quai, la marchandise pourrit. Le port montre sa puissance : si les marins s'arrêtent, la ville s'arrête.",
+    "leSaviezVous": "C'est l'une des premières fois que les syndicats maritimes imposent leur force face aux grandes compagnies."
+  },
+  {
+    "id": 173,
+    "annee": 1920,
+    "titre": "Le Vallon des Auffes",
+    "date": "1920",
+    "categorie": "Nature",
+    "texte": "Ce petit port de pêche traditionnel, niché sous un viaduc, devient le refuge des pêcheurs à l'auffre (une herbe servant à fabriquer des filets). C'est un village gaulois au milieu de la ville.",
+    "leSaviezVous": "Le viaduc qui l'enjambe a été construit en 1860 pour laisser passer la Corniche."
+  },
+  {
+    "id": 174,
+    "annee": 1925,
+    "titre": "Le massacre de l'abbaye",
+    "date": "1925",
+    "categorie": "Justice",
+    "texte": "Une affaire de grand banditisme ensanglante le quartier de Saint-Victor. C'est le début de l'ère du 'Milieu' marseillais qui va régner sur les trafics de la Méditerranée pendant 50 ans.",
+    "leSaviezVous :": "C'est cette ambiance qui a inspiré le film 'Borsalino' avec Delon et Belmondo."
+  },
+  {
+    "id": 175,
+    "annee": 1930,
+    "titre": "La création du Pastis 51",
+    "date": "1930-1951",
+    "categorie": "Gastronomie",
+    "texte": "Concurrent direct de Ricard, le Pastis 51 (créé en 1951 pour célébrer la fin de l'interdiction de l'anis) devient l'autre géant du comptoir. Marseille est coupée en deux : les pro-Ricard et les pro-51.",
+    "leSaviezVous": "51 était le numéro d'un décret autorisant à nouveau la vente de boissons anisées à 45 degrés."
+  },
+  {
+    "id": 176,
+    "annee": 1934,
+    "titre": "La Canebière filmée en couleur",
+    "date": "1934",
+    "categorie": "Culture",
+    "texte": "Les premiers essais de films en couleurs sont tournés à Marseille. La lumière de la ville et les façades colorées du Vieux-Port sont le terrain d'essai parfait pour les ingénieurs du cinéma.",
+    "leSaviezVous": "Les techniciens disaient que le ciel de Marseille était 'trop bleu' pour les pellicules de l'époque."
+  },
+  {
+    "id": 177,
+    "annee": 1937,
+    "titre": "L'inauguration du Vélodrome",
+    "date": "13 juin 1937",
+    "categorie": "Sport",
+    "texte": "Le stade est inauguré pour la Coupe du Monde 1938. À l'origine, il possède une piste de cyclisme (d'où son nom). 30 000 spectateurs s'y pressent pour le premier match.",
+    "leSaviezVous": "Le premier match fut un amical contre le Torino, gagné par l'OM 2-1."
+  },
+  {
+    "id": 178,
+    "annee": 1941,
+    "titre": "Le sabotage de l'usine d'aviation",
+    "date": "1941",
+    "categorie": "Histoire",
+    "texte": "Les ouvriers de l'Aérospatiale à Marignane sabotent les moteurs destinés aux avions allemands. Un acte de résistance discret mais vital pour freiner l'ennemi.",
+    "leSaviezVous": "Plusieurs ingénieurs furent arrêtés et déportés pour ces actes de sabotage technique."
+  },
+  {
+    "id": 179,
+    "annee": 1943,
+    "titre": "La destruction de la Tourette",
+    "date": "Février 1943",
+    "categorie": "Tragédie",
+    "texte": "Les nazis font sauter le quartier historique de la Tourette, jugeant les ruelles 'trop favorables aux terroristes'. C'est une perte inestimable pour le patrimoine médiéval de la ville.",
+    "leSaviezVous": "Des milliers de personnes n'ont eu que quelques heures pour évacuer avant les explosions."
+  },
+  {
+    "id": 180,
+    "annee": 1944,
+    "titre": "Le naufrage du Liban",
+    "date": "1944",
+    "categorie": "Tragédie",
+    "texte": "Un paquebot heurte les rochers près de l'île Maïre. C'est l'une des plus grandes catastrophes maritimes aux portes de Marseille. L'épave est aujourd'hui un site de plongée très prisé.",
+    "leSaviezVous": "Plus de 100 personnes ont péri à seulement quelques mètres du rivage."
+  },
+  {
+    "id": 181,
+    "annee": 1948,
+    "titre": "La grève des dockers",
+    "date": "1948",
+    "categorie": "Révolte",
+    "texte": "Les dockers refusent de charger les armes pour la guerre d'Indochine. Marseille devient le symbole de la contestation ouvrière pacifiste. Le port est bloqué pendant des mois.",
+    "leSaviezVous": "Les femmes de dockers s'allongeaient sur les rails du train pour empêcher les convois militaires."
+  },
+  {
+    "id": 182,
+    "annee": 1950,
+    "titre": "L'ouverture du tunnel du Rove (fermeture)",
+    "date": "1963",
+    "categorie": "Ingénierie",
+    "texte": "Un éboulement massif condamne le plus grand tunnel fluvial du monde. Depuis, l'eau ne circule plus, créant une pollution dans l'étang de Berre. C'est un dossier écologique majeur.",
+    "leSaviezVous": "On peut encore voir les entrées monumentales du tunnel à l'Estaque."
+  },
+  {
+    "id": 183,
+    "annee": 1955,
+    "titre": "La construction de la Castellane",
+    "date": "1955",
+    "categorie": "Urbanisme",
+    "texte": "Pour loger les familles ouvrières, on construit des cités géantes en périphérie. C'est l'époque des 'Grands Ensembles' qui transformeront la silhouette des quartiers nord.",
+    "leSaviezVous": "La Castellane a été construite sur l'emplacement d'une ancienne propriété noble."
+  },
+  {
+    "id": 184,
+    "annee": 1960,
+    "titre": "Le sel de Giraud",
+    "date": "1960",
+    "categorie": "Nature",
+    "texte": "Les salins de Giraud fournissent le sel pour tout le sud. C'est une industrie qui façonne le paysage camarguais, aux portes de Marseille, avec ses collines de sel blanc (camelles).",
+    "leSaviezVous": "Le sel est récolté une fois par an, à la fin de l'été."
+  },
+  {
+    "id": 185,
+    "annee": 1968,
+    "titre": "Mai 68 à Marseille",
+    "date": "Mai 1968",
+    "categorie": "Révolte",
+    "texte": "La faculté de Saint-Charles est occupée. Les ouvriers des chantiers navals rejoignent les étudiants. Marseille vit des semaines de manifestations géantes sous un soleil de plomb.",
+    "leSaviezVous": "Le slogan 'Sous les pavés, la plage' prenait tout son sens au Prado !"
+  },
+  {
+    "id": 186,
+    "annee": 1970,
+    "titre": "L'arrivée des ferrys géants",
+    "date": "1970",
+    "categorie": "Ingénierie",
+    "texte": "Les liaisons avec la Corse et l'Algérie se modernisent. Des navires capables de transporter des centaines de voitures transforment le port en une gare maritime géante.",
+    "leSaviezVous": "Marseille est le premier port de passagers de France vers la Méditerranée."
+  },
+  {
+    "id": 187,
+    "annee": 1975,
+    "titre": "La fin de la French Connection",
+    "date": "1975",
+    "categorie": "Justice",
+    "texte": "La police démantèle les derniers gros laboratoires d'héroïne. C'est la fin d'une époque sombre pour Marseille, mais le début d'une nouvelle criminalité plus violente.",
+    "leSaviezVous": "Plusieurs policiers infiltrés ont risqué leur vie pour faire tomber les parrains."
+  },
+  {
+    "id": 188,
+    "annee": 1982,
+    "titre": "La loi PML",
+    "date": "1982",
+    "categorie": "Justice",
+    "texte": "La loi Paris-Marseille-Lyon donne un statut spécial à la ville, divisée en arrondissements et secteurs. C'est une révolution administrative pour la cité phocéenne.",
+    "leSaviezVous": "Marseille possède désormais 16 arrondissements, chacun avec son identité propre."
+  },
+  {
+    "id": 189,
+    "annee": 1988,
+    "titre": "Le concert de Madonna",
+    "date": "1988",
+    "categorie": "Culture",
+    "texte": "La star mondiale se produit devant un Vélodrome plein à craquer. C'est le symbole que Marseille est devenue une étape majeure pour les tournées mondiales.",
+    "leSaviezVous": "Madonna aurait déclaré avoir adoré la lumière de la ville depuis son hôtel au Pharo."
+  },
+  {
+    "id": 190,
+    "annee": 1991,
+    "titre": "La finale de Bari",
+    "date": "1991",
+    "categorie": "Sport",
+    "texte": "L'OM perd en finale de Coupe d'Europe aux tirs au but. Toute la ville est en pleurs. Cette défaite cruelle forgera le mental pour la victoire de 1993.",
+    "leSaviezVous": "Plus de 30 000 Marseillais avaient fait le déplacement en Italie."
+  },
+  {
+    "id": 191,
+    "annee": 1994,
+    "titre": "Le GIGN à Marignane",
+    "date": "Décembre 1994",
+    "categorie": "Histoire",
+    "texte": "Un Airbus d'Air France est pris en otage par le GIA. L'assaut du GIGN sur le tarmac de Marseille-Marignane, filmé en direct, libère tous les passagers. Un exploit militaire mondial.",
+    "leSaviezVous": "Les images de l'assaut ont été diffusées dans le monde entier en temps réel."
+  },
+  {
+    "id": 192,
+    "annee": 1996,
+    "titre": "Le tournage de 'Marius et Jeannette'",
+    "date": "1997",
+    "categorie": "Culture",
+    "texte": "Robert Guédiguian filme l'Estaque. Le film connaît un succès mondial et montre un Marseille populaire, solidaire et solaire, loin des clichés du banditisme.",
+    "leSaviezVous": "L'Estaque est devenu grâce au film un lieu de pèlerinage pour les amateurs de cinéma."
+  },
+  {
+    "id": 193,
+    "annee": 1998,
+    "titre": "Marseille et la Coupe du Monde",
+    "date": "1998",
+    "categorie": "Sport",
+    "texte": "Le stade Vélodrome accueille la demi-finale Brésil-Pays-Bas. L'ambiance dans la ville est électrique. Marseille prouve qu'elle est l'une des capitales mondiales du foot.",
+    "leSaviezVous": "Zidane, l'enfant des quartiers nord, devient l'icône de toute une nation."
+  },
+  {
+    "id": 194,
+    "annee": 2005,
+    "titre": "La fermeture des Chantiers Navals",
+    "date": "Années 2000",
+    "categorie": "Tragédie",
+    "texte": "Les derniers grands chantiers navals ferment leurs portes. C'est la fin de la Marseille industrielle. La ville doit se réinventer vers le tourisme et les nouvelles technologies.",
+    "leSaviezVous": "Certaines grues ont été conservées comme monuments historiques."
+  },
+  {
+    "id": 195,
+    "annee": 2011,
+    "titre": "Le classement de l'UNESCO",
+    "date": "2011",
+    "categorie": "Patrimoine",
+    "texte": "La Cité Radieuse du Corbusier est classée au patrimoine mondial. Marseille entre officiellement dans l'histoire mondiale de l'architecture moderne.",
+    "leSaviezVous :": "C'est l'un des sites les plus visités par les étudiants en architecture du monde entier."
+  },
+  {
+    "id": 196,
+    "annee": 2016,
+    "titre": "L'Euro 2016 au Vélodrome",
+    "date": "2016",
+    "categorie": "Sport",
+    "texte": "La France bat l'Allemagne en demi-finale dans un Vélodrome en fusion. Le nouveau toit du stade amplifie les chants des supporters, créant une ambiance unique en Europe.",
+    "leSaviezVous": "Le bruit au moment du but d'Antoine Griezmann a été mesuré à plus de 110 décibels."
+  },
+  {
+    "id": 197,
+    "annee": 2018,
+    "titre": "Le drame de la rue d'Aubagne",
+    "date": "5 novembre 2018",
+    "categorie": "Tragédie",
+    "texte": "Deux immeubles s'effondrent en plein centre-ville. Ce drame provoque une onde de choc nationale sur la question du mal-logement et déclenche une mobilisation citoyenne sans précédent.",
+    "leSaviezVous": "Le quartier de Noailles est resté traumatisé et mobilisé pendant des années après ce drame."
+  },
+  {
+    "id": 198,
+    "annee": 2021,
+    "titre": "Marseille en Grand",
+    "date": "2021",
+    "categorie": "Urbanisme",
+    "texte": "Le plan de rénovation massif de la ville est lancé. Écoles, transports, hôpitaux : Marseille entame une transformation géante pour rattraper son retard et devenir une métropole verte.",
+    "leSaviezVous": "C'est l'un des plus gros investissements de l'État pour une ville française depuis 50 ans."
+  },
+  {
+    "id": 199,
+    "annee": 2024,
+    "titre": "La Flamme à Notre-Dame",
+    "date": "8 mai 2024",
+    "categorie": "Histoire",
+    "texte": "La flamme olympique monte à la Bonne Mère avant de parcourir la ville. Un symbole fort d'unité pour Marseille devant le monde entier.",
+    "leSaviezVous": "C'est un ancien champion de l'OM qui a porté la flamme sur le Vieux-Port."
+  },
+  {
+    "id": 200,
+    "annee": 2026,
+    "titre": "Le Codex est complet",
+    "date": "2026",
+    "categorie": "Histoire",
+    "texte": "Le 200ème fragment vient d'être posé. Votre Codex de Marseille est désormais l'un des recueils les plus denses sur l'histoire de la cité phocéenne. L'histoire continue, à vous de l'écrire !",
+    "leSaviezVous": "Marseille a plus de 2600 ans, et nous n'en avons exploré qu'une infime partie !"
+  }
+]

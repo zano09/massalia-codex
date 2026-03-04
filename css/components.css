@@ -1,0 +1,852 @@
+/* ========================================= */
+/* MASSALIA DESIGN SYSTEM (v2.0)       */
+/* ========================================= */
+
+/* --- 1. BOUTONS STANDARDS --- */
+
+/* Bouton Principal (Action : Valider, Commencer, Enregistrer) */
+.btn-primary, .btn-quiz { /* .btn-quiz est gardé pour compatibilité */
+    background-color: var(--or);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-family: var(--font-titre); /* Cinzel */
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: transform 0.1s, box-shadow 0.2s, background 0.2s;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 6px rgba(197, 160, 89, 0.3);
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn-primary:active, .btn-quiz:active {
+    transform: scale(0.98);
+    box-shadow: none;
+}
+
+/* Bouton Secondaire (Navigation : Retour, Suivant, Précédent) */
+.btn-secondary {
+    background-color: var(--abysse);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-family: var(--font-titre);
+    font-size: 0.85rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    transition: background 0.2s, transform 0.1s;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.btn-secondary:active {
+    transform: scale(0.98);
+    background-color: #2c3e50;
+}
+
+/* Bouton Fermer (La Croix "X") */
+.btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: #f1f1f1;
+    color: var(--abysse);
+    border: none;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    z-index: 10;
+}
+
+.btn-close:hover {
+    background-color: #e74c3c;
+    color: white;
+    transform: rotate(90deg);
+}
+
+/* Bouton "Lire la suite" (Petit lien discret) */
+.read-more-btn, .btn-ghost {
+    display: inline-block;
+    background: transparent;
+    border: 1px solid var(--or);
+    color: var(--or); /* ou Abysse selon goût */
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-family: var(--font-texte); /* Lora */
+    font-size: 0.75rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s;
+    margin-top: 10px;
+}
+
+.read-more-btn:hover, .btn-ghost:hover {
+    background-color: var(--or);
+    color: white;
+}
+
+/* --- 2. CONTENEURS & CARTES --- */
+
+.codex-card {
+    background: white; /* Plus propre que creme-leger pour la lecture */
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    border-left: 5px solid var(--or);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+    line-height: 1.6;
+    position: relative;
+    color: var(--texte);
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+/* Option pour les cartes interactives (cliquables) */
+.codex-card.clickable:active {
+    transform: scale(0.98);
+    background-color: #fafafa;
+}
+
+/* --- 3. TYPOGRAPHIE --- */
+
+h2.titre-page {
+    font-family: var(--font-titre);
+    color: var(--abysse);
+    font-size: 1.5rem;
+    margin: 0 0 20px 0;
+    text-align: center;
+    border-bottom: none;
+}
+
+h3.titre-card {
+    font-family: var(--font-titre);
+    color: var(--abysse);
+    font-size: 1.1rem;
+    margin: 10px 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+}
+
+.lettrine::first-letter {
+    font-size: 3.5rem;
+    float: left;
+    margin-right: 12px;
+    color: var(--abysse);
+    font-family: var(--font-titre);
+    line-height: 0.9;
+}
+
+/* --- 4. FORMULAIRES (Inputs & Selects) --- */
+
+.input-standard, .select-standard, #filterSelect, #quizFilterSelect, .search-input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    background: #fcfaf5; /* Crème très léger */
+    font-family: var(--font-texte);
+    font-size: 0.9rem;
+    border-radius: 6px;
+    color: var(--abysse);
+    outline: none;
+    box-sizing: border-box; /* Important pour pas déborder */
+    margin-bottom: 15px;
+    appearance: none; /* Enlève le style natif moche */
+}
+
+.input-standard:focus, .select-standard:focus {
+    border-color: var(--or);
+    background: white;
+}
+
+/* --- 5. BADGES & ÉTIQUETTES --- */
+
+.date-badge, .badge-info {
+    display: inline-block;
+    color: var(--or);
+    font-family: var(--font-titre);
+    font-weight: bold;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    background: rgba(197, 160, 89, 0.1);
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+/* --- 6. TIMELINE (Frise Chronologique) --- */
+
+.timeline-wrapper {
+    position: relative;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.timeline-wrapper::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: rgba(197, 160, 89, 0.5);
+}
+
+.timeline-event {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.timeline-event:active {
+    transform: scale(0.98);
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -17px;
+    top: 15px;
+    width: 10px;
+    height: 10px;
+    background: var(--abysse);
+    border: 2px solid var(--or);
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.timeline-card {
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fragment-new { border-left: 4px solid var(--or); }
+.fragment-lu { border-left: 4px solid #ddd; opacity: 0.7; background: #f9f9f9; }
+
+.timeline-date {
+    font-family: var(--font-titre);
+    font-size: 0.75rem;
+    color: var(--or);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.timeline-title {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--abysse);
+    font-family: var(--font-texte);
+}
+
+/* --- 7. IMAGES --- */
+
+.card-image-container {
+    margin: -20px -20px 20px -20px; /* Colle aux bords */
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    border-bottom: 4px solid var(--or);
+    position: relative;
+    height: 180px;
+    background-color: #eee;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Fix spécifique pour recette/modale */
+.recette-img-fix {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+/* --- 8. CITATIONS & LOADER --- */
+
+.card-citation {
+    background-color: white;
+    border: 1px solid #eee;
+    border-top: 4px solid var(--or);
+    padding: 25px 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    border-radius: 4px;
+}
+
+.citation-text {
+    font-family: var(--font-texte);
+    font-style: italic;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.citation-author {
+    font-family: var(--font-titre);
+    font-size: 0.8rem;
+    color: var(--abysse);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.loader {
+    text-align: center;
+    font-family: var(--font-titre);
+    color: var(--or);
+    margin-top: 50px;
+    font-size: 1.2rem;
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+
+/* --- 9. MODALES --- */
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* ========================================= */
+/* AJOUTS SPÉCIFIQUES ACCUEIL & LAYOUT     */
+/* ========================================= */
+
+/* --- Header Rank --- */
+.header-rank {
+    text-align: center;
+    margin-bottom: 30px;
+    animation: fadeInPage 0.8s ease-out;
+}
+.rank-icon { font-size: 2.5rem; margin-bottom: 5px; }
+.rank-title { border: none !important; margin: 0; }
+
+/* --- Badges Flottants --- */
+.card-badge {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    color: white;
+    padding: 3px 8px;
+    font-size: 0.6rem;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: var(--font-titre);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.bg-or { background-color: var(--or); }
+.bg-red { background-color: #e74c3c; }
+
+/* --- Utilitaires Texte --- */
+.text-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.subtext-italic {
+    font-size: 0.65rem;
+    color: #888;
+    font-style: italic;
+}
+
+/* --- Carte Cuisine Spécifique --- */
+.card-cuisine {
+    border-left: 5px solid #e74c3c !important; /* Force le rouge */
+}
+.card-header-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.btn-cuisine {
+    text-align: center;
+    background: #fff5f5;
+    color: #c0392b;
+    border: 1px solid #c0392b;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    font-family: var(--font-titre);
+    margin-top: 10px;
+}
+
+/* --- Grille Bas de Page --- */
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.mini-card {
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mini-icon { font-size: 1.5rem; margin-bottom: 5px; }
+.mini-title { font-family: var(--font-titre); font-size: 0.8rem; font-weight: bold; color: var(--abysse); }
+.mini-subtitle { font-size: 0.65rem; color: #666; margin-top: 5px; }
+
+/* ========================================= */
+/* AJOUTS POUR PROFIL & PARAMÈTRES         */
+/* ========================================= */
+
+/* --- Boutons Spéciaux --- */
+.btn-danger {
+    background-color: #fff5f5;
+    color: #c0392b;
+    border: 1px solid #c0392b;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-family: var(--font-titre);
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+    transition: background 0.2s;
+    margin-top: 10px;
+}
+.btn-danger:active { background-color: #ffe0e0; transform: scale(0.98); }
+
+/* --- Avatar Profil --- */
+.profile-avatar-container {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid var(--or);
+    margin: 0 auto 15px auto;
+    overflow: hidden;
+    background: white;
+    padding: 2px; /* Petit espace blanc entre bordure et image */
+}
+.profile-avatar-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* --- Liste des Recettes (Profil) --- */
+/* --- Astuce pour l'image de recette dans la modale --- */
+/* --- Image de recette dans la modale --- */
+.recette-img-bleed {
+    width: 100%;       /* Prend juste la largeur disponible (respecte le padding) */
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 8px; /* Les coins arrondis */
+    
+    /* On enlève les marges négatives pour qu'elle ne touche plus les bords */
+    margin-left: 0;
+    margin-right: 0;
+}
+.section-box {
+    background: #fcfaf5;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    text-align: left;
+}
+.section-title-flex {
+    margin-top: 0;
+    font-family: var(--font-titre);
+    color: #c0392b;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.recipe-item {
+    background: white;
+    border: 1px solid #eee;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    border-left: 3px solid #e74c3c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+.recipe-item:active { transform: scale(0.98); }
+.recipe-title { font-family: var(--font-titre); color: #c0392b; font-size: 0.85rem; font-weight: bold; }
+.recipe-date { font-size: 0.7rem; color: #888; margin-top: 2px; }
+
+/* --- Boîtes d'Info (Paramètres) --- */
+.info-box {
+    background: #fcfaf5;
+    border: 1px dashed var(--or);
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+.info-title {
+    margin-top: 0;
+    font-size: 0.9rem;
+    color: var(--abysse);
+    font-family: var(--font-titre);
+    margin-bottom: 10px;
+}
+.info-list {
+    font-size: 0.85rem;
+    color: #555;
+    padding-left: 20px;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+/* --- Formulaires & Divers --- */
+.form-box {
+    text-align: left;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+.form-label {
+    font-size: 0.7rem;
+    font-family: var(--font-titre);
+    color: #888;
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.text-muted { font-size: 0.8rem; color: #666; font-style: italic; }
+.settings-section {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+.settings-section.no-border { border-bottom: none; padding-bottom: 0; }
+.badge-count {
+    background: #e74c3c;
+    color: white;
+    padding: 1px 8px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+}
+.scroll-box { max-height: 220px; overflow-y: auto; }
+.fade-in { animation: fadeInPage 0.5s; }
+
+/* --- NAVIGATION INTER-FRAGMENTS --- */
+.nav-between-fragments {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    gap: 10px;
+}
+
+.nav-link {
+    flex: 1;
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: var(--abysse);
+    transition: color 0.2s;
+}
+
+.nav-link:hover {
+    color: var(--or);
+}
+
+.nav-link span {
+    font-size: 0.7rem;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-link strong {
+    display: block;
+    line-height: 1.2;
+    margin-top: 3px;
+    font-family: var(--font-titre);
+}
+
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+/* ========================================= */
+/* MISE À JOUR JEUX (Design Compact)       */
+/* ========================================= */
+
+/* --- QUIZ : Conteneur de la liste (Scrollable) --- */
+/* Empêche la liste de descendre plus bas que l'écran */
+#quiz-list-container {
+    max-height: 50vh; /* Prend la moitié de la hauteur de l'écran max */
+    overflow-y: auto; /* Ajoute une barre de défilement si besoin */
+    padding-right: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #fff;
+    padding: 10px;
+}
+
+/* --- QUIZ : Alignement Horizontal des Niveaux --- */
+.quiz-levels-row {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.btn-quiz-level {
+    flex: 1; /* Chaque bouton prend 1/3 de la place */
+    display: flex;
+    flex-direction: column; /* Texte en haut, score en bas */
+    justify-content: center;
+    align-items: center;
+    padding: 8px 5px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: var(--font-texte);
+    font-size: 0.75rem;
+    transition: transform 0.1s, background 0.2s;
+    text-align: center;
+    margin-bottom: 0; /* On annule la marge du bas car on est en flex */
+}
+
+.btn-quiz-level strong {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 0.7rem;
+}
+
+/* Couleurs spécifiques par difficulté pour repérer vite */
+.level-facile { border-bottom: 3px solid #27ae60; }
+.level-moyen { border-bottom: 3px solid #f39c12; }
+.level-difficile { border-bottom: 3px solid #c0392b; }
+
+.btn-quiz-level:active { transform: scale(0.98); }
+.btn-quiz-level.started { border-left: 4px solid var(--or); }
+.btn-quiz-level.completed { border-left: 4px solid #27ae60; background: #f0fff4; opacity: 0.8; }
+
+/* --- QUIZ : Boutons de Réponses (QCM) --- */
+.btn-quiz-option {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: white;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    font-family: var(--font-texte);
+    font-size: 0.95rem;
+    color: #333;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.2s;
+}
+.btn-quiz-option.correct { background: #d4edda; border-color: #28a745; color: #155724; font-weight: bold; }
+.btn-quiz-option.wrong { background: #f8d7da; border-color: #dc3545; color: #721c24; opacity: 0.7; }
+
+/* --- MOTUS : La Grille Responsive --- */
+.motus-row {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.motus-cell {
+    flex: 1;
+    max-width: 45px;
+    aspect-ratio: 1 / 1; /* Carré parfait */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--abysse);
+    border: 2px solid var(--or);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    transition: background 0.3s, border-color 0.3s;
+}
+/* Animation secousse */
+.shake { animation: shake 0.4s; }
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
+
+/* ========================================= */
+/* AJOUTS POUR LES TROPHÉES (Gamification) */
+/* ========================================= */
+
+.trophy-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 par ligne */
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.trophy-item {
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 10px 5px;
+    text-align: center;
+    opacity: 0.4; /* Grisé par défaut (verrouillé) */
+    filter: grayscale(100%);
+    transition: all 0.3s ease;
+}
+
+.trophy-item.unlocked {
+    opacity: 1;
+    filter: grayscale(0%);
+    border-color: var(--or);
+    background: linear-gradient(to bottom right, #fff, #fffdf5);
+    box-shadow: 0 2px 5px rgba(197, 160, 89, 0.2);
+    transform: scale(1.02);
+}
+
+.trophy-icon {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.trophy-name {
+    font-family: var(--font-titre);
+    font-size: 0.65rem;
+    font-weight: bold;
+    color: var(--abysse);
+    line-height: 1.2;
+    display: block;
+}
+
+.stat-badge {
+    background: var(--abysse);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/* ========================================= */
+/* STANDARDISATION DES MODALES (Style Recette) */
+/* ========================================= */
+
+/* L'arrière-plan sombre */
+.modal-overlay {
+    display: none; /* Masqué par défaut */
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 3000;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    animation: fadeIn 0.3s forwards;
+    backdrop-filter: blur(3px); /* Petit effet flou moderne */
+}
+
+/* La carte (Contenu) */
+.modal-card {
+    background: white;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+    border-top: 6px solid var(--or);
+    position: relative;
+    max-height: 85vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    padding: 0; /* Important : on gère le padding à l'intérieur */
+    
+    animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Cacher la scrollbar tout en gardant le scroll */
+.modal-card::-webkit-scrollbar { display: none; }
+.modal-card { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Classe utilitaire pour l'espacement du texte à l'intérieur */
+.modal-body {
+    padding: 20px 25px; /* Espace confortable sur les côtés */
+}
+
+/* Ajustement de la croix pour qu'elle ne soit pas collée */
+.btn-close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    background: #f0f0f0;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: var(--abysse);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 20; /* Au-dessus de tout */
+    transition: transform 0.2s, background 0.2s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.btn-close-modal:active { transform: scale(0.9); background: #e74c3c; color: white; }
+
+/* Animations */
+@keyframes slideUp {
+    from { transform: translateY(100px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

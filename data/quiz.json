@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 1,
+    "theme": "Antiquité",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : Marseille a été fondée par des marins venus de Phocée.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Marseille a été fondée en -600 av. J.-C. par des colons grecs venus de Phocée, en Ionie."
+  },
+  {
+    "id": 2,
+    "theme": "Antiquité",
+    "difficulte": "facile",
+    "question": "Comment s'appelait la princesse celte qui a choisi Euxène pour époux ?",
+    "reponses": ["Gyptis", "Petta", "Aristoxène"],
+    "correct": 1,
+    "explication": "Elle s'appelait Petta (fille du roi Nanos). Elle prit le nom d'Aristoxène après son mariage."
+  },
+  {
+    "id": 3,
+    "theme": "Antiquité",
+    "difficulte": "moyen",
+    "question": "Quel était le nom de la calanque originale où les Grecs ont accosté ?",
+    "reponses": ["Le Lacydon", "La Joliette", "Sormiou"],
+    "correct": 0,
+    "explication": "Le Lacydon est le nom antique du bras de mer qui forme aujourd'hui le Vieux-Port."
+  },
+  {
+    "id": 4,
+    "theme": "Antiquité",
+    "difficulte": "moyen",
+    "question": "Qu'est-ce que Pythéas a été le premier à associer aux phases de la Lune ?",
+    "reponses": ["Les saisons", "Le vent", "Les marées"],
+    "correct": 2,
+    "explication": "Pythéas fut le premier scientifique à comprendre que la Lune influence le mouvement des marées."
+  },
+  {
+    "id": 5,
+    "theme": "Antiquité",
+    "difficulte": "difficile",
+    "question": "Marseille fut assiégée en -49 car elle avait pris parti pour quel général ?",
+    "reponses": ["Jules César", "Pompée", "Marc Antoine"],
+    "correct": 1,
+    "explication": "Marseille a soutenu Pompée. Après sa défaite, César a puni la ville en lui retirant sa flotte et son trésor."
+  },
+  {
+    "id": 6,
+    "theme": "Moyen-Âge",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : Les chaînes du port de Marseille sont aujourd'hui en Italie.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 1,
+    "explication": "Faux, elles sont en Espagne, dans la cathédrale de Valence, depuis le sac de 1423."
+  },
+  {
+    "id": 7,
+    "theme": "Moyen-Âge",
+    "difficulte": "facile",
+    "question": "Quelle abbaye marseillaise possède des cryptes datant du Ve siècle ?",
+    "reponses": ["La Major", "Saint-Victor", "Le Sacré-Cœur"],
+    "correct": 1,
+    "explication": "L'abbaye de Saint-Victor, fondée par Jean Cassien, abrite des vestiges paléochrétiens."
+  },
+  {
+    "id": 8,
+    "theme": "Moyen-Âge",
+    "difficulte": "moyen",
+    "question": "Quel peuple de marins a installé son camp en Camargue pour piller Marseille en 859 ?",
+    "reponses": ["Les Sarrasins", "Les Vikings", "Les Catalans"],
+    "correct": 1,
+    "explication": "Les Vikings menés par Hasting et Björn Côtes-de-Fer ont pillé les côtes provençales en 859."
+  },
+  {
+    "id": 9,
+    "theme": "Moyen-Âge",
+    "difficulte": "moyen",
+    "question": "Quel roi de France a choisi Marseille comme port de départ pour les Croisades en 1248 ?",
+    "reponses": ["Louis XIV", "Saint Louis (Louis IX)", "François Ier"],
+    "correct": 1,
+    "explication": "Saint Louis a fait de Marseille la base logistique de la septième croisade."
+  },
+  {
+    "id": 10,
+    "theme": "Moyen-Âge",
+    "difficulte": "difficile",
+    "question": "En quelle année Marseille fut-elle rattachée au Royaume de France ?",
+    "reponses": ["1248", "1481", "1515"],
+    "correct": 1,
+    "explication": "À la mort du Roi René en 1481, la Provence et Marseille deviennent françaises."
+  },
+  {
+    "id": 11,
+    "theme": "Histoire Moderne",
+    "difficulte": "facile",
+    "question": "Qui a ordonné la construction du Fort Saint-Nicolas ?",
+    "reponses": ["Louis XIV", "Napoléon", "Charles de Gaulle"],
+    "correct": 0,
+    "explication": "Louis XIV a fait construire les forts pour surveiller la ville rebelle, pas pour la protéger."
+  },
+  {
+    "id": 12,
+    "theme": "Histoire Moderne",
+    "difficulte": "facile",
+    "question": "D'où venait le navire qui apporta la peste en 1720 ?",
+    "reponses": ["De Londres", "D'Amérique", "Du Proche-Orient (Syrie)"],
+    "correct": 2,
+    "explication": "Le Grand Saint-Antoine revenait de Syrie avec des étoffes contaminées par la peste."
+  },
+  {
+    "id": 13,
+    "theme": "Histoire Moderne",
+    "difficulte": "moyen",
+    "question": "Quel était le véritable nom du navire à l'origine de la légende de la sardine ?",
+    "reponses": ["La Sartine", "La Jeanne", "Le Provence"],
+    "correct": 0,
+    "explication": "Il s'agissait de la frégate 'La Sartine', échouée en 1780 à l'entrée du port."
+  },
+  {
+    "id": 14,
+    "theme": "Histoire Moderne",
+    "difficulte": "moyen",
+    "question": "En quelle année l'avenue de la Canebière fut-elle tracée ?",
+    "reponses": ["1516", "1666", "1789"],
+    "correct": 1,
+    "explication": "C'est lors de l'agrandissement de la ville sous Louis XIV en 1666."
+  },
+  {
+    "id": 15,
+    "theme": "Histoire Moderne",
+    "difficulte": "difficile",
+    "question": "Qui fut le maire de Marseille qui instaura une 'République indépendante' en 1591 ?",
+    "reponses": ["Charles de Casaulx", "Gaston Defferre", "Nicolas Roze"],
+    "correct": 0,
+    "explication": "Charles de Casaulx a dirigé la ville d'une main de fer contre Henri IV pendant 5 ans."
+  },
+  {
+    "id": 16,
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "question": "Quelle est la base indispensable du savon de Marseille selon l'édit de 1688 ?",
+    "reponses": ["La graisse de bœuf", "L'huile d'olive", "Le lait de chèvre"],
+    "correct": 1,
+    "explication": "Colbert a interdit les graisses animales pour garantir la qualité du savon pur végétal."
+  },
+  {
+    "id": 17,
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "question": "Comment s'appelle le beignet sucré typique de l'Estaque ?",
+    "reponses": ["La Navette", "Le Chichi Frégi", "La Panisse"],
+    "correct": 1,
+    "explication": "Le Chichi Frégi est une institution de l'Estaque depuis les années 1880."
+  },
+  {
+    "id": 18,
+    "theme": "Gastronomie",
+    "difficulte": "moyen",
+    "question": "Vrai ou Faux : L'Aïoli traditionnel se prépare avec des œufs.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 1,
+    "explication": "Faux, le véritable aïoli (ail et huile) ne contient que de l'ail et de l'huile d'olive."
+  },
+  {
+    "id": 19,
+    "theme": "Gastronomie",
+    "difficulte": "moyen",
+    "question": "En quelle année Paul Ricard a-t-il lancé sa célèbre marque de pastis ?",
+    "reponses": ["1899", "1932", "1951"],
+    "correct": 1,
+    "explication": "Le pastis Ricard a été lancé en 1932 après la fin de l'interdiction des boissons anisées."
+  },
+  {
+    "id": 20,
+    "theme": "Gastronomie",
+    "difficulte": "difficile",
+    "question": "Quel était le nom original de la 'Navette', ce biscuit créé en 1781 ?",
+    "reponses": ["Navette de Saint-Victor", "Barquette du Vieux-Port", "Le Biscuit Phocéen"],
+    "correct": 0,
+    "explication": "Elle a été créée par le boulanger Aveyrous près de l'abbaye Saint-Victor."
+  },
+  {
+    "id": 21,
+    "theme": "Sport",
+    "difficulte": "facile",
+    "question": "Où joue l'Olympique de Marseille ?",
+    "reponses": ["Stade de France", "Stade Vélodrome", "Stade Longchamp"],
+    "correct": 1,
+    "explication": "Le Stade Vélodrome est l'antre de l'OM depuis son inauguration en 1937."
+  },
+  {
+    "id": 22,
+    "theme": "Sport",
+    "difficulte": "facile",
+    "question": "Quelle est la devise de l'OM ?",
+    "reponses": ["A jamais les premiers", "Droit au But", "Marseille est la plus forte"],
+    "correct": 1,
+    "explication": "La devise 'Droit au But' figure sur l'écusson du club depuis sa fondation en 1899."
+  },
+  {
+    "id": 23,
+    "theme": "Sport",
+    "difficulte": "moyen",
+    "question": "Contre quelle équipe l'OM a-t-il gagné la finale en 1993 ?",
+    "reponses": ["Real Madrid", "AC Milan", "Bayern Munich"],
+    "correct": 1,
+    "explication": "L'OM a battu le Milan AC 1-0 grâce à un but de Basile Boli."
+  },
+  {
+    "id": 24,
+    "theme": "Sport",
+    "difficulte": "moyen",
+    "question": "En quelle année la France a-t-elle battu le Portugal au Vélodrome lors de l'Euro ?",
+    "reponses": ["1984", "1998", "2016"],
+    "correct": 0,
+    "explication": "C'est la demi-finale mythique de 1984 où Platini a marqué à la dernière minute."
+  },
+  {
+    "id": 25,
+    "theme": "Sport",
+    "difficulte": "difficile",
+    "question": "Quel sport était majoritairement pratiqué à l'OM lors de sa création en 1899 ?",
+    "reponses": ["Le Football", "Le Rugby", "La Pétanque"],
+    "correct": 1,
+    "explication": "À l'origine, l'Olympique de Marseille était principalement un club de rugby."
+  },
+  {
+    "id": 26,
+    "theme": "Urbanisme",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : Le Palais Longchamp a été construit pour accueillir Napoléon III.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 1,
+    "explication": "Faux, c'est un château d'eau monumental célébrant l'arrivée de l'eau de la Durance."
+  },
+  {
+    "id": 27,
+    "theme": "Urbanisme",
+    "difficulte": "moyen",
+    "question": "Quel architecte a conçu la Cité Radieuse à Marseille ?",
+    "reponses": ["Eiffel", "Le Corbusier", "Puget"],
+    "correct": 1,
+    "explication": "Le Corbusier a construit cette 'Unité d'Habitation' entre 1947 et 1952."
+  },
+  {
+    "id": 28,
+    "theme": "Urbanisme",
+    "difficulte": "moyen",
+    "question": "Pourquoi la station de métro 'Vieux-Port' possède-t-elle des murs très épais ?",
+    "reponses": ["Pour la décoration", "Pour résister à la pression de l'eau", "Pour le bruit"],
+    "correct": 1,
+    "explication": "La station est située juste sous le niveau de la mer, les parois sont renforcées contre l'infiltration."
+  },
+  {
+    "id": 29,
+    "theme": "Urbanisme",
+    "difficulte": "difficile",
+    "question": "En quelle année l'escalier monumental de la gare Saint-Charles fut-il achevé ?",
+    "reponses": ["1852", "1900", "1927"],
+    "correct": 2,
+    "explication": "La gare date de 1852, mais l'escalier fut ajouté en 1927 pour l'Exposition Coloniale."
+  },
+  {
+    "id": 30,
+    "theme": "Urbanisme",
+    "difficulte": "difficile",
+    "question": "Comment s'appelle l'ombrière miroir installée sur le Vieux-Port en 2013 ?",
+    "reponses": ["L'Ombrière Foster", "Le Miroir d'If", "Le Pavillon Noir"],
+    "correct": 0,
+    "explication": "Elle a été conçue par l'architecte Norman Foster pour la capitale européenne de la culture."
+  },
+  {
+    "id": 31,
+    "theme": "Sciences",
+    "difficulte": "facile",
+    "question": "Quel célèbre commandant a testé ses scaphandres dans les calanques ?",
+    "reponses": ["Cousteau", "Magellan", "Vasco de Gama"],
+    "correct": 0,
+    "explication": "Le Commandant Cousteau a réalisé ses premières plongées autonomes à Marseille."
+  },
+  {
+    "id": 32,
+    "theme": "Sciences",
+    "difficulte": "moyen",
+    "question": "Qu'a-t-on découvert en 1985 dans les calanques à 37 mètres sous l'eau ?",
+    "reponses": ["Un trésor d'or", "La Grotte Cosquer", "Le monstre du Riou"],
+    "correct": 1,
+    "explication": "La Grotte Cosquer contient des peintures rupestres datant de 27 000 ans."
+  },
+  {
+    "id": 33,
+    "theme": "Sciences",
+    "difficulte": "moyen",
+    "question": "Marseille a accueilli la première greffe de quel organe en 1969 ?",
+    "reponses": ["Le Cœur", "Le Rein", "Le Poumon"],
+    "correct": 1,
+    "explication": "L'hôpital de la Timone a été pionnier dans les greffes rénales."
+  },
+  {
+    "id": 34,
+    "theme": "Sciences",
+    "difficulte": "difficile",
+    "question": "Quelle entreprise marseillaise est leader mondial de la plongée profonde ?",
+    "reponses": ["COMEX", "Ricard", "CMA CGM"],
+    "correct": 0,
+    "explication": "La COMEX bat des records de profondeur depuis les années 60."
+  },
+  {
+    "id": 35,
+    "theme": "Sciences",
+    "difficulte": "difficile",
+    "question": "Quel savant marseillais fut le premier à mesurer la circonférence de la Terre ?",
+    "reponses": ["Pythéas", "Eratosthène", "Aristote"],
+    "correct": 0,
+    "explication": "Bien qu'Eratosthène soit célèbre pour cela, Pythéas a apporté des mesures cruciales sur la latitude."
+  },
+  {
+    "id": 36,
+    "theme": "Légende",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : Edmond Dantès a réellement existé au Château d'If.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 1,
+    "explication": "C'est un personnage de fiction créé par Alexandre Dumas dans 'Le Comte de Monte-Cristo'."
+  },
+  {
+    "id": 37,
+    "theme": "Légende",
+    "difficulte": "facile",
+    "question": "Pourquoi appelle-t-on le Corbusier la 'Maison du Fada' ?",
+    "reponses": ["C'est une insulte", "A cause de son look bizarre pour l'époque", "C'était son nom"],
+    "correct": 1,
+    "explication": "Les Marseillais de 1952 trouvaient l'architecture trop folle (fada)."
+  },
+  {
+    "id": 38,
+    "theme": "Légende",
+    "difficulte": "moyen",
+    "question": "Quelle créature mythique aurait vécu dans la calanque de Morgiou ?",
+    "reponses": ["Une sirène", "Un dragon", "Une licorne"],
+    "correct": 1,
+    "explication": "La légende du dragon de Morgiou est restée longtemps dans les récits de pêcheurs."
+  },
+  {
+    "id": 39,
+    "theme": "Légende",
+    "difficulte": "difficile",
+    "question": "Qui fut le premier prisonnier officiel du Château d'If en 1516 ?",
+    "reponses": ["Un rhinocéros", "Un capitaine pirate", "L'Homme au masque de fer"],
+    "correct": 0,
+    "explication": "Un rhinocéros fit escale sur l'île avant d'être offert au Pape."
+  },
+  {
+    "id": 40,
+    "theme": "Culture",
+    "difficulte": "facile",
+    "question": "Quel écrivain a écrit 'Marius' et 'Fanny' ?",
+    "reponses": ["Victor Hugo", "Marcel Pagnol", "Jean Giono"],
+    "correct": 1,
+    "explication": "Marcel Pagnol est le maître de la Trilogie marseillaise."
+  },
+  {
+    "id": 41,
+    "theme": "Culture",
+    "difficulte": "facile",
+    "question": "Quel groupe de rap chante 'Je danse le Mia' ?",
+    "reponses": ["Fonky Family", "IAM", "Psy 4 de la Rime"],
+    "correct": 1,
+    "explication": "IAM est le groupe légendaire qui a popularisé le rap marseillais dès les années 90."
+  },
+  {
+    "id": 42,
+    "theme": "Culture",
+    "difficulte": "moyen",
+    "question": "Où Rimbaud a-t-il terminé ses jours ?",
+    "reponses": ["À Paris", "À Marseille (La Conception)", "En Afrique"],
+    "correct": 1,
+    "explication": "Le poète est mort à l'hôpital de la Conception à Marseille en 1891."
+  },
+  {
+    "id": 43,
+    "theme": "Tragédie",
+    "difficulte": "facile",
+    "question": "Quel événement a détruit les quartiers nord du port en 1943 ?",
+    "reponses": ["Un tsunami", "Le dynamitage par les nazis", "Un incendie"],
+    "correct": 1,
+    "explication": "La Rafle du Vieux-Port s'est terminée par le dynamitage du quartier historique."
+  },
+  {
+    "id": 44,
+    "theme": "Tragédie",
+    "difficulte": "moyen",
+    "question": "Combien d'immeubles se sont effondrés rue d'Aubagne en 2018 ?",
+    "reponses": ["1", "2", "5"],
+    "correct": 1,
+    "explication": "Deux immeubles se sont effondrés le 5 novembre 2018."
+  },
+  {
+    "id": 45,
+    "theme": "Justice",
+    "difficulte": "difficile",
+    "question": "Comment s'appelait le juge assassiné en 1981 par la pègre ?",
+    "reponses": ["Juge Michel", "Juge Falcone", "Juge Halphen"],
+    "correct": 0,
+    "explication": "Le juge Pierre Michel luttait contre la French Connection."
+  },
+  {
+    "id": 46,
+    "theme": "Antiquité",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : Marseille vendait du vin dans toute l'Europe.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Les amphores massaliotes ont été retrouvées jusqu'en Allemagne."
+  },
+  {
+    "id": 47,
+    "theme": "Histoire",
+    "difficulte": "facile",
+    "question": "La Marseillaise est devenue l'hymne national en quelle année ?",
+    "reponses": ["1792", "1795", "1804"],
+    "correct": 1,
+    "explication": "Elle a été décrétée hymne national le 14 juillet 1795."
+  },
+  {
+    "id": 48,
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "question": "Quel empereur a échoué à prendre Marseille en 1536 ?",
+    "reponses": ["Napoléon", "Charles Quint", "Jules César"],
+    "correct": 1,
+    "explication": "Charles Quint a dû battre en retraite face à la résistance marseillaise."
+  },
+  {
+    "id": 49,
+    "theme": "Urbanisme",
+    "difficulte": "moyen",
+    "question": "Quel pont célèbre a été détruit en 1944 ?",
+    "reponses": ["Le Pont de pierre", "Le Pont Transbordeur", "Le Pont de la Joliette"],
+    "correct": 1,
+    "explication": "Le Pont Transbordeur était le symbole du port avant sa destruction."
+  },
+  {
+    "id": 50,
+    "theme": "Antiquité",
+    "difficulte": "moyen",
+    "question": "Où se trouve la réplique de la Grotte Cosquer aujourd'hui ?",
+    "reponses": ["Au MuCEM", "À la Villa Méditerranée", "Au Palais du Pharo"],
+    "correct": 1,
+    "explication": "La réplique 'Cosquer Méditerranée' est située dans la Villa Méditerranée."
+  },
+  {
+    "id": 51,
+    "theme": "Moyen-Âge",
+    "difficulte": "facile",
+    "question": "En quelle année les Vikings ont-ils installé un camp en Camargue pour attaquer Marseille ?",
+    "reponses": ["859", "1012", "1248"],
+    "correct": 0,
+    "explication": "Hasting et Björn Côtes-de-Fer ont mené ce raid mémorable en 859."
+  },
+  {
+    "id": 52,
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "question": "Quel ministre de Louis XIV a protégé la qualité du savon de Marseille ?",
+    "reponses": ["Richelieu", "Mazarin", "Colbert"],
+    "correct": 2,
+    "explication": "Colbert a promulgué l'édit de 1688 interdisant les graisses animales."
+  },
+  {
+    "id": 53,
+    "theme": "Culture",
+    "difficulte": "facile",
+    "question": "Dans quel hôpital marseillais le poète Arthur Rimbaud est-il décédé ?",
+    "reponses": ["La Timone", "La Conception", "Hôpital Nord"],
+    "correct": 1,
+    "explication": "Rimbaud s'est éteint à la Conception le 10 novembre 1891."
+  },
+  {
+    "id": 54,
+    "theme": "Urbanisme",
+    "difficulte": "moyen",
+    "question": "Le nom de la Canebière vient du provençal 'canebe'. Que signifie ce mot ?",
+    "reponses": ["Canne à sucre", "Chanvre", "Canal"],
+    "correct": 1,
+    "explication": "Le chanvre servait à fabriquer les cordages des navires sur cette avenue."
+  },
+  {
+    "id": 55,
+    "theme": "Insolite",
+    "difficulte": "difficile",
+    "question": "Vrai ou Faux : Le premier café public de France a ouvert à Paris avant Marseille.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 1,
+    "explication": "Faux ! C'est à Marseille qu'il a ouvert en 1671, grâce au commerce avec l'Orient."
+  },
+  {
+    "id": 56,
+    "theme": "Histoire",
+    "difficulte": "facile",
+    "question": "Qui a été assassiné sur la Canebière en 1934 ?",
+    "reponses": ["Le Roi de Yougoslavie", "Napoléon III", "Gaston Defferre"],
+    "correct": 0,
+    "explication": "Le roi Alexandre Ier et le ministre Louis Barthou y furent abattus."
+  },
+  {
+    "id": 57,
+    "theme": "Nature",
+    "difficulte": "moyen",
+    "question": "Quel est le record d'ensoleillement moyen de Marseille par an ?",
+    "reponses": ["2200 heures", "2800 heures", "3500 heures"],
+    "correct": 1,
+    "explication": "Avec plus de 2800h, Marseille est la ville la plus ensoleillée de France."
+  },
+  {
+    "id": 58,
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "question": "Quelle est la particularité du 'Chichi Frégi' ?",
+    "reponses": ["C'est un poisson", "C'est un beignet frit", "C'est une boisson"],
+    "correct": 1,
+    "explication": "C'est un long beignet sucré, spécialité de l'Estaque."
+  },
+  {
+    "id": 59,
+    "theme": "Justice",
+    "difficulte": "moyen",
+    "question": "Dans quel fort les canons étaient-ils tournés vers la ville pour surveiller les Marseillais ?",
+    "reponses": ["Fort Saint-Jean", "Fort Saint-Nicolas", "Fort d'If"],
+    "correct": 1,
+    "explication": "Louis XIV voulait ainsi mater les révoltes des habitants."
+  },
+  {
+    "id": 60,
+    "theme": "Ingénierie",
+    "difficulte": "difficile",
+    "question": "Quelle est la longueur totale du tunnel maritime du Rove ?",
+    "reponses": ["3 km", "7 km", "12 km"],
+    "correct": 1,
+    "explication": "Ce tunnel de 7 km est une prouesse technique creusée sous la roche."
+  },
+  {
+    "id": 61,
+    "theme": "Histoire",
+    "difficulte": "facile",
+    "question": "Comment s'appelle l'hymne national qui doit son nom aux fédérés marseillais ?",
+    "reponses": ["La Parisienne", "La Marseillaise", "Le Chant du Départ"],
+    "correct": 1,
+    "explication": "Les volontaires marseillais l'ont chanté en entrant dans Paris en 1792."
+  },
+  {
+    "id": 62,
+    "theme": "Sport",
+    "difficulte": "moyen",
+    "question": "Quel joueur a marqué le but de la victoire en 1993 ?",
+    "reponses": ["Didier Deschamps", "Basile Boli", "Fabien Barthez"],
+    "correct": 1,
+    "explication": "Une tête mythique sur un corner d'Abedi Pelé."
+  },
+  {
+    "id": 63,
+    "theme": "Architecture",
+    "difficulte": "difficile",
+    "question": "Quelle est la hauteur de la statue de la Vierge dorée de Notre-Dame de la Garde ?",
+    "reponses": ["5 mètres", "9,7 mètres", "15 mètres"],
+    "correct": 1,
+    "explication": "Près de 10 mètres de haut pour protéger les marins."
+  },
+  {
+    "id": 64,
+    "theme": "Tragédie",
+    "difficulte": "moyen",
+    "question": "En 1720, quel acte héroïque a rendu célèbre le Chevalier Roze ?",
+    "reponses": ["Il a arrêté le feu", "Il a nettoyé les cadavres de la peste", "Il a sauvé le Roi"],
+    "correct": 1,
+    "explication": "Il a organisé le dégagement des corps infectés au quartier de la Tourette."
+  },
+  {
+    "id": 65,
+    "theme": "Culture",
+    "difficulte": "facile",
+    "question": "Quel film de Luc Besson se déroule dans les rues de Marseille ?",
+    "reponses": ["Le Grand Bleu", "Taxi", "Léon"],
+    "correct": 1,
+    "explication": "La Peugeot blanche filant dans le Panier est devenue culte."
+  },
+  {
+    "id": 66,
+    "theme": "Antiquité",
+    "difficulte": "moyen",
+    "question": "Vrai ou Faux : Les Marseillais utilisaient de l'eau de mer pour leur vin.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Ils s'en servaient pour clarifier et conserver le vin à l'époque romaine."
+  },
+  {
+    "id": 67,
+    "theme": "Urbanisme",
+    "difficulte": "facile",
+    "question": "Le Palais Longchamp est-il le palais d'un ancien roi marseillais ?",
+    "reponses": ["Oui", "Non"],
+    "correct": 1,
+    "explication": "Non, c'est un château d'eau glorifiant l'arrivée de la Durance."
+  },
+  {
+    "id": 68,
+    "theme": "Histoire",
+    "difficulte": "difficile",
+    "question": "Quelle impératrice devait habiter le Palais du Pharo ?",
+    "reponses": ["Joséphine", "Eugénie", "Marie-Antoinette"],
+    "correct": 1,
+    "explication": "Napoléon III l'a fait construire pour l'impératrice Eugénie."
+  },
+  {
+    "id": 69,
+    "theme": "Nature",
+    "difficulte": "moyen",
+    "question": "Où se trouve l'entrée de la grotte Cosquer ?",
+    "reponses": ["Dans le port", "À 37m sous la mer", "Au sommet d'une falaise"],
+    "correct": 1,
+    "explication": "L'entrée est immergée dans les calanques suite à la montée des eaux."
+  },
+  {
+    "id": 70,
+    "theme": "Justice",
+    "difficulte": "moyen",
+    "question": "Qu'est-ce que la 'French Connection' ?",
+    "reponses": ["Une ligne de train", "Un trafic d'héroïne", "Une alliance militaire"],
+    "correct": 1,
+    "explication": "Un réseau mondial de transformation de drogue basé à Marseille."
+  },
+  {
+    "id": 71,
+    "theme": "Insolite",
+    "difficulte": "facile",
+    "question": "Qui était le premier prisonnier du Château d'If en 1516 ?",
+    "reponses": ["Un rhinocéros", "Edmond Dantès", "Le Masque de Fer"],
+    "correct": 0,
+    "explication": "Un rhinocéros en escale vers Rome y fut parqué."
+  },
+  {
+    "id": 72,
+    "theme": "Révolte",
+    "difficulte": "difficile",
+    "question": "En 1640, comment se reconnaissaient les révoltés contre les taxes ?",
+    "reponses": ["Un ruban rouge", "Des grelots (cascavèus)", "Un mot de passe"],
+    "correct": 1,
+    "explication": "Ils portaient des grelots, d'où le nom de Révolte des Cascavèus."
+  },
+  {
+    "id": 73,
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "question": "Que signifie 'Bouillabaisse' en provençal ?",
+    "reponses": ["Soupe de poisson", "Bout et abaisse (le feu)", "Le mélange du port"],
+    "correct": 1,
+    "explication": "Cela décrit la méthode de cuisson rapide du bouillon."
+  },
+  {
+    "id": 74,
+    "theme": "Sport",
+    "difficulte": "moyen",
+    "question": "Quel sport pratiquait-on à l'origine au Stade Vélodrome ?",
+    "reponses": ["Le Football", "Le Cyclisme", "Le Rugby"],
+    "correct": 1,
+    "explication": "D'où son nom, il possédait une piste pour les vélos."
+  },
+  {
+    "id": 75,
+    "theme": "Sciences",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : Le premier vol mondial en hydravion a eu lieu près de Marseille.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Henri Fabre a décollé sur l'étang de Berre en 1910."
+  },
+  {
+    "id": 76,
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "question": "Qu'est-ce que le 'Mur de la Peste' ?",
+    "reponses": ["Un rempart de la ville", "Une muraille en Provence contre l'épidémie", "Une prison"],
+    "correct": 1,
+    "explication": "Construit en 1721 pour isoler Marseille du reste de la France."
+  },
+  {
+    "id": 77,
+    "theme": "Culture",
+    "difficulte": "facile",
+    "question": "Quelle série télévisée se déroule au quartier (fictif) du Mistral ?",
+    "reponses": ["Plus Belle la Vie", "Sous le Soleil", "Marseille"],
+    "correct": 0,
+    "explication": "Elle s'inspire directement de l'ambiance du quartier du Panier."
+  },
+  {
+    "id": 78,
+    "theme": "Architecture",
+    "difficulte": "moyen",
+    "question": "Quel style architectural définit la Cathédrale de la Major ?",
+    "reponses": ["Gothique", "Romano-Byzantin", "Classique"],
+    "correct": 1,
+    "explication": "Ses rayures et dômes rappellent les liens avec l'Orient et l'Italie."
+  },
+  {
+    "id": 79,
+    "theme": "Tragédie",
+    "difficulte": "difficile",
+    "question": "Quel navire a explosé dans le port en 1923, brisant les vitres de la ville ?",
+    "reponses": ["Le Sartine", "Le Capitaine-Rémy", "Le Grand Saint-Antoine"],
+    "correct": 1,
+    "explication": "Une explosion d'une violence inouïe entendue jusqu'à Toulon."
+  },
+  {
+    "id": 80,
+    "theme": "Urbanisme",
+    "difficulte": "facile",
+    "question": "Quelle station de métro est la plus profonde de Marseille ?",
+    "reponses": ["Vieux-Port", "Saint-Charles", "Castellane"],
+    "correct": 0,
+    "explication": "Vieux-Port, car elle passe sous le niveau de la mer."
+  },
+  {
+    "id": 81,
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "question": "Quel explorateur a été traité de menteur à son retour à Marseille car il décrivait des glaces ?",
+    "reponses": ["Euxène", "Pythéas", "Marco Polo"],
+    "correct": 1,
+    "explication": "Ses récits sur le cercle polaire semblaient impossibles aux Grecs."
+  },
+  {
+    "id": 82,
+    "theme": "Antiquité",
+    "difficulte": "moyen",
+    "question": "Vrai ou Faux : Marseille possédait son propre bâtiment au sanctuaire de Delphes.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Le 'Trésor des Marseillais', preuve de la richesse de la ville."
+  },
+  {
+    "id": 83,
+    "theme": "Culture",
+    "difficulte": "moyen",
+    "question": "Quel groupe de rap marseillais a sorti l'album 'L'école du micro d'argent' ?",
+    "reponses": ["Fonky Family", "IAM", "Sniper"],
+    "correct": 1,
+    "explication": "Un album mythique vendu à plus d'un million d'exemplaires."
+  },
+  {
+    "id": 84,
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "question": "Le Pastis 51 tire son nom de quelle année particulière ?",
+    "reponses": ["L'année de création", "La température idéale", "1951"],
+    "correct": 2,
+    "explication": "Année où l'autorisation des boissons anisées à 45° fut rétablie."
+  },
+  {
+    "id": 85,
+    "theme": "Nature",
+    "difficulte": "facile",
+    "question": "Quel poisson donne son nom à la célèbre calanque ?",
+    "reponses": ["La Sardine", "Sormiou", "Morgiou"],
+    "correct": 2,
+    "explication": "Morgiou vient de 'morguion', signifiant un lieu de pêche au thon."
+  },
+  {
+    "id": 86,
+    "theme": "Ingénierie",
+    "difficulte": "moyen",
+    "question": "Comment s'appelle l'aqueduc géant qui enjambe l'Arc pour amener l'eau ?",
+    "reponses": ["Pont du Gard", "Aqueduc de Roquefavour", "Viaduc de Millau"],
+    "correct": 1,
+    "explication": "Plus haut que le Pont du Gard, il date du XIXe siècle."
+  },
+  {
+    "id": 87,
+    "theme": "Révolte",
+    "difficulte": "moyen",
+    "question": "En 1790, pourquoi les Marseillais ont-ils commencé à démolir le Fort Saint-Nicolas ?",
+    "reponses": ["Pour faire de la place", "Parce qu'il surveillait le peuple", "Pour construire un jardin"],
+    "correct": 1,
+    "explication": "Ils le voyaient comme un symbole de tyrannie royale."
+  },
+  {
+    "id": 88,
+    "theme": "Architecture",
+    "difficulte": "difficile",
+    "question": "Quelle est la forme de la coupole de la Vieille Charité ?",
+    "reponses": ["Ronde", "Ovoïde (en forme d'œuf)", "Carrée"],
+    "correct": 1,
+    "explication": "Un chef-d'œuvre de Pierre Puget."
+  },
+  {
+    "id": 89,
+    "theme": "Histoire",
+    "difficulte": "facile",
+    "question": "Qui a libéré Notre-Dame de la Garde en août 1944 ?",
+    "reponses": ["Les Américains", "Les Tirailleurs algériens et FFI", "Les Anglais"],
+    "correct": 1,
+    "explication": "Une bataille héroïque menée colline par colline."
+  },
+  {
+    "id": 90,
+    "theme": "Culture",
+    "difficulte": "facile",
+    "question": "Quel célèbre personnage de Pagnol travaille au Bar de la Marine ?",
+    "reponses": ["Marius", "César", "Panisse"],
+    "correct": 0,
+    "explication": "César est le patron, Marius est son fils qui rêve de mer."
+  },
+  {
+    "id": 91,
+    "theme": "Urbanisme",
+    "difficulte": "difficile",
+    "question": "Quels quartiers ont été entièrement rasés lors de la Rafle de 1943 ?",
+    "reponses": ["Le Panier et Noailles", "Les quartiers nord du Vieux-Port", "La Plaine"],
+    "correct": 1,
+    "explication": "Plus de 1500 immeubles dynamités par les nazis."
+  },
+  {
+    "id": 92,
+    "theme": "Justice",
+    "difficulte": "moyen",
+    "question": "Vrai ou Faux : Le juge Michel a été tué par des trafiquants de drogue.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Assassiné en 1981 alors qu'il s'attaquait au laboratoire d'héroïne."
+  },
+  {
+    "id": 93,
+    "theme": "Insolite",
+    "difficulte": "facile",
+    "question": "Où se trouve l'Hôtel de Cabre, la plus vieille maison de Marseille ?",
+    "reponses": ["Au bout de la Canebière", "Près de l'Hôtel de Ville", "Sur la Corniche"],
+    "correct": 1,
+    "explication": "Épargnée par les guerres, elle date de 1548."
+  },
+  {
+    "id": 94,
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "question": "Quel roi français a été enterré symboliquement à l'Abbaye Saint-Victor ?",
+    "reponses": ["Clovis", "Louis IX (Saint Louis)", "Roi René"],
+    "correct": 2,
+    "explication": "Dernier comte de Provence, il aimait passionnément la ville."
+  },
+  {
+    "id": 95,
+    "theme": "Gastronomie",
+    "difficulte": "moyen",
+    "question": "Quelle herbe sert à fabriquer les paniers et les filets au Vallon des Auffes ?",
+    "reponses": ["L'alfa (auffre)", "L'osier", "Le chanvre"],
+    "correct": 0,
+    "explication": "C'est l'alfa qui a donné son nom au petit port."
+  },
+  {
+    "id": 96,
+    "theme": "Sport",
+    "difficulte": "facile",
+    "question": "Quel surnom donne-t-on au Stade Vélodrome depuis sa rénovation ?",
+    "reponses": ["Le Chaudron", "Le Volcan", "L'Arène"],
+    "correct": 1,
+    "explication": "Son toit résonne et concentre les chants des supporters."
+  },
+  {
+    "id": 97,
+    "theme": "Culture",
+    "difficulte": "moyen",
+    "question": "Vrai ou Faux : Le premier cinéma public du monde était à Marseille.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "L'Eden Théâtre à La Ciotat (juste à côté) revendique ce titre."
+  },
+  {
+    "id": 98,
+    "theme": "Nature",
+    "difficulte": "difficile",
+    "question": "Quelle est l'espèce de pingouin dessinée dans la Grotte Cosquer ?",
+    "reponses": ["Manchot empereur", "Grand Pingouin", "Gorfou"],
+    "correct": 1,
+    "explication": "Une espèce aujourd'hui éteinte qui vivait en Provence il y a 20 000 ans."
+  },
+  {
+    "id": 99,
+    "theme": "Urbanisme",
+    "difficulte": "moyen",
+    "question": "En 2013, Marseille était la capitale de quoi ?",
+    "reponses": ["Du Sport", "De la Gastronomie", "De la Culture européenne"],
+    "correct": 2,
+    "explication": "Année marquée par l'ouverture du MuCEM."
+  },
+  {
+    "id": 100,
+    "theme": "Histoire",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : La flamme olympique 2024 est arrivée en France par Marseille.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Elle a débarqué du Belem sous les yeux de 150 000 personnes."
+  },
+  {
+    "id": 101,
+    "theme": "Antiquité",
+    "difficulte": "moyen",
+    "question": "Quel jardin du centre-ville abrite les vestiges des remparts grecs et d'un port antique ?",
+    "reponses": ["Jardin de la Colonne", "Jardin des Vestiges", "Jardin du Pharo"],
+    "correct": 1,
+    "explication": "Situé derrière le Centre Bourse, il abrite les restes du port antique et des fortifications."
+  },
+  {
+    "id": 102,
+    "theme": "Justice",
+    "difficulte": "moyen",
+    "question": "Où se situait l'Arsenal des Galères au XVIIe siècle ?",
+    "reponses": ["Quai de la Joliette", "Rive sud du Vieux-Port", "Au Vallon des Auffes"],
+    "correct": 1,
+    "explication": "L'Arsenal occupait tout le côté sud, là où se trouve aujourd'hui le cours Estienne d'Orves."
+  },
+  {
+    "id": 103,
+    "theme": "Histoire",
+    "difficulte": "difficile",
+    "question": "En quelle année le bataillon des 500 volontaires marseillais a-t-il marché vers Paris ?",
+    "reponses": ["1789", "1792", "1795"],
+    "correct": 1,
+    "explication": "C'est en juillet 1792 qu'ils montent à Paris en chantant ce qui deviendra l'hymne national."
+  },
+  {
+    "id": 104,
+    "theme": "Architecture",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : La cathédrale de la Major est aussi longue que la basilique Saint-Pierre de Rome.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Ses dimensions sont colossales, marquant la puissance de Marseille au XIXe siècle."
+  },
+  {
+    "id": 105,
+    "theme": "Culture",
+    "difficulte": "moyen",
+    "question": "Quelle est la particularité du portrait de Rimbaud à l'hôpital de la Conception ?",
+    "reponses": ["Il est écrit poète", "Il est écrit négociant", "Il n'y a pas de nom"],
+    "correct": 1,
+    "explication": "L'administration ignorait son génie et l'a enregistré sous sa dernière profession."
+  },
+  {
+    "id": 106,
+    "theme": "Insolite",
+    "difficulte": "moyen",
+    "question": "Quel animal accompagna les troupes hindoues au parc Borély en 1914 ?",
+    "reponses": ["Des éléphants", "Des troupeaux de chèvres", "Des tigres"],
+    "correct": 1,
+    "explication": "Ils les apportaient pour respecter leurs rites et régimes alimentaires."
+  },
+  {
+    "id": 107,
+    "theme": "Artisanat",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : Le savon de Marseille servait de monnaie d'échange pendant la guerre.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Étant un produit de première nécessité, il était extrêmement précieux au marché noir."
+  },
+  {
+    "id": 108,
+    "theme": "Gastronomie",
+    "difficulte": "difficile",
+    "question": "De quoi est composé le véritable Aïoli marseillais original ?",
+    "reponses": ["Ail, huile d'olive, œuf", "Ail et huile d'olive uniquement", "Ail et mayonnaise"],
+    "correct": 1,
+    "explication": "Traditionnellement, on n'utilise pas d'œuf, tout est dans le coup de mortier."
+  },
+  {
+    "id": 109,
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "question": "Quel journaliste américain a sauvé des milliers d'artistes à Marseille en 1940 ?",
+    "reponses": ["Varian Fry", "Ernest Hemingway", "Albert Camus"],
+    "correct": 0,
+    "explication": "Fry a organisé la fuite d'intellectuels comme Chagall ou Max Ernst depuis la Villa Air-Bel."
+  },
+  {
+    "id": 110,
+    "theme": "Urbanisme",
+    "difficulte": "moyen",
+    "question": "En quelle année le tunnel routier sous le Vieux-Port a-t-il été inauguré ?",
+    "reponses": ["1944", "1967", "1993"],
+    "correct": 1,
+    "explication": "Inauguré en 1967, il a permis de traverser le port sans faire tout le tour des quais."
+  },
+  {
+    "id": 111,
+    "theme": "Sport",
+    "difficulte": "facile",
+    "question": "Combien de personnes ont fêté la victoire de l'OM sur le Vieux-Port en 1993 ?",
+    "reponses": ["100 000", "500 000", "Près d'un million"],
+    "correct": 2,
+    "explication": "C'est l'une des plus grandes marées humaines de l'histoire de la ville."
+  },
+  {
+    "id": 112,
+    "theme": "Nature",
+    "difficulte": "facile",
+    "question": "Quelle île abrite le Château d'If ?",
+    "reponses": ["Île de Pomègues", "Île d'If", "Île du Riou"],
+    "correct": 1,
+    "explication": "L'île d'If fait partie de l'archipel du Frioul."
+  },
+  {
+    "id": 113,
+    "theme": "Artisanat",
+    "difficulte": "moyen",
+    "question": "Pourquoi fabriquait-on des cordes sur la Canebière autrefois ?",
+    "reponses": ["Pour les pendaisons", "Pour les navires", "Pour la décoration"],
+    "correct": 1,
+    "explication": "Marseille était le centre mondial du chanvre pour les gréements maritimes."
+  },
+  {
+    "id": 114,
+    "theme": "Histoire",
+    "difficulte": "difficile",
+    "question": "Qui était le dernier Comte de Provence, très aimé des Marseillais ?",
+    "reponses": ["Louis XIV", "Le Roi René", "Charles Quint"],
+    "correct": 1,
+    "explication": "Le Roi René est resté dans la mémoire locale comme un souverain protecteur des arts."
+  },
+  {
+    "id": 115,
+    "theme": "Architecture",
+    "difficulte": "moyen",
+    "question": "Où se trouve l'escalier qui n'est pas dans son bâtiment mais à l'extérieur ?",
+    "reponses": ["À l'Hôtel de Ville", "À la Vieille Charité", "Au Palais du Pharo"],
+    "correct": 0,
+    "explication": "L'Hôtel de Ville possède un escalier extérieur relié par une passerelle."
+  },
+  {
+    "id": 116,
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "question": "En quelle année la Navette de Saint-Victor a-t-elle été créée ?",
+    "reponses": ["1666", "1781", "1899"],
+    "correct": 1,
+    "explication": "Le four des navettes brûle sans interruption depuis 1781."
+  },
+  {
+    "id": 117,
+    "theme": "Tragédie",
+    "difficulte": "moyen",
+    "question": "Quel quartier fut dynamité par les nazis en 1943 car jugé trop rebelle ?",
+    "reponses": ["Noailles", "La Tourette (Vieux-Port)", "Castellane"],
+    "correct": 1,
+    "explication": "C'est la tristement célèbre Rafle du Vieux-Port."
+  },
+  {
+    "id": 118,
+    "theme": "Culture",
+    "difficulte": "moyen",
+    "question": "IAM signifie 'Imperial Asiatic Men', mais que signifie le nom en anglais ?",
+    "reponses": ["Je suis", "Je peux", "Je sais"],
+    "correct": 0,
+    "explication": "IAM est aussi l'affirmation 'I am' (Je suis)."
+  },
+  {
+    "id": 119,
+    "theme": "Urbanisme",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : Le MuCEM est relié au Fort Saint-Jean par une passerelle.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Cette passerelle aérienne est le symbole du renouveau de 2013."
+  },
+  {
+    "id": 120,
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "question": "En 2024, quel navire a apporté la flamme olympique à Marseille ?",
+    "reponses": ["La Sartine", "Le Belem", "Le Grand Saint-Antoine"],
+    "correct": 1,
+    "explication": "Le mythique trois-mâts a débarqué la flamme devant 150 000 personnes."
+  },
+  {
+    "id": 121,
+    "theme": "Antiquité",
+    "difficulte": "moyen",
+    "question": "D'où Marcus Sestius, riche marchand, gérait-il ses navires comme celui du Grand Congloué ?",
+    "reponses": ["Rome", "Marseille", "Athènes"],
+    "correct": 1,
+    "explication": "Il était l'un des grands commerçants installés dans la cité phocéenne."
+  },
+  {
+    "id": 122,
+    "theme": "Justice",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : Les galériens étaient enchaînés à leur banc même pour dormir.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "C'était une vie de torture permanente au service de la marine royale."
+  },
+  {
+    "id": 123,
+    "theme": "Nature",
+    "difficulte": "difficile",
+    "question": "Que signifie 'If' en vieux provençal ?",
+    "reponses": ["Le lierre", "Le rocher", "L'arbre"],
+    "correct": 1,
+    "explication": "Un nom simple pour un îlot calcaire aride."
+  },
+  {
+    "id": 124,
+    "theme": "Tragédie",
+    "difficulte": "facile",
+    "question": "En quelle année la Peste Noire est-elle entrée en France par Marseille ?",
+    "reponses": ["1347", "1720", "1914"],
+    "correct": 0,
+    "explication": "Elle a décimé la moitié de la population marseillaise au XIVe siècle."
+  },
+  {
+    "id": 125,
+    "theme": "Architecture",
+    "difficulte": "moyen",
+    "question": "Quelle est la forme particulière de la coupole de la Vieille Charité ?",
+    "reponses": ["Sphérique", "Ovoïde (en œuf)", "Pyramidale"],
+    "correct": 1,
+    "explication": "C'est un chef-d'œuvre architectural unique conçu par Pierre Puget."
+  },
+  {
+    "id": 126,
+    "theme": "Gastronomie",
+    "difficulte": "moyen",
+    "question": "D'où vient la farine utilisée pour fabriquer la Panisse ?",
+    "reponses": ["Du blé", "Du maïs", "Du pois chiche"],
+    "correct": 2,
+    "explication": "Le pois chiche est la base de cette spécialité héritée des immigrés italiens."
+  },
+  {
+    "id": 127,
+    "theme": "Insolite",
+    "difficulte": "facile",
+    "question": "Quel était le premier métier de l'OM à sa création en 1899 ?",
+    "reponses": ["Club de football", "Club de rugby", "Club de voile"],
+    "correct": 1,
+    "explication": "L'OM a commencé par le rugby avant de devenir le géant du foot français."
+  },
+  {
+    "id": 128,
+    "theme": "Histoire",
+    "difficulte": "difficile",
+    "question": "Quel était le cri de ralliement des révoltés de 1640 ?",
+    "reponses": ["Marseille Libre", "Marseille aux Marseillais", "Mort au Roi"],
+    "correct": 1,
+    "explication": "Un slogan qui montrait déjà l'esprit d'indépendance de la cité."
+  },
+  {
+    "id": 129,
+    "theme": "Urbanisme",
+    "difficulte": "moyen",
+    "question": "Quel architecte a reconstruit les quais du Vieux-Port après 1945 ?",
+    "reponses": ["Le Corbusier", "Fernand Pouillon", "Jean Nouvel"],
+    "correct": 1,
+    "explication": "Ses immeubles en pierre de taille sont aujourd'hui classés au patrimoine."
+  },
+  {
+    "id": 130,
+    "theme": "Sciences",
+    "difficulte": "facile",
+    "question": "Comment s'appelle l'entreprise marseillaise qui entraîne les astronautes sous l'eau ?",
+    "reponses": ["CMA CGM", "COMEX", "OM"],
+    "correct": 1,
+    "explication": "La COMEX utilise des bassins hyperbares pour simuler l'espace."
+  },
+  {
+    "id": 131,
+    "theme": "Culture",
+    "difficulte": "moyen",
+    "question": "Quel écrivain séjourna à Marseille et compara la ville à une cité italienne ?",
+    "reponses": ["Stendhal", "Victor Hugo", "Zola"],
+    "correct": 0,
+    "explication": "Stendhal était fasciné par la lumière et l'énergie du Vieux-Port en 1837."
+  },
+  {
+    "id": 132,
+    "theme": "Nature",
+    "difficulte": "facile",
+    "question": "Quel est le banc le plus long du monde ?",
+    "reponses": ["Celui du Prado", "Celui de la Corniche", "Celui de l'Estaque"],
+    "correct": 1,
+    "explication": "Il court sur près de 3 km le long de la Corniche Kennedy."
+  },
+  {
+    "id": 133,
+    "theme": "Révolte",
+    "difficulte": "moyen",
+    "question": "Vrai ou Faux : Les femmes de Marseille ont aidé à construire les remparts en 1524.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Le Boulevard des Dames rend hommage à leur courage lors du siège de Charles Quint."
+  },
+  {
+    "id": 134,
+    "theme": "Artisanat",
+    "difficulte": "moyen",
+    "question": "Quel métier occupait le quartier de la Canebière avant qu'il ne devienne une avenue ?",
+    "reponses": ["Les pêcheurs", "Les cordiers", "Les boulangers"],
+    "correct": 1,
+    "explication": "Ils y tressaient les cordages en chanvre pour les navires."
+  },
+  {
+    "id": 135,
+    "theme": "Histoire",
+    "difficulte": "difficile",
+    "question": "Qui a fondé la première Chambre de Commerce de France à Marseille en 1650 ?",
+    "reponses": ["Louis XIV", "Les marchands marseillais", "Colbert"],
+    "correct": 1,
+    "explication": "C'est une institution créée par et pour les commerçants de la cité."
+  },
+  {
+    "id": 136,
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "question": "Quel était le plat de base des pêcheurs fait avec les invendus du jour ?",
+    "reponses": ["L'Aïoli", "La Bouillabaisse", "La Soupe au pistou"],
+    "correct": 1,
+    "explication": "Un plat humble devenu une référence de la gastronomie mondiale."
+  },
+  {
+    "id": 137,
+    "theme": "Urbanisme",
+    "difficulte": "moyen",
+    "question": "En quelle année l'ombrière miroir de Norman Foster a-t-elle été installée ?",
+    "reponses": ["1993", "2013", "2024"],
+    "correct": 1,
+    "explication": "Elle fut la pièce maîtresse de Marseille, Capitale Européenne de la Culture."
+  },
+  {
+    "id": 138,
+    "theme": "Architecture",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : Le Palais du Pharo a été construit pour Napoléon III.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Il l'a offert à l'impératrice Eugénie, bien qu'ils n'y aient presque jamais séjourné."
+  },
+  {
+    "id": 139,
+    "theme": "Sport",
+    "difficulte": "moyen",
+    "question": "Comment s'appelle le célèbre virage des supporters de l'OM ?",
+    "reponses": ["Virage Nord (Patrice de Peretti)", "Virage Sud", "Les deux"],
+    "correct": 2,
+    "explication": "Le Vélodrome possède deux virages mythiques : le Nord et le Sud."
+  },
+  {
+    "id": 140,
+    "theme": "Justice",
+    "difficulte": "difficile",
+    "question": "Quel était le surnom de Marseille pendant l'époque de la French Connection ?",
+    "reponses": ["La petite Rome", "La Chicago française", "La porte de l'Orient"],
+    "correct": 1,
+    "explication": "À cause de la puissance de son milieu criminel international."
+  },
+  {
+    "id": 141,
+    "theme": "Antiquité",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : Les Grecs de Marseille commerçaient avec les Celtes.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Marseille était le point de contact entre le monde grec et les tribus gauloises."
+  },
+  {
+    "id": 142,
+    "theme": "Sciences",
+    "difficulte": "moyen",
+    "question": "Quelle découverte majeure a été faite en 1985 par Henri Cosquer ?",
+    "reponses": ["Une épave romaine", "Une grotte préhistorique", "Un gisement de pétrole"],
+    "correct": 1,
+    "explication": "Une grotte ornée accessible uniquement par un tunnel sous-marin."
+  },
+  {
+    "id": 143,
+    "theme": "Insolite",
+    "difficulte": "facile",
+    "question": "Quel est l'emblème de la ville que l'on voit sur tous les maillots de foot ?",
+    "reponses": ["Le Lion", "La Bonne Mère", "L'Écusson 'Droit au But'"],
+    "correct": 2,
+    "explication": "La devise de l'OM est devenue indissociable de l'image de la ville."
+  },
+  {
+    "id": 144,
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "question": "En 1944, quel char est resté exposé au pied de Notre-Dame de la Garde ?",
+    "reponses": ["Le Tigre", "Le Jeanne d'Arc", "Le Sherman"],
+    "correct": 1,
+    "explication": "Il fut détruit lors de l'assaut final pour la libération de la basilique."
+  },
+  {
+    "id": 145,
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "question": "Comment appelle-t-on le mélange d'anis et de réglisse typique de Marseille ?",
+    "reponses": ["Le Ricard", "Le Pastis", "L'Anisette"],
+    "correct": 1,
+    "explication": "Pastis signifie 'mélange' en provençal."
+  },
+  {
+    "id": 146,
+    "theme": "Nature",
+    "difficulte": "moyen",
+    "question": "Vrai ou Faux : Les Calanques sont le seul parc national périurbain d'Europe.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "C'est un espace sauvage unique situé aux portes d'une immense métropole."
+  },
+  {
+    "id": 147,
+    "theme": "Culture",
+    "difficulte": "facile",
+    "question": "Quel quartier marseillais est célèbre pour ses murs couverts de Street-Art ?",
+    "reponses": ["La Joliette", "Le Cours Julien", "Le Prado"],
+    "correct": 1,
+    "explication": "C'est l'un des plus grands musées à ciel ouvert du monde."
+  },
+  {
+    "id": 148,
+    "theme": "Urbanisme",
+    "difficulte": "difficile",
+    "question": "Quelle station de métro possède des murs renforcés pour supporter le poids de l'eau ?",
+    "reponses": ["Castellane", "Vieux-Port", "Noailles"],
+    "correct": 1,
+    "explication": "Située sous le port, elle a été construite comme un véritable caisson étanche."
+  },
+  {
+    "id": 149,
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "question": "En quelle année le Pape François est-il venu au Stade Vélodrome ?",
+    "reponses": ["2013", "2023", "1993"],
+    "correct": 1,
+    "explication": "Une visite historique pour parler de la Méditerranée devant 60 000 personnes."
+  },
+  {
+    "id": 150,
+    "theme": "Antiquité",
+    "difficulte": "difficile",
+    "question": "Quelle est la date de la fondation officielle de Massalia ?",
+    "reponses": ["-100 av. J.-C.", "-600 av. J.-C.", "600 apr. J.-C."],
+    "correct": 1,
+    "explication": "C'est l'acte de naissance de la plus ancienne ville de France."
+  },
+  {
+    "id": 151,
+    "theme": "Sciences",
+    "difficulte": "moyen",
+    "question": "Qui a conçu le premier détendeur moderne testé dans les Calanques ?",
+    "reponses": ["Cousteau et Gagnan", "Eiffel", "Montricher"],
+    "correct": 0,
+    "explication": "Cette invention a permis la plongée autonome mondiale."
+  },
+  {
+    "id": 152,
+    "theme": "Architecture",
+    "difficulte": "moyen",
+    "question": "Vrai ou Faux : La Cité Radieuse possède une école et un gymnase sur son toit.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Le Corbusier l'a conçue comme un village vertical autonome."
+  },
+  {
+    "id": 153,
+    "theme": "Histoire",
+    "difficulte": "facile",
+    "question": "En 1993, Marseille fut championne d'Europe. De quel sport s'agit-il ?",
+    "reponses": ["Handball", "Football", "Water-polo"],
+    "correct": 1,
+    "explication": "La victoire légendaire de l'OM en Ligue des Champions."
+  },
+  {
+    "id": 154,
+    "theme": "Nature",
+    "difficulte": "difficile",
+    "question": "Quel oiseau préhistorique est dessiné sur les parois de la Grotte Cosquer ?",
+    "reponses": ["Le Grand Pingouin", "L'Aigle royal", "Le Pélican"],
+    "correct": 0,
+    "explication": "Preuve qu'il faisait bien plus froid à Marseille il y a 20 000 ans."
+  },
+  {
+    "id": 155,
+    "theme": "Justice",
+    "difficulte": "moyen",
+    "question": "Vrai ou Faux : Le Milieu marseillais s'est enrichi grâce au trafic de cigarettes après-guerre.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Le tabac et l'alcool étaient les premiers piliers du crime organisé local."
+  },
+  {
+    "id": 156,
+    "theme": "Insolite",
+    "difficulte": "facile",
+    "question": "Comment appelle-t-on le 'pétit train' qui longe la mer ?",
+    "reponses": ["Le train bleu", "Le train de la Côte Bleue", "Le Mistral"],
+    "correct": 1,
+    "explication": "Une ligne de chemin de fer spectaculaire avec tunnels et viaducs."
+  },
+  {
+    "id": 157,
+    "theme": "Urbanisme",
+    "difficulte": "moyen",
+    "question": "Quel bâtiment moderne ressemble à une résille de béton noir ?",
+    "reponses": ["Le Palais Longchamp", "Le MuCEM", "La Major"],
+    "correct": 1,
+    "explication": "L'architecture de Rudy Ricciotti joue avec l'ombre et la lumière."
+  },
+  {
+    "id": 158,
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : On peut manger des oursins sur les quais à Marseille.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "L'oursinade est une tradition d'hiver très populaire."
+  },
+  {
+    "id": 159,
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "question": "Qui a débarqué à Marseille en 1962 lors de la fin de la guerre d'Algérie ?",
+    "reponses": ["Les Romains", "Les Pieds-Noirs", "Les Vikings"],
+    "correct": 1,
+    "explication": "Un exode massif qui a transformé la démographie de la ville."
+  },
+  {
+    "id": 160,
+    "theme": "Culture",
+    "difficulte": "difficile",
+    "question": "Quelle chanteuse égyptienne a marqué l'histoire de l'Opéra de Marseille ?",
+    "reponses": ["Oum Kalthoum", "Habiba Messika", "Dalida"],
+    "correct": 1,
+    "explication": "Elle fut l'une des grandes voix orientales accueillies dans la cité."
+  },
+  {
+    "id": 161,
+    "theme": "Antiquité",
+    "difficulte": "moyen",
+    "question": "Quel monument à Delphes prouve la richesse de Marseille en -600 ?",
+    "reponses": ["Le Temple d'Or", "Le Trésor des Marseillais", "Le Mur de Massalia"],
+    "correct": 1,
+    "explication": "Seules les cités les plus puissantes pouvaient construire un trésor à Delphes."
+  },
+  {
+    "id": 162,
+    "theme": "Sciences",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : Henri Fabre, inventeur de l'hydravion, était marseillais.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Il a réalisé son premier vol sur l'étang de Berre en 1910."
+  },
+  {
+    "id": 163,
+    "theme": "Insolite",
+    "difficulte": "moyen",
+    "question": "Comment appelle-t-on le vent violent qui souffle sur Marseille ?",
+    "reponses": ["Le Sirocco", "Le Mistral", "La Tramontane"],
+    "correct": 1,
+    "explication": "Il nettoie le ciel et rend l'air limpide, mais souffle parfois très fort."
+  },
+  {
+    "id": 164,
+    "theme": "Architecture",
+    "difficulte": "difficile",
+    "question": "Quel matériau compose les rayures de la cathédrale de la Major ?",
+    "reponses": ["Peinture", "Marbre et pierre verte de Florence", "Briques"],
+    "correct": 1,
+    "explication": "Un luxe incroyable pour l'époque afin de rivaliser avec les églises italiennes."
+  },
+  {
+    "id": 165,
+    "theme": "Sport",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : Le Vélodrome a accueilli les Jeux Olympiques 2024.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Il a accueilli de nombreux matchs de football lors de la compétition."
+  },
+  {
+    "id": 166,
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "question": "Quel roi français a été enterré à Saint-Victor ?",
+    "reponses": ["Louis XIV", "Roi René (dernière volonté)", "Henri IV"],
+    "correct": 1,
+    "explication": "Bien que mort à Aix, son cœur et son attachement étaient pour Marseille."
+  },
+  {
+    "id": 167,
+    "theme": "Nature",
+    "difficulte": "facile",
+    "question": "Quel est l'archipel qui fait face au Vieux-Port ?",
+    "reponses": ["L'archipel du Frioul", "Les îles d'Or", "Les Baléares"],
+    "correct": 0,
+    "explication": "Il comprend les îles d'If, Pomègues et Ratonneau."
+  },
+  {
+    "id": 168,
+    "theme": "Urbanisme",
+    "difficulte": "difficile",
+    "question": "En quelle année l'escalier de la gare Saint-Charles a-t-il été achevé ?",
+    "reponses": ["1852", "1900", "1927"],
+    "correct": 2,
+    "explication": "Un escalier monumental construit bien après l'ouverture de la gare."
+  },
+  {
+    "id": 169,
+    "theme": "Gastronomie",
+    "difficulte": "moyen",
+    "question": "Quelle boisson marseillaise signifie 'Confusion' en provençal ?",
+    "reponses": ["Le Vin", "Le Pastis", "L'Eau de vie"],
+    "correct": 1,
+    "explication": "Pastis veut dire mélange ou embrouille."
+  },
+  {
+    "id": 170,
+    "theme": "Culture",
+    "difficulte": "facile",
+    "question": "Quel célèbre acteur marseillais jouait dans 'La Trilogie' de Pagnol ?",
+    "reponses": ["Gabin", "Raimu", "Belmondo"],
+    "correct": 1,
+    "explication": "Raimu a immortalisé le personnage de César."
+  },
+  {
+    "id": 171,
+    "theme": "Tragédie",
+    "difficulte": "moyen",
+    "question": "Combien de morts a fait la Peste de 1720 à Marseille ?",
+    "reponses": ["1 000", "Près de 50 000 (moitié de la ville)", "100 000"],
+    "correct": 1,
+    "explication": "Une hécatombe qui a marqué l'histoire européenne."
+  },
+  {
+    "id": 172,
+    "theme": "Insolite",
+    "difficulte": "facile",
+    "question": "Comment appelle-t-on les figurines de Noël marseillaises ?",
+    "reponses": ["Les Poupées", "Les Santons", "Les Statuettes"],
+    "correct": 1,
+    "explication": "Santon vient du provençal 'santoun' (petit saint)."
+  },
+  {
+    "id": 173,
+    "theme": "Justice",
+    "difficulte": "difficile",
+    "question": "Quel était le véritable but du Fort Saint-Jean sous Louis XIV ?",
+    "reponses": ["Surveiller la mer", "Surveiller les Marseillais", "Faire une prison"],
+    "correct": 1,
+    "explication": "Les canons visaient la ville pour mater les rébellions."
+  },
+  {
+    "id": 174,
+    "theme": "Sciences",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : On a trouvé des pingouins dans les Calanques autrefois.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "La grotte Cosquer en garde les dessins rupestres."
+  },
+  {
+    "id": 175,
+    "theme": "Nature",
+    "difficulte": "moyen",
+    "question": "Quel est le nom de la calanque la plus célèbre pour ses cabanons ?",
+    "reponses": ["Sormiou", "Frioul", "Le Prado"],
+    "correct": 0,
+    "explication": "Sormiou possède une petite communauté de 'cabanonniers' historiques."
+  },
+  {
+    "id": 176,
+    "theme": "Histoire",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : Les Marseillais ont créé l'hymne national de la France.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 1,
+    "explication": "Faux, il a été composé à Strasbourg mais popularisé par les Marseillais."
+  },
+  {
+    "id": 177,
+    "theme": "Urbanisme",
+    "difficulte": "moyen",
+    "question": "Comment s'appelle l'avenue marseillaise la plus célèbre ?",
+    "reponses": ["Rue de la République", "La Canebière", "Boulevard Michelet"],
+    "correct": 1,
+    "explication": "L'avenue qui descend jusqu'au Vieux-Port."
+  },
+  {
+    "id": 178,
+    "theme": "Gastronomie",
+    "difficulte": "difficile",
+    "question": "Quel ingrédient secret parfume la Navette de Saint-Victor ?",
+    "reponses": ["La lavande", "La fleur d'oranger", "Le citron"],
+    "correct": 1,
+    "explication": "Un parfum délicat et indissociable du biscuit."
+  },
+  {
+    "id": 179,
+    "theme": "Sport",
+    "difficulte": "facile",
+    "question": "Quel joueur de l'OM a marqué sur une tête en 1993 ?",
+    "reponses": ["Didier Deschamps", "Basile Boli", "Franck Ribéry"],
+    "correct": 1,
+    "explication": "Le but qui a offert la première Ligue des Champions à la France."
+  },
+  {
+    "id": 180,
+    "theme": "Architecture",
+    "difficulte": "moyen",
+    "question": "Quel architecte a conçu le Palais de la Bourse ?",
+    "reponses": ["Puget", "Pascal Coste", "Ricciotti"],
+    "correct": 1,
+    "explication": "Un bâtiment majestueux inauguré par Napoléon III."
+  },
+  {
+    "id": 181,
+    "theme": "Insolite",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : Marseille est la plus ancienne ville de France.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Fondée il y a plus de 2600 ans."
+  },
+  {
+    "id": 182,
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "question": "Quel empereur a assiégé Marseille en -49 ?",
+    "reponses": ["Néron", "Jules César", "Auguste"],
+    "correct": 1,
+    "explication": "Il a vaincu la ville après un siège héroïque."
+  },
+  {
+    "id": 183,
+    "theme": "Nature",
+    "difficulte": "facile",
+    "question": "Comment s'appelle l'eau qui arrive par le canal de Marseille ?",
+    "reponses": ["L'eau du Rhône", "L'eau de la Durance", "L'eau de pluie"],
+    "correct": 1,
+    "explication": "Elle a sauvé la ville de la soif au XIXe siècle."
+  },
+  {
+    "id": 184,
+    "theme": "Urbanisme",
+    "difficulte": "moyen",
+    "question": "Quel pont a été dynamité par les Allemands en 1944 ?",
+    "reponses": ["Le Pont Transbordeur", "Le Pont de la Major", "Le Viaduc d'Arenc"],
+    "correct": 0,
+    "explication": "Symbole perdu du paysage marseillais."
+  },
+  {
+    "id": 185,
+    "theme": "Culture",
+    "difficulte": "facile",
+    "question": "Quel auteur a créé le Comte de Monte-Cristo ?",
+    "reponses": ["Victor Hugo", "Alexandre Dumas", "Émile Zola"],
+    "correct": 1,
+    "explication": "L'œuvre qui a rendu le Château d'If mondialement célèbre."
+  },
+  {
+    "id": 186,
+    "theme": "Sport",
+    "difficulte": "moyen",
+    "question": "Où se sont déroulées les épreuves de voile des JO 2024 ?",
+    "reponses": ["Dans le Vieux-Port", "Dans la rade de Marseille", "Aux Calanques"],
+    "correct": 1,
+    "explication": "La marina olympique du Roucas-Blanc a accueilli les athlètes."
+  },
+  {
+    "id": 187,
+    "theme": "Justice",
+    "difficulte": "difficile",
+    "question": "Que fabriquait-on clandestinement dans la French Connection ?",
+    "reponses": ["Du faux savon", "De l'héroïne", "Des fausses pièces"],
+    "correct": 1,
+    "explication": "Un trafic international qui a duré plus de 20 ans."
+  },
+  {
+    "id": 188,
+    "theme": "Antiquité",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : Les fondateurs de Marseille étaient Grecs.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Ils venaient de la cité de Phocée en Ionie."
+  },
+  {
+    "id": 189,
+    "theme": "Gastronomie",
+    "difficulte": "moyen",
+    "question": "Que signifie 'Manger une bouillabaisse' historiquement ?",
+    "reponses": ["Un repas de fête", "Un repas de pêcheur simple", "Un plat royal"],
+    "correct": 1,
+    "explication": "C'était le plat du pauvre fait avec les restes du filet."
+  },
+  {
+    "id": 190,
+    "theme": "Architecture",
+    "difficulte": "facile",
+    "question": "Quel monument domine Marseille de sa statue dorée ?",
+    "reponses": ["La Major", "Notre-Dame de la Garde", "L'Hôtel de Ville"],
+    "correct": 1,
+    "explication": "La 'Bonne Mère' veille sur les habitants."
+  },
+  {
+    "id": 191,
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "question": "Qui a débarqué au Vieux-Port avec la flamme olympique ?",
+    "reponses": ["Florent Manaudou", "Zinédine Zidane", "Le Belem"],
+    "correct": 0,
+    "explication": "Florent Manaudou fut le premier relayeur en France."
+  },
+  {
+    "id": 192,
+    "theme": "Nature",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : Les Calanques sont un parc marin.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Le parc protège aussi bien la terre que la mer."
+  },
+  {
+    "id": 193,
+    "theme": "Urbanisme",
+    "difficulte": "moyen",
+    "question": "Quel quartier est le plus ancien de Marseille ?",
+    "reponses": ["La Joliette", "Le Panier", "Le Prado"],
+    "correct": 1,
+    "explication": "Il correspond à la ville haute de l'Antiquité."
+  },
+  {
+    "id": 194,
+    "theme": "Culture",
+    "difficulte": "facile",
+    "question": "Quel rappeur marseillais a créé 'Le Classico Organisé' ?",
+    "reponses": ["IAM", "Jul", "Soprano"],
+    "correct": 1,
+    "explication": "Un projet réunissant des dizaines d'artistes marseillais."
+  },
+  {
+    "id": 195,
+    "theme": "Insolite",
+    "difficulte": "moyen",
+    "question": "Pourquoi la sardine a-t-elle bouché le port ?",
+    "reponses": ["C'était un poisson géant", "C'était un navire échoué", "C'était une blague"],
+    "correct": 1,
+    "explication": "Le navire 'La Sartine' a bloqué le chenal en 1780."
+  },
+  {
+    "id": 196,
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "question": "Quel ingrédient donne sa couleur jaune au pastis ?",
+    "reponses": ["Le safran", "La réglisse", "L'anis"],
+    "correct": 1,
+    "explication": "La réglisse apporte la couleur et une partie du goût."
+  },
+  {
+    "id": 197,
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "question": "Combien d'années d'histoire a Marseille ?",
+    "reponses": ["1000 ans", "plus de 2600 ans", "500 ans"],
+    "correct": 1,
+    "explication": "Fondée vers -600 av. J.-C."
+  },
+  {
+    "id": 198,
+    "theme": "Sport",
+    "difficulte": "difficile",
+    "question": "Quel est le seul club français champion d'Europe de foot ?",
+    "reponses": ["PSG", "OM", "Lyon"],
+    "correct": 1,
+    "explication": "L'OM reste le seul détenteur de la Ligue des Champions en France."
+  },
+  {
+    "id": 199,
+    "theme": "Sciences",
+    "difficulte": "facile",
+    "question": "Vrai ou Faux : Marseille possède une réplique de la Grotte Cosquer.",
+    "reponses": ["Vrai", "Faux"],
+    "correct": 0,
+    "explication": "Située à la Villa Méditerranée près du MuCEM."
+  },
+  {
+    "id": 200,
+    "theme": "Culture",
+    "difficulte": "moyen",
+    "question": "Quel est le titre de ce Codex historique ?",
+    "reponses": ["Massalia Codex", "Marseille Story", "Le Scribe du Port"],
+    "correct": 0,
+    "explication": "Bravo ! Vous avez terminé les 200 questions du Massalia Codex."
+  }
+]

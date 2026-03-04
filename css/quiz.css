@@ -1,0 +1,124 @@
+/* --- 1. CONTENEUR DES THÈMES --- */
+.quiz-theme-block {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    /* Ombre portée douce pour l'effet de relief */
+    box-shadow: 0 4px 15px rgba(26, 42, 58, 0.05); 
+    border-top: 4px solid var(--or); /* Touche dorée en haut */
+}
+
+.quiz-theme-title {
+    margin: 0 0 15px 0;
+    color: var(--abysse);
+    font-family: var(--font-titre); /* Cinzel */
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(197, 160, 89, 0.2); /* Ligne dorée très fine */
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* --- 2. STYLE "PREMIUM" DES BOUTONS (Niveaux & Réponses) --- */
+.btn-quiz-level, 
+.btn-quiz-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 18px 20px;
+    margin-bottom: 12px;
+    
+    /* LE STYLE MASSALIA : Fond crème léger et bordure dorée subtile */
+    background: var(--creme-leger); 
+    border: 1px solid rgba(197, 160, 89, 0.3); 
+    border-radius: 6px;
+    
+    color: var(--texte);
+    cursor: pointer;
+    font-family: var(--font-texte);
+    font-size: 0.95rem;
+    
+    /* Transition fluide pour l'interaction */
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Effet au Survol : Le bouton "monte" et devient plus doré */
+.btn-quiz-level:hover, 
+.btn-quiz-option:hover {
+    background: white;
+    border-color: var(--or);
+    transform: translateY(-3px); /* Effet de levitation */
+    box-shadow: 0 5px 15px rgba(197, 160, 89, 0.15); /* Ombre dorée */
+}
+
+/* --- 3. DÉTAILS DU MENU (Niveaux) --- */
+.btn-quiz-level strong {
+    font-family: var(--font-titre); /* Police Titre */
+    color: var(--abysse);
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.btn-quiz-level span {
+    font-family: var(--font-titre);
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: var(--or); /* Score en doré */
+}
+
+/* État : Niveau 100% Complété (Fond blanc pur + Bordure Or + Coche verte) */
+.btn-quiz-level.completed {
+    background: #ffffff;
+    border: 1px solid var(--or);
+    border-left: 5px solid var(--or); /* Marqueur gauche fort */
+}
+
+/* État : Niveau Commencé (Bordure bleue) */
+.btn-quiz-level.started {
+    border-left: 5px solid var(--abysse);
+}
+
+/* --- 4. DÉTAILS DU JEU (Réponses) --- */
+.btn-quiz-option {
+    justify-content: flex-start; /* Texte aligné à gauche */
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Vrai / Faux avec des couleurs plus douces et modernes */
+.btn-quiz-option.correct {
+    background-color: #e3f9e5 !important; /* Vert très pâle */
+    border: 1px solid #28a745 !important;
+    color: #155724 !important;
+    font-weight: bold;
+}
+
+.btn-quiz-option.wrong {
+    background-color: #fff5f5 !important; /* Rouge très pâle */
+    border: 1px solid #dc3545 !important;
+    color: #721c24 !important;
+}
+
+/* --- 5. BARRE DE PROGRESSION --- */
+.progress-container {
+    width: 100%;
+    height: 6px;
+    background: #e0e0e0;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#progress-bar {
+    height: 100%;
+    /* Dégradé Bleu vers Doré pour le style */
+    background: linear-gradient(90deg, var(--abysse) 0%, var(--or) 100%);
+    width: 0%;
+    border-radius: 10px;
+    transition: width 0.5s ease-out;
+}
