@@ -17,16 +17,16 @@ const pointsMap = {
 
 // NOUVEAUX GRADES & TROPHÉES
 const RANKS = [
-    { min: 0, title: "Naufragé", icon: "🪵", next: 100 },
-    { min: 101, title: "Pêcheur du Vieux-Port", icon: "🐟", next: 300 },
-    { min: 301, title: "Négociant", icon: "⚖️", next: 600 },
-    { min: 601, title: "Bâtisseur", icon: "🔨", next: 1000 },
-    { min: 1001, title: "Légionnaire", icon: "⚔️", next: 1500 },
-    { min: 1501, title: "Capitaine", icon: "⚓", next: 2200 },
-    { min: 2201, title: "Armateur", icon: "🚢", next: 3000 },
-    { min: 3001, title: "Sénateur", icon: "🏛️", next: 4000 },
-    { min: 4001, title: "Fondateur", icon: "🔱", next: 5500 },
-    { min: 5501, title: "Légende de Massalia", icon: "👑", next: null }
+    { min: 0, title: "Passager du Lacydon", icon: "⛵", next: 100 }, 
+    { min: 101, title: "Gendre de Nann", icon: "🍷", next: 300 }, 
+    { min: 301, title: "Maître de la Mer Grise", icon: "🌊", next: 600 }, 
+    { min: 601, title: "Tailleur de Pierre de Cassis", icon: "🏗️", next: 1000 }, 
+    { min: 1001, title: "Moine de Saint-Victor", icon: "🕯️", next: 1500 }, 
+    { min: 1501, title: "Corsaire du Roi", icon: "⚔️", next: 2200 }, 
+    { min: 2201, title: "Portefaix de la Joliette", icon: "📦", next: 3000 }, 
+    { min: 3001, title: "Minot du Panier", icon: "🏘️", next: 4000 }, 
+    { min: 4001, title: "Bouscarle du Vieux-Port", icon: "🗣️", next: 5500 }, 
+    { min: 5501, title: "Phocéen Éternel", icon: "🌟", next: null } 
 ];
 
 // 1. CHARGEMENT

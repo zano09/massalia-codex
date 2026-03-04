@@ -1,17 +1,17 @@
 /* ========================================= */
-/* MASSALIA DESIGN SYSTEM (v2.0)       */
+/* MASSALIA DESIGN SYSTEM (v2.0 - COMPLET)   */
 /* ========================================= */
 
 /* --- 1. BOUTONS STANDARDS --- */
 
-/* Bouton Principal (Action : Valider, Commencer, Enregistrer) */
-.btn-primary, .btn-quiz { /* .btn-quiz est gardé pour compatibilité */
+/* Bouton Principal */
+.btn-primary, .btn-quiz {
     background-color: var(--or);
     color: white;
     border: none;
     padding: 12px 20px;
     border-radius: 8px;
-    font-family: var(--font-titre); /* Cinzel */
+    font-family: var(--font-titre);
     font-weight: bold;
     font-size: 0.9rem;
     cursor: pointer;
@@ -33,7 +33,7 @@
     box-shadow: none;
 }
 
-/* Bouton Secondaire (Navigation : Retour, Suivant, Précédent) */
+/* Bouton Secondaire */
 .btn-secondary {
     background-color: var(--abysse);
     color: white;
@@ -58,7 +58,7 @@
     background-color: #2c3e50;
 }
 
-/* Bouton Fermer (La Croix "X") */
+/* Bouton Fermer */
 .btn-close {
     position: absolute;
     top: 10px;
@@ -84,15 +84,15 @@
     transform: rotate(90deg);
 }
 
-/* Bouton "Lire la suite" (Petit lien discret) */
+/* Bouton "Lire la suite" */
 .read-more-btn, .btn-ghost {
     display: inline-block;
     background: transparent;
     border: 1px solid var(--or);
-    color: var(--or); /* ou Abysse selon goût */
+    color: var(--or);
     padding: 6px 12px;
     border-radius: 20px;
-    font-family: var(--font-texte); /* Lora */
+    font-family: var(--font-texte);
     font-size: 0.75rem;
     font-weight: bold;
     cursor: pointer;
@@ -109,7 +109,7 @@
 /* --- 2. CONTENEURS & CARTES --- */
 
 .codex-card {
-    background: white; /* Plus propre que creme-leger pour la lecture */
+    background: white;
     padding: 20px;
     border-radius: 8px;
     border: 1px solid #eee;
@@ -122,7 +122,6 @@
     transition: transform 0.2s;
 }
 
-/* Option pour les cartes interactives (cliquables) */
 .codex-card.clickable:active {
     transform: scale(0.98);
     background-color: #fafafa;
@@ -159,19 +158,26 @@ h3.titre-card {
 
 /* --- 4. FORMULAIRES (Inputs & Selects) --- */
 
+/* CORRECTION IMPORTANTE : box-sizing force l'input à ne pas dépasser 100% */
 .input-standard, .select-standard, #filterSelect, #quizFilterSelect, .search-input {
     width: 100%;
+    max-width: 100%; /* Empêche de dépasser le parent */
     padding: 12px 15px;
     border: 1px solid #ddd;
-    background: #fcfaf5; /* Crème très léger */
+    background: #fcfaf5;
     font-family: var(--font-texte);
     font-size: 0.9rem;
     border-radius: 6px;
     color: var(--abysse);
     outline: none;
-    box-sizing: border-box; /* Important pour pas déborder */
+    
+    /* LA RÈGLE D'OR : */
+    -webkit-box-sizing: border-box; /* Pour Safari/iOS anciens */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box !important; 
+    
     margin-bottom: 15px;
-    appearance: none; /* Enlève le style natif moche */
+    appearance: none;
 }
 
 .input-standard:focus, .select-standard:focus {
@@ -179,7 +185,7 @@ h3.titre-card {
     background: white;
 }
 
-/* --- 5. BADGES & ÉTIQUETTES --- */
+/* --- 5. BADGES & TIMELINE --- */
 
 .date-badge, .badge-info {
     display: inline-block;
@@ -194,8 +200,6 @@ h3.titre-card {
     padding: 2px 8px;
     border-radius: 4px;
 }
-
-/* --- 6. TIMELINE (Frise Chronologique) --- */
 
 .timeline-wrapper {
     position: relative;
@@ -221,9 +225,7 @@ h3.titre-card {
     transition: transform 0.2s;
 }
 
-.timeline-event:active {
-    transform: scale(0.98);
-}
+.timeline-event:active { transform: scale(0.98); }
 
 .timeline-dot {
     position: absolute;
@@ -266,10 +268,10 @@ h3.titre-card {
     font-family: var(--font-texte);
 }
 
-/* --- 7. IMAGES --- */
+/* --- 6. IMAGES --- */
 
 .card-image-container {
-    margin: -20px -20px 20px -20px; /* Colle aux bords */
+    margin: -20px -20px 20px -20px;
     border-radius: 8px 8px 0 0;
     overflow: hidden;
     border-bottom: 4px solid var(--or);
@@ -278,23 +280,10 @@ h3.titre-card {
     background-color: #eee;
 }
 
-.card-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+.card-image { width: 100%; height: 100%; object-fit: cover; }
+.recette-img-fix { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; margin-bottom: 15px; display: block; }
 
-/* Fix spécifique pour recette/modale */
-.recette-img-fix {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    display: block;
-}
-
-/* --- 8. CITATIONS & LOADER --- */
+/* --- 7. CITATIONS & LOADER --- */
 
 .card-citation {
     background-color: white;
@@ -330,19 +319,17 @@ h3.titre-card {
     font-size: 1.2rem;
     animation: blink 1.5s infinite;
 }
-
 @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
 
-/* --- 9. MODALES --- */
+/* --- 8. MODALES & LAYOUT --- */
 
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
 /* ========================================= */
-/* AJOUTS SPÉCIFIQUES ACCUEIL & LAYOUT     */
+/* AJOUTS SPÉCIFIQUES ACCUEIL                */
 /* ========================================= */
 
-/* --- Header Rank --- */
 .header-rank {
     text-align: center;
     margin-bottom: 30px;
@@ -351,7 +338,6 @@ h3.titre-card {
 .rank-icon { font-size: 2.5rem; margin-bottom: 5px; }
 .rank-title { border: none !important; margin: 0; }
 
-/* --- Badges Flottants --- */
 .card-badge {
     position: absolute;
     top: -10px;
@@ -367,7 +353,6 @@ h3.titre-card {
 .bg-or { background-color: var(--or); }
 .bg-red { background-color: #e74c3c; }
 
-/* --- Utilitaires Texte --- */
 .text-clamp {
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -375,22 +360,10 @@ h3.titre-card {
     overflow: hidden;
     margin-bottom: 10px;
 }
-.subtext-italic {
-    font-size: 0.65rem;
-    color: #888;
-    font-style: italic;
-}
+.subtext-italic { font-size: 0.65rem; color: #888; font-style: italic; }
 
-/* --- Carte Cuisine Spécifique --- */
-.card-cuisine {
-    border-left: 5px solid #e74c3c !important; /* Force le rouge */
-}
-.card-header-flex {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 10px;
-}
+.card-cuisine { border-left: 5px solid #e74c3c !important; }
+.card-header-flex { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
 .btn-cuisine {
     text-align: center;
     background: #fff5f5;
@@ -404,7 +377,6 @@ h3.titre-card {
     margin-top: 10px;
 }
 
-/* --- Grille Bas de Page --- */
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -425,10 +397,9 @@ h3.titre-card {
 .mini-subtitle { font-size: 0.65rem; color: #666; margin-top: 5px; }
 
 /* ========================================= */
-/* AJOUTS POUR PROFIL & PARAMÈTRES         */
+/* AJOUTS POUR PROFIL & PARAMÈTRES           */
 /* ========================================= */
 
-/* --- Boutons Spéciaux --- */
 .btn-danger {
     background-color: #fff5f5;
     color: #c0392b;
@@ -446,7 +417,6 @@ h3.titre-card {
 }
 .btn-danger:active { background-color: #ffe0e0; transform: scale(0.98); }
 
-/* --- Avatar Profil --- */
 .profile-avatar-container {
     width: 90px;
     height: 90px;
@@ -455,28 +425,18 @@ h3.titre-card {
     margin: 0 auto 15px auto;
     overflow: hidden;
     background: white;
-    padding: 2px; /* Petit espace blanc entre bordure et image */
+    padding: 2px;
 }
-.profile-avatar-img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-}
+.profile-avatar-img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; }
 
-/* --- Liste des Recettes (Profil) --- */
-/* --- Astuce pour l'image de recette dans la modale --- */
-/* --- Image de recette dans la modale --- */
 .recette-img-bleed {
-    width: 100%;       /* Prend juste la largeur disponible (respecte le padding) */
+    width: 100%;
     height: 200px;
     object-fit: cover;
     margin-bottom: 20px;
     display: block;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    border-radius: 8px; /* Les coins arrondis */
-    
-    /* On enlève les marges négatives pour qu'elle ne touche plus les bords */
+    border-radius: 8px;
     margin-left: 0;
     margin-right: 0;
 }
@@ -515,7 +475,6 @@ h3.titre-card {
 .recipe-title { font-family: var(--font-titre); color: #c0392b; font-size: 0.85rem; font-weight: bold; }
 .recipe-date { font-size: 0.7rem; color: #888; margin-top: 2px; }
 
-/* --- Boîtes d'Info (Paramètres) --- */
 .info-box {
     background: #fcfaf5;
     border: 1px dashed var(--or);
@@ -538,7 +497,6 @@ h3.titre-card {
     line-height: 1.6;
 }
 
-/* --- Formulaires & Divers --- */
 .form-box {
     text-align: left;
     background: white;
@@ -571,7 +529,6 @@ h3.titre-card {
 .scroll-box { max-height: 220px; overflow-y: auto; }
 .fade-in { animation: fadeInPage 0.5s; }
 
-/* --- NAVIGATION INTER-FRAGMENTS --- */
 .nav-between-fragments {
     display: flex;
     justify-content: space-between;
@@ -581,7 +538,6 @@ h3.titre-card {
     border-top: 1px solid #eee;
     gap: 10px;
 }
-
 .nav-link {
     flex: 1;
     cursor: pointer;
@@ -589,37 +545,29 @@ h3.titre-card {
     color: var(--abysse);
     transition: color 0.2s;
 }
-
-.nav-link:hover {
-    color: var(--or);
-}
-
+.nav-link:hover { color: var(--or); }
 .nav-link span {
     font-size: 0.7rem;
     color: #888;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-
 .nav-link strong {
     display: block;
     line-height: 1.2;
     margin-top: 3px;
     font-family: var(--font-titre);
 }
-
 .text-left { text-align: left; }
 .text-right { text-align: right; }
 
 /* ========================================= */
-/* MISE À JOUR JEUX (Design Compact)       */
+/* MISE À JOUR JEUX (Design Compact)         */
 /* ========================================= */
 
-/* --- QUIZ : Conteneur de la liste (Scrollable) --- */
-/* Empêche la liste de descendre plus bas que l'écran */
 #quiz-list-container {
-    max-height: 50vh; /* Prend la moitié de la hauteur de l'écran max */
-    overflow-y: auto; /* Ajoute une barre de défilement si besoin */
+    max-height: 50vh;
+    overflow-y: auto;
     padding-right: 5px;
     margin-bottom: 15px;
     border: 1px solid #eee;
@@ -628,17 +576,11 @@ h3.titre-card {
     padding: 10px;
 }
 
-/* --- QUIZ : Alignement Horizontal des Niveaux --- */
-.quiz-levels-row {
-    display: flex;
-    gap: 8px;
-    margin-top: 10px;
-}
-
+.quiz-levels-row { display: flex; gap: 8px; margin-top: 10px; }
 .btn-quiz-level {
-    flex: 1; /* Chaque bouton prend 1/3 de la place */
+    flex: 1;
     display: flex;
-    flex-direction: column; /* Texte en haut, score en bas */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 8px 5px;
@@ -650,16 +592,10 @@ h3.titre-card {
     font-size: 0.75rem;
     transition: transform 0.1s, background 0.2s;
     text-align: center;
-    margin-bottom: 0; /* On annule la marge du bas car on est en flex */
+    margin-bottom: 0;
 }
+.btn-quiz-level strong { display: block; margin-bottom: 2px; font-size: 0.7rem; }
 
-.btn-quiz-level strong {
-    display: block;
-    margin-bottom: 2px;
-    font-size: 0.7rem;
-}
-
-/* Couleurs spécifiques par difficulté pour repérer vite */
 .level-facile { border-bottom: 3px solid #27ae60; }
 .level-moyen { border-bottom: 3px solid #f39c12; }
 .level-difficile { border-bottom: 3px solid #c0392b; }
@@ -668,7 +604,6 @@ h3.titre-card {
 .btn-quiz-level.started { border-left: 4px solid var(--or); }
 .btn-quiz-level.completed { border-left: 4px solid #27ae60; background: #f0fff4; opacity: 0.8; }
 
-/* --- QUIZ : Boutons de Réponses (QCM) --- */
 .btn-quiz-option {
     display: block;
     width: 100%;
@@ -687,7 +622,6 @@ h3.titre-card {
 .btn-quiz-option.correct { background: #d4edda; border-color: #28a745; color: #155724; font-weight: bold; }
 .btn-quiz-option.wrong { background: #f8d7da; border-color: #dc3545; color: #721c24; opacity: 0.7; }
 
-/* --- MOTUS : La Grille Responsive --- */
 .motus-row {
     display: flex;
     justify-content: center;
@@ -698,7 +632,7 @@ h3.titre-card {
 .motus-cell {
     flex: 1;
     max-width: 45px;
-    aspect-ratio: 1 / 1; /* Carré parfait */
+    aspect-ratio: 1 / 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -710,7 +644,6 @@ h3.titre-card {
     border-radius: 4px;
     transition: background 0.3s, border-color 0.3s;
 }
-/* Animation secousse */
 .shake { animation: shake 0.4s; }
 @keyframes shake {
     0%, 100% { transform: translateX(0); }
@@ -718,29 +651,26 @@ h3.titre-card {
     75% { transform: translateX(5px); }
 }
 
-
 /* ========================================= */
-/* AJOUTS POUR LES TROPHÉES (Gamification) */
+/* AJOUTS POUR LES TROPHÉES                  */
 /* ========================================= */
 
 .trophy-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 par ligne */
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     margin-bottom: 20px;
 }
-
 .trophy-item {
     background: white;
     border: 1px solid #eee;
     border-radius: 8px;
     padding: 10px 5px;
     text-align: center;
-    opacity: 0.4; /* Grisé par défaut (verrouillé) */
+    opacity: 0.4;
     filter: grayscale(100%);
     transition: all 0.3s ease;
 }
-
 .trophy-item.unlocked {
     opacity: 1;
     filter: grayscale(0%);
@@ -749,13 +679,7 @@ h3.titre-card {
     box-shadow: 0 2px 5px rgba(197, 160, 89, 0.2);
     transform: scale(1.02);
 }
-
-.trophy-icon {
-    font-size: 2rem;
-    margin-bottom: 5px;
-    display: block;
-}
-
+.trophy-icon { font-size: 2rem; margin-bottom: 5px; display: block; }
 .trophy-name {
     font-family: var(--font-titre);
     font-size: 0.65rem;
@@ -764,7 +688,6 @@ h3.titre-card {
     line-height: 1.2;
     display: block;
 }
-
 .stat-badge {
     background: var(--abysse);
     color: white;
@@ -777,12 +700,11 @@ h3.titre-card {
 }
 
 /* ========================================= */
-/* STANDARDISATION DES MODALES (Style Recette) */
+/* STANDARDISATION DES MODALES (ET FIX)      */
 /* ========================================= */
 
-/* L'arrière-plan sombre */
 .modal-overlay {
-    display: none; /* Masqué par défaut */
+    display: none;
     position: fixed;
     inset: 0;
     background: rgba(0, 0, 0, 0.85);
@@ -791,10 +713,9 @@ h3.titre-card {
     justify-content: center;
     padding: 20px;
     animation: fadeIn 0.3s forwards;
-    backdrop-filter: blur(3px); /* Petit effet flou moderne */
+    backdrop-filter: blur(3px);
 }
 
-/* La carte (Contenu) */
 .modal-card {
     background: white;
     width: 100%;
@@ -805,21 +726,18 @@ h3.titre-card {
     max-height: 85vh;
     overflow-y: auto;
     box-shadow: 0 10px 40px rgba(0,0,0,0.5);
-    padding: 0; /* Important : on gère le padding à l'intérieur */
-    
+    padding: 0; 
     animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* Cacher la scrollbar tout en gardant le scroll */
 .modal-card::-webkit-scrollbar { display: none; }
 .modal-card { -ms-overflow-style: none; scrollbar-width: none; }
 
-/* Classe utilitaire pour l'espacement du texte à l'intérieur */
+/* AJOUT CLÉ : Le padding unifié pour le Profil et les Paramètres */
 .modal-body {
-    padding: 20px 25px; /* Espace confortable sur les côtés */
+    padding: 20px 25px;
 }
 
-/* Ajustement de la croix pour qu'elle ne soit pas collée */
 .btn-close-modal {
     position: absolute;
     top: 10px;
@@ -835,13 +753,12 @@ h3.titre-card {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    z-index: 20; /* Au-dessus de tout */
+    z-index: 20;
     transition: transform 0.2s, background 0.2s;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .btn-close-modal:active { transform: scale(0.9); background: #e74c3c; color: white; }
 
-/* Animations */
 @keyframes slideUp {
     from { transform: translateY(100px); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
@@ -849,4 +766,42 @@ h3.titre-card {
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
+}
+
+/* --- CORRECTIF D'URGENCE CONTACT --- */
+/* On cible précisément les IDs pour être prioritaire sur tout le reste */
+#contact-email, #contact-message {
+    width: 100% !important;         /* Force la largeur */
+    max-width: 100% !important;     /* Empêche de dépasser */
+    box-sizing: border-box !important; /* Inclut le padding dans la largeur (CRUCIAL) */
+    display: block !important;      /* S'assure qu'il prend sa ligne */
+    margin-left: 0 !important;      /* Colle à gauche */
+    margin-right: 0 !important;     /* Colle à droite */
+    padding: 12px !important;       /* Ton padding esthétique */
+    background: #fcfaf5 !important;
+    border: 1px solid #ddd !important;
+    border-radius: 6px !important;
+    font-family: inherit !important;
+}
+
+/* --- CORRECTIF TITRE DISPARU --- */
+
+/* 1. On définit l'animation qui était utilisée par .header-rank */
+@keyframes fadeInPage {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 2. On force le titre à être visible et au-dessus de tout */
+.header-rank, h1, .titre-app {
+    opacity: 1 !important; /* Force la visibilité */
+    visibility: visible !important;
+    z-index: 10 !important; /* S'assure qu'il n'est pas caché derrière un calque invisible */
+    position: relative;
+}
+
+/* 3. Sécurité pour le header global */
+header {
+    z-index: 500 !important;
+    position: relative;
 }

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'massalia-v2'; // On change le nom pour forcer la mise à jour
+const CACHE_NAME = 'massalia-v2.1'; // On change le nom pour forcer la mise à jour
 
 // Liste de tous les fichiers nécessaires au fonctionnement de l'app
 const ASSETS = [
@@ -20,7 +20,7 @@ const ASSETS = [
   './js/motus.js',
   './js/profil.js',
   './js/parametres.js',
-  './js/enregistrement.js',
+  './js/enregistrements.js',
   // DATA (Indispensable pour le mode hors-ligne)
   './data/anecdotes.json',
   './data/recettes.json',

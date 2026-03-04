@@ -205,3 +205,41 @@ nav button.active span {
     opacity: 1;
     bottom: 50px; /* Petite animation de montée */
 }
+
+/* --- HEADER STYLE "CODEX MYSTÉRIEUX" --- */
+#main-header {
+    /* 1. La couleur de fond : Bleu Abysse */
+    background-color: var(--abysse) !important; /* ou #1a2a3a */
+    
+    /* 2. La couleur du texte : Or */
+    color: var(--or) !important;
+    
+    /* 3. Positionnement (Fixe le problème de disparition) */
+    position: relative !important;
+    z-index: 500 !important;
+    width: 100%;
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    
+    /* 4. Esthétique : Une petite bordure dorée en bas pour le style */
+    border-bottom: 2px solid var(--or) !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3) !important; /* Ombre portée */
+    
+    padding-bottom: 10px; /* Un peu d'espace */
+}
+
+/* On s'assure que le titre H1 hérite bien de la couleur Or */
+#main-header h1 {
+    color: var(--or) !important;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Petite ombre pour la lisibilité */
+    margin: 0;
+    padding-top: 15px;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Le petit sous-texte "CITOYEN" et l'avatar */
+#display-pseudo-top {
+    color: #e0c097 !important; /* Un or un peu plus clair pour le pseudo */
+}
