@@ -206,27 +206,36 @@ nav button.active span {
     bottom: 50px; /* Petite animation de montée */
 }
 
-/* --- HEADER STYLE "CODEX MYSTÉRIEUX" --- */
+/* 1. On force le fond global en BLEU ABYSSE */
+html, body {
+    background-color: #1a2a3a !important; /* C'est LA clé du problème */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overscroll-behavior-y: none; /* Empêche le rebond élastique blanc sur iPhone */
+}
+
+/* 2. On corrige le Header pour qu'il ne soit pas coupé par l'encoche (Notch) */
 #main-header {
-    /* 1. La couleur de fond : Bleu Abysse */
-    background-color: var(--abysse) !important; /* ou #1a2a3a */
-    
-    /* 2. La couleur du texte : Or */
+    background-color: #1a2a3a !important; /* Le header est bleu aussi */
     color: var(--or) !important;
+    position: sticky !important; /* Reste collé en haut */
+    top: 0;
+    z-index: 1000;
     
-    /* 3. Positionnement (Fixe le problème de disparition) */
-    position: relative !important;
-    z-index: 500 !important;
-    width: 100%;
-    display: block !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    
-    /* 4. Esthétique : Une petite bordure dorée en bas pour le style */
-    border-bottom: 2px solid var(--or) !important;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3) !important; /* Ombre portée */
-    
-    padding-bottom: 10px; /* Un peu d'espace */
+    /* GESTION DE L'ENCOCHE IPHONE (Important !) */
+    padding-top: env(safe-area-inset-top) !important; 
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--or);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* 3. On remet la couleur "Crème/Parchemin" pour le contenu principal seulement */
+#app, main {
+    background-color: #fcfaf5; /* Le reste de l'app reste clair */
+    min-height: 100vh; /* Prend toute la hauteur */
+    position: relative;
+    z-index: 1;
 }
 
 /* On s'assure que le titre H1 hérite bien de la couleur Or */
