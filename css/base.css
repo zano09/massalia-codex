@@ -215,19 +215,46 @@ html, body {
     overscroll-behavior-y: none; /* Empêche le rebond élastique blanc sur iPhone */
 }
 
-/* 2. On corrige le Header pour qu'il ne soit pas coupé par l'encoche (Notch) */
+/* --- HEADER CENTRÉ & ÉQUILIBRÉ --- */
 #main-header {
-    background-color: #1a2a3a !important; /* Le header est bleu aussi */
+    background-color: #1a2a3a !important; /* Bleu Abysse */
     color: var(--or) !important;
-    position: sticky !important; /* Reste collé en haut */
+    position: sticky !important;
     top: 0;
     z-index: 1000;
+    width: 100%;
     
-    /* GESTION DE L'ENCOCHE IPHONE (Important !) */
-    padding-top: env(safe-area-inset-top) !important; 
-    padding-bottom: 10px;
+    /* 1. On active le mode Flexbox pour centrer */
+    display: flex !important;
+    justify-content: center !important; /* Centre horizontalement */
+    align-items: center !important;     /* Centre verticalement */
+    
+    /* 2. L'ASTUCE DU CENTRAGE VISUEL */
+    /* En haut : On prend l'encoche + 12px d'air */
+    padding-top: calc(env(safe-area-inset-top) + 12px) !important;
+    
+    /* En bas : On met la même quantité d'air (12px) */
+    padding-bottom: 12px !important;
+    
+    /* Pas de hauteur fixe, on laisse le padding décider de la taille */
+    height: auto !important;
+    
+    /* Bordure et Ombre */
     border-bottom: 2px solid var(--or);
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    margin-bottom: 0 !important;
+}
+
+#main-header h1 {
+    color: var(--or) !important;
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem !important; /* Taille idéale */
+    margin: 0 !important;
+    letter-spacing: 3px; /* Espacement classe */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+    pointer-events: none;
+    line-height: 1;
+    text-transform: uppercase;
 }
 
 /* 3. On remet la couleur "Crème/Parchemin" pour le contenu principal seulement */
@@ -236,16 +263,6 @@ html, body {
     min-height: 100vh; /* Prend toute la hauteur */
     position: relative;
     z-index: 1;
-}
-
-/* On s'assure que le titre H1 hérite bien de la couleur Or */
-#main-header h1 {
-    color: var(--or) !important;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Petite ombre pour la lisibilité */
-    margin: 0;
-    padding-top: 15px;
-    opacity: 1 !important;
-    visibility: visible !important;
 }
 
 /* Le petit sous-texte "CITOYEN" et l'avatar */

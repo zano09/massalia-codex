@@ -1,8 +1,9 @@
 /**
- * GESTION DU PROFIL (Version Compacte & Gamification)
+ * GESTION DU PROFIL (Version Gamification Complète)
  */
 
-// Rangs & Trophées
+// --- 1. CONFIGURATION (Rangs & Trophées) ---
+
 const PROFIL_RANKS = [
     { min: 0, title: "Naufragé", icon: "🪵" },
     { min: 101, title: "Pêcheur", icon: "🐟" },
@@ -27,11 +28,16 @@ const TROPHIES = [
     { id: "t8", icon: "🔥", title: "Fanatique", condition: (data) => data.lus >= 50, desc: "Lire 50 histoires" }
 ];
 
+// --- 2. INITIALISATION & HEADER ---
+
 function initProfilHeader() {
     const pseudo = localStorage.getItem('massalia_user_pseudo') || "Citoyen";
     const avatar = localStorage.getItem('massalia_user_avatar') || "https://openclipart.org/image/800px/277081";
+    
+    // Mise à jour sécurisée du Header (si les éléments existent)
     const avatarImg = document.getElementById('user-avatar-img');
     const pseudoTop = document.getElementById('display-pseudo-top');
+    
     if(avatarImg) avatarImg.src = avatar;
     if(pseudoTop) pseudoTop.innerText = pseudo.toUpperCase();
 }
@@ -39,6 +45,7 @@ function initProfilHeader() {
 function toggleProfilModal() {
     const modal = document.getElementById('profil-modal');
     if (!modal) return;
+    
     if (modal.style.display === 'none' || modal.style.display === '') {
         renderProfilModalContent();
         modal.style.display = 'flex';
@@ -47,26 +54,40 @@ function toggleProfilModal() {
     }
 }
 
-// 1. VUE PRINCIPALE (Compacte)
+// --- 3. VUE PRINCIPALE (PROFIL COMPACT) ---
+
 async function renderProfilModalContent() {
     const content = document.getElementById('modal-content');
-    // ... (Récupération des données : pseudo, scores...) ...
-    const pseudo = localStorage.getItem('massalia_user_pseudo') || "Anonyme";
+    if (!content) return;
+
+    // A. Récupération des Données
+    const pseudo = localStorage.getItem('massalia_user_pseudo') || "Citoyen";
     const avatar = localStorage.getItem('massalia_user_avatar') || "https://openclipart.org/image/800px/277081";
-    // ... (Calculs scores et rangs identiques à avant) ...
-    // Je remets juste le code de calcul pour que tu puisses copier-coller la fonction entière si besoin
+    
     const lusIds = JSON.parse(localStorage.getItem("massalia_lus")) || [];
     const savedRecettesIds = JSON.parse(localStorage.getItem('massalia_saved_recettes')) || [];
+
+    // B. Calcul du Score Global (Somme des quiz)
     let globalScore = 0;
     for (let i = 0; i < localStorage.length; i++) {
         const key = localStorage.key(i);
-        if (key.startsWith("quiz_")) globalScore += parseInt(localStorage.getItem(key)) || 0;
+        if (key.startsWith("quiz_")) {
+            globalScore += parseInt(localStorage.getItem(key)) || 0;
+        }
     }
+
+    // C. Détermination du Rang
+    // On inverse le tableau pour trouver le rang le plus élevé atteint
     const currentRank = [...PROFIL_RANKS].reverse().find(r => globalScore >= r.min) || PROFIL_RANKS[0];
+
+    // D. Calcul des Trophées débloqués
     const userData = { lus: lusIds.length, recettes: savedRecettesIds.length, score: globalScore };
     let unlockedCount = 0;
-    TROPHIES.forEach(t => { if(t.condition(userData)) unlockedCount++; });
+    TROPHIES.forEach(t => { 
+        if(t.condition(userData)) unlockedCount++; 
+    });
 
+    // E. Rendu HTML
     content.innerHTML = `
         <button onclick="toggleProfilModal()" class="btn-close-modal">×</button>
 
@@ -77,9 +98,9 @@ async function renderProfilModalContent() {
             
             <h2 class="titre-page" style="margin-bottom:5px; border:none;">${pseudo.toUpperCase()}</h2>
             
-            <div style="background:var(--abysse); color:var(--or); padding:10px; border-radius:8px; display:inline-block; margin-bottom:20px; font-family:'Cinzel';">
-                <div style="font-size:1.2rem; margin-bottom:5px;">${currentRank.icon} ${currentRank.title.toUpperCase()}</div>
-                <div style="font-size:0.8rem; color:white;">💰 ${globalScore} OBOLES</div>
+            <div style="background:var(--abysse); color:var(--or); padding:10px 20px; border-radius:8px; display:inline-block; margin-bottom:20px; font-family:'Cinzel'; box-shadow:0 4px 6px rgba(0,0,0,0.2); border:1px solid var(--or);">
+                <div style="font-size:1.4rem; margin-bottom:5px;">${currentRank.icon} ${currentRank.title.toUpperCase()}</div>
+                <div style="font-size:0.8rem; color:white; letter-spacing:1px;">💰 ${globalScore} OBOLES</div>
             </div>
 
             <div style="display:flex; flex-direction:column; gap:10px; margin-bottom:20px;">
@@ -105,11 +126,12 @@ async function renderProfilModalContent() {
     `;
 }
 
-// 2. VUE TROPHÉES (CORRIGÉE : Croix en haut + Style)
+// --- 4. VUE TROPHÉES ---
+
 function renderTrophiesView() {
     const content = document.getElementById('modal-content');
     
-    // ... (Récupération des stats identiques) ...
+    // Recalcul des stats pour vérification en temps réel
     const lusIds = JSON.parse(localStorage.getItem("massalia_lus")) || [];
     const savedRecettesIds = JSON.parse(localStorage.getItem('massalia_saved_recettes')) || [];
     let globalScore = 0;
@@ -119,15 +141,29 @@ function renderTrophiesView() {
     }
     const userData = { lus: lusIds.length, recettes: savedRecettesIds.length, score: globalScore };
 
+    // Génération de la grille
     let trophiesHtml = "";
     TROPHIES.forEach(t => {
         const isUnlocked = t.condition(userData);
+        // On applique une classe CSS si débloqué
+        const statusClass = isUnlocked ? 'unlocked' : '';
+        const statusIcon = isUnlocked ? '✅' : '🔒';
+        const statusColor = isUnlocked ? 'var(--or)' : '#ccc';
+        
         trophiesHtml += `
-            <div class="trophy-item ${isUnlocked ? 'unlocked' : ''}" style="margin-bottom:10px;">
-                <span class="trophy-icon" style="font-size:2.5rem;">${t.icon}</span>
-                <span class="trophy-name" style="font-size:0.8rem; margin-top:5px;">${t.title.toUpperCase()}</span>
-                <div style="font-size:0.65rem; color:#666; margin-top:2px; font-style:italic;">${t.desc}</div>
-                ${isUnlocked ? '<div style="font-size:0.7rem; color:green; font-weight:bold; margin-top:5px;">DÉBLOQUÉ</div>' : '<div style="font-size:1.2rem; margin-top:5px;">🔒</div>'}
+            <div class="trophy-item ${statusClass}" style="
+                background:white; 
+                border:1px solid ${statusColor}; 
+                border-radius:8px; 
+                padding:15px 5px; 
+                text-align:center; 
+                opacity: ${isUnlocked ? 1 : 0.6};
+                filter: ${isUnlocked ? 'none' : 'grayscale(100%)'};
+                transition: transform 0.2s;
+            ">
+                <span class="trophy-icon" style="font-size:2rem; display:block; margin-bottom:5px;">${t.icon}</span>
+                <span class="trophy-name" style="font-size:0.7rem; font-weight:bold; font-family:'Cinzel'; display:block; color:var(--abysse);">${t.title.toUpperCase()}</span>
+                <div style="font-size:0.6rem; color:#666; margin-top:4px; font-style:italic;">${t.desc}</div>
             </div>
         `;
     });
@@ -141,7 +177,7 @@ function renderTrophiesView() {
                 Accomplis des exploits pour ta gloire.
             </p>
 
-            <div class="trophy-grid" style="grid-template-columns: 1fr 1fr;">
+            <div class="trophy-grid" style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:10px;">
                 ${trophiesHtml}
             </div>
 
@@ -152,11 +188,19 @@ function renderTrophiesView() {
     `;
 }
 
+// --- 5. SAUVEGARDE ---
+
 function saveUserInfo() {
     const pseudoInput = document.getElementById('edit-pseudo');
-    const pseudo = pseudoInput ? pseudoInput.value : "Citoyen";
-    localStorage.setItem('massalia_user_pseudo', pseudo);
-    initProfilHeader();
-    if(typeof showToast === "function") showToast("Profil mis à jour !");
-    renderProfilModalContent(); 
+    const pseudo = pseudoInput ? pseudoInput.value.trim() : "Citoyen";
+    
+    if(pseudo.length > 0) {
+        localStorage.setItem('massalia_user_pseudo', pseudo);
+        initProfilHeader(); // Met à jour le header si visible
+        if(typeof showToast === "function") showToast("Profil mis à jour !");
+        renderProfilModalContent(); // Rafraîchit la modale pour voir le changement
+    }
 }
+
+// Lancement à l'ouverture de la page
+document.addEventListener('DOMContentLoaded', initProfilHeader);

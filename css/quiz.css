@@ -122,3 +122,111 @@
     border-radius: 10px;
     transition: width 0.5s ease-out;
 }
+
+/* --- NOUVEAU DESIGN : LISTE ACCORDÉON (STYLE CODEX) --- */
+
+/* Conteneur principal */
+.quiz-list-accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Espace entre les chapitres */
+    padding-bottom: 20px;
+}
+
+/* L'élément Chapitre (fermé) */
+.quiz-accordion-item {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/* L'en-tête (Ce qu'on voit tout le temps) */
+.quiz-accordion-header {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background: #fff;
+    /* Petite bande dorée à gauche pour le style */
+    border-left: 4px solid transparent; 
+}
+
+/* Style quand un niveau est terminé (succès) */
+.quiz-accordion-item.finished .quiz-accordion-header {
+    border-left-color: #27ae60; /* Vert si fini */
+}
+.quiz-accordion-item.started .quiz-accordion-header {
+    border-left-color: var(--or); /* Or si commencé */
+}
+
+/* Titre du chapitre */
+.quiz-accordion-title {
+    font-family: var(--font-titre);
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: var(--abysse);
+}
+
+/* Sous-titre (Thème) */
+.quiz-accordion-subtitle {
+    font-size: 0.7rem;
+    color: #888;
+    margin-top: 2px;
+    text-transform: uppercase;
+}
+
+/* La flèche à droite */
+.accordion-chevron {
+    font-size: 1.2rem;
+    color: #ccc;
+    transition: transform 0.3s;
+}
+
+/* État OUVERT */
+.quiz-accordion-item.active {
+    border-color: var(--or);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.quiz-accordion-item.active .accordion-chevron {
+    transform: rotate(180deg);
+    color: var(--or);
+}
+
+/* Le contenu caché (Les boutons I, II, III) */
+.quiz-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background: #fcfaf5; /* Fond crème léger */
+}
+
+.quiz-levels-row {
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Les boutons de niveau (Même style que tu avais, mais adaptés) */
+.btn-level-card {
+    flex: 1;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px 5px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.btn-level-card strong { display: block; font-size: 0.7rem; margin-bottom: 5px; }
+.btn-level-card span { font-size: 0.7rem; }
+
+/* Couleurs niveaux */
+.lvl-facile { border-bottom: 3px solid #27ae60; }
+.lvl-moyen { border-bottom: 3px solid #f39c12; }
+.lvl-difficile { border-bottom: 3px solid #c0392b; }
+.lvl-locked { opacity: 0.5; background: #eee; cursor: not-allowed; border-color: #ccc;}

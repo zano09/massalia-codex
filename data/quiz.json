@@ -1,6 +1,8 @@
 [
   {
     "id": 1,
+    "id_quiz": "fondation",
+    "titre_quiz": "La Fondation de Massalia",
     "theme": "Antiquité",
     "difficulte": "facile",
     "question": "Vrai ou Faux : Marseille a été fondée par des marins venus de Phocée.",
@@ -10,6 +12,8 @@
   },
   {
     "id": 2,
+    "id_quiz": "fondation",
+    "titre_quiz": "La Fondation de Massalia",
     "theme": "Antiquité",
     "difficulte": "facile",
     "question": "Comment s'appelait la princesse celte qui a choisi Euxène pour époux ?",
@@ -19,6 +23,8 @@
   },
   {
     "id": 3,
+    "id_quiz": "fondation",
+    "titre_quiz": "La Fondation de Massalia",
     "theme": "Antiquité",
     "difficulte": "moyen",
     "question": "Quel était le nom de la calanque originale où les Grecs ont accosté ?",
@@ -28,6 +34,8 @@
   },
   {
     "id": 4,
+    "id_quiz": "pytheas",
+    "titre_quiz": "Le Voyage de Pythéas",
     "theme": "Antiquité",
     "difficulte": "moyen",
     "question": "Qu'est-ce que Pythéas a été le premier à associer aux phases de la Lune ?",
@@ -37,6 +45,8 @@
   },
   {
     "id": 5,
+    "id_quiz": "romains",
+    "titre_quiz": "Marseille et les Romains",
     "theme": "Antiquité",
     "difficulte": "difficile",
     "question": "Marseille fut assiégée en -49 car elle avait pris parti pour quel général ?",
@@ -46,6 +56,8 @@
   },
   {
     "id": 6,
+    "id_quiz": "moyen_age_guerres",
+    "titre_quiz": "Invasions et Pillages",
     "theme": "Moyen-Âge",
     "difficulte": "facile",
     "question": "Vrai ou Faux : Les chaînes du port de Marseille sont aujourd'hui en Italie.",
@@ -55,6 +67,8 @@
   },
   {
     "id": 7,
+    "id_quiz": "saint_victor",
+    "titre_quiz": "L'Abbaye Saint-Victor",
     "theme": "Moyen-Âge",
     "difficulte": "facile",
     "question": "Quelle abbaye marseillaise possède des cryptes datant du Ve siècle ?",
@@ -64,6 +78,8 @@
   },
   {
     "id": 8,
+    "id_quiz": "moyen_age_guerres",
+    "titre_quiz": "Invasions et Pillages",
     "theme": "Moyen-Âge",
     "difficulte": "moyen",
     "question": "Quel peuple de marins a installé son camp en Camargue pour piller Marseille en 859 ?",
@@ -73,6 +89,8 @@
   },
   {
     "id": 9,
+    "id_quiz": "rois_de_france",
+    "titre_quiz": "Les Rois et Marseille",
     "theme": "Moyen-Âge",
     "difficulte": "moyen",
     "question": "Quel roi de France a choisi Marseille comme port de départ pour les Croisades en 1248 ?",
@@ -82,6 +100,8 @@
   },
   {
     "id": 10,
+    "id_quiz": "rois_de_france",
+    "titre_quiz": "Les Rois et Marseille",
     "theme": "Moyen-Âge",
     "difficulte": "difficile",
     "question": "En quelle année Marseille fut-elle rattachée au Royaume de France ?",
@@ -91,6 +111,8 @@
   },
   {
     "id": 11,
+    "id_quiz": "louis_xiv",
+    "titre_quiz": "La Colère de Louis XIV",
     "theme": "Histoire Moderne",
     "difficulte": "facile",
     "question": "Qui a ordonné la construction du Fort Saint-Nicolas ?",
@@ -100,6 +122,8 @@
   },
   {
     "id": 12,
+    "id_quiz": "peste_1720",
+    "titre_quiz": "La Grande Peste de 1720",
     "theme": "Histoire Moderne",
     "difficulte": "facile",
     "question": "D'où venait le navire qui apporta la peste en 1720 ?",
@@ -109,6 +133,8 @@
   },
   {
     "id": 13,
+    "id_quiz": "insolite_histoire",
+    "titre_quiz": "Légendes et Anecdotes",
     "theme": "Histoire Moderne",
     "difficulte": "moyen",
     "question": "Quel était le véritable nom du navire à l'origine de la légende de la sardine ?",
@@ -118,6 +144,8 @@
   },
   {
     "id": 14,
+    "id_quiz": "louis_xiv",
+    "titre_quiz": "La Colère de Louis XIV",
     "theme": "Histoire Moderne",
     "difficulte": "moyen",
     "question": "En quelle année l'avenue de la Canebière fut-elle tracée ?",
@@ -127,6 +155,8 @@
   },
   {
     "id": 15,
+    "id_quiz": "revoltes",
+    "titre_quiz": "Marseille la Rebelle",
     "theme": "Histoire Moderne",
     "difficulte": "difficile",
     "question": "Qui fut le maire de Marseille qui instaura une 'République indépendante' en 1591 ?",
@@ -136,6 +166,8 @@
   },
   {
     "id": 16,
+    "id_quiz": "savon",
+    "titre_quiz": "Le Savon de Marseille",
     "theme": "Gastronomie",
     "difficulte": "facile",
     "question": "Quelle est la base indispensable du savon de Marseille selon l'édit de 1688 ?",
@@ -145,6 +177,8 @@
   },
   {
     "id": 17,
+    "id_quiz": "specialites",
+    "titre_quiz": "Spécialités Marseillaises",
     "theme": "Gastronomie",
     "difficulte": "facile",
     "question": "Comment s'appelle le beignet sucré typique de l'Estaque ?",
@@ -154,6 +188,8 @@
   },
   {
     "id": 18,
+    "id_quiz": "specialites",
+    "titre_quiz": "Spécialités Marseillaises",
     "theme": "Gastronomie",
     "difficulte": "moyen",
     "question": "Vrai ou Faux : L'Aïoli traditionnel se prépare avec des œufs.",
@@ -163,6 +199,8 @@
   },
   {
     "id": 19,
+    "id_quiz": "pastis",
+    "titre_quiz": "L'Histoire du Pastis",
     "theme": "Gastronomie",
     "difficulte": "moyen",
     "question": "En quelle année Paul Ricard a-t-il lancé sa célèbre marque de pastis ?",
@@ -172,6 +210,8 @@
   },
   {
     "id": 20,
+    "id_quiz": "navettes",
+    "titre_quiz": "Les Navettes",
     "theme": "Gastronomie",
     "difficulte": "difficile",
     "question": "Quel était le nom original de la 'Navette', ce biscuit créé en 1781 ?",
@@ -181,6 +221,8 @@
   },
   {
     "id": 21,
+    "id_quiz": "om_histoire",
+    "titre_quiz": "Légende de l'OM",
     "theme": "Sport",
     "difficulte": "facile",
     "question": "Où joue l'Olympique de Marseille ?",
@@ -190,6 +232,8 @@
   },
   {
     "id": 22,
+    "id_quiz": "om_histoire",
+    "titre_quiz": "Légende de l'OM",
     "theme": "Sport",
     "difficulte": "facile",
     "question": "Quelle est la devise de l'OM ?",
@@ -199,6 +243,8 @@
   },
   {
     "id": 23,
+    "id_quiz": "om_1993",
+    "titre_quiz": "A Jamais les Premiers (1993)",
     "theme": "Sport",
     "difficulte": "moyen",
     "question": "Contre quelle équipe l'OM a-t-il gagné la finale en 1993 ?",
@@ -208,6 +254,8 @@
   },
   {
     "id": 24,
+    "id_quiz": "om_histoire",
+    "titre_quiz": "Légende de l'OM",
     "theme": "Sport",
     "difficulte": "moyen",
     "question": "En quelle année la France a-t-elle battu le Portugal au Vélodrome lors de l'Euro ?",
@@ -217,6 +265,8 @@
   },
   {
     "id": 25,
+    "id_quiz": "om_histoire",
+    "titre_quiz": "Légende de l'OM",
     "theme": "Sport",
     "difficulte": "difficile",
     "question": "Quel sport était majoritairement pratiqué à l'OM lors de sa création en 1899 ?",
@@ -226,6 +276,8 @@
   },
   {
     "id": 26,
+    "id_quiz": "eau_longchamp",
+    "titre_quiz": "L'Eau et Longchamp",
     "theme": "Urbanisme",
     "difficulte": "facile",
     "question": "Vrai ou Faux : Le Palais Longchamp a été construit pour accueillir Napoléon III.",
@@ -235,6 +287,8 @@
   },
   {
     "id": 27,
+    "id_quiz": "corbusier",
+    "titre_quiz": "Le Corbusier",
     "theme": "Urbanisme",
     "difficulte": "moyen",
     "question": "Quel architecte a conçu la Cité Radieuse à Marseille ?",
@@ -244,6 +298,8 @@
   },
   {
     "id": 28,
+    "id_quiz": "metro_gare",
+    "titre_quiz": "Transports Marseillais",
     "theme": "Urbanisme",
     "difficulte": "moyen",
     "question": "Pourquoi la station de métro 'Vieux-Port' possède-t-elle des murs très épais ?",
@@ -253,6 +309,8 @@
   },
   {
     "id": 29,
+    "id_quiz": "metro_gare",
+    "titre_quiz": "Transports Marseillais",
     "theme": "Urbanisme",
     "difficulte": "difficile",
     "question": "En quelle année l'escalier monumental de la gare Saint-Charles fut-il achevé ?",
@@ -262,6 +320,8 @@
   },
   {
     "id": 30,
+    "id_quiz": "mp_2013",
+    "titre_quiz": "Marseille 2013 & MuCEM",
     "theme": "Urbanisme",
     "difficulte": "difficile",
     "question": "Comment s'appelle l'ombrière miroir installée sur le Vieux-Port en 2013 ?",
@@ -271,6 +331,8 @@
   },
   {
     "id": 31,
+    "id_quiz": "comex",
+    "titre_quiz": "Pionniers des Abysses",
     "theme": "Sciences",
     "difficulte": "facile",
     "question": "Quel célèbre commandant a testé ses scaphandres dans les calanques ?",
@@ -280,6 +342,8 @@
   },
   {
     "id": 32,
+    "id_quiz": "cosquer",
+    "titre_quiz": "La Grotte Cosquer",
     "theme": "Sciences",
     "difficulte": "moyen",
     "question": "Qu'a-t-on découvert en 1985 dans les calanques à 37 mètres sous l'eau ?",
@@ -289,6 +353,8 @@
   },
   {
     "id": 33,
+    "id_quiz": "medecine",
+    "titre_quiz": "Médecine à Marseille",
     "theme": "Sciences",
     "difficulte": "moyen",
     "question": "Marseille a accueilli la première greffe de quel organe en 1969 ?",
@@ -298,6 +364,8 @@
   },
   {
     "id": 34,
+    "id_quiz": "comex",
+    "titre_quiz": "Pionniers des Abysses",
     "theme": "Sciences",
     "difficulte": "difficile",
     "question": "Quelle entreprise marseillaise est leader mondial de la plongée profonde ?",
@@ -307,6 +375,8 @@
   },
   {
     "id": 35,
+    "id_quiz": "pytheas",
+    "titre_quiz": "Le Voyage de Pythéas",
     "theme": "Sciences",
     "difficulte": "difficile",
     "question": "Quel savant marseillais fut le premier à mesurer la circonférence de la Terre ?",
@@ -316,6 +386,8 @@
   },
   {
     "id": 36,
+    "id_quiz": "chateau_if",
+    "titre_quiz": "Le Château d'If",
     "theme": "Légende",
     "difficulte": "facile",
     "question": "Vrai ou Faux : Edmond Dantès a réellement existé au Château d'If.",
@@ -325,6 +397,8 @@
   },
   {
     "id": 37,
+    "id_quiz": "corbusier",
+    "titre_quiz": "Le Corbusier",
     "theme": "Légende",
     "difficulte": "facile",
     "question": "Pourquoi appelle-t-on le Corbusier la 'Maison du Fada' ?",
@@ -334,6 +408,8 @@
   },
   {
     "id": 38,
+    "id_quiz": "legendes_locales",
+    "titre_quiz": "Mythes et Créatures",
     "theme": "Légende",
     "difficulte": "moyen",
     "question": "Quelle créature mythique aurait vécu dans la calanque de Morgiou ?",
@@ -343,6 +419,8 @@
   },
   {
     "id": 39,
+    "id_quiz": "chateau_if",
+    "titre_quiz": "Le Château d'If",
     "theme": "Légende",
     "difficulte": "difficile",
     "question": "Qui fut le premier prisonnier officiel du Château d'If en 1516 ?",
@@ -352,6 +430,8 @@
   },
   {
     "id": 40,
+    "id_quiz": "pagnol",
+    "titre_quiz": "L'Univers de Pagnol",
     "theme": "Culture",
     "difficulte": "facile",
     "question": "Quel écrivain a écrit 'Marius' et 'Fanny' ?",
@@ -361,6 +441,8 @@
   },
   {
     "id": 41,
+    "id_quiz": "rap_iam",
+    "titre_quiz": "L'École du Micro d'Argent",
     "theme": "Culture",
     "difficulte": "facile",
     "question": "Quel groupe de rap chante 'Je danse le Mia' ?",
@@ -370,6 +452,8 @@
   },
   {
     "id": 42,
+    "id_quiz": "rimbaud",
+    "titre_quiz": "Rimbaud à Marseille",
     "theme": "Culture",
     "difficulte": "moyen",
     "question": "Où Rimbaud a-t-il terminé ses jours ?",
@@ -379,6 +463,8 @@
   },
   {
     "id": 43,
+    "id_quiz": "rafle_1943",
+    "titre_quiz": "La Tragédie de 1943",
     "theme": "Tragédie",
     "difficulte": "facile",
     "question": "Quel événement a détruit les quartiers nord du port en 1943 ?",
@@ -388,6 +474,8 @@
   },
   {
     "id": 44,
+    "id_quiz": "tragedies_recentes",
+    "titre_quiz": "Tragédies Modernes",
     "theme": "Tragédie",
     "difficulte": "moyen",
     "question": "Combien d'immeubles se sont effondrés rue d'Aubagne en 2018 ?",
@@ -397,6 +485,8 @@
   },
   {
     "id": 45,
+    "id_quiz": "french_connection",
+    "titre_quiz": "La French Connection",
     "theme": "Justice",
     "difficulte": "difficile",
     "question": "Comment s'appelait le juge assassiné en 1981 par la pègre ?",
@@ -406,6 +496,8 @@
   },
   {
     "id": 46,
+    "id_quiz": "fondation",
+    "titre_quiz": "La Fondation de Massalia",
     "theme": "Antiquité",
     "difficulte": "facile",
     "question": "Vrai ou Faux : Marseille vendait du vin dans toute l'Europe.",
@@ -415,6 +507,8 @@
   },
   {
     "id": 47,
+    "id_quiz": "marseillaise",
+    "titre_quiz": "L'Hymne National",
     "theme": "Histoire",
     "difficulte": "facile",
     "question": "La Marseillaise est devenue l'hymne national en quelle année ?",
@@ -424,6 +518,8 @@
   },
   {
     "id": 48,
+    "id_quiz": "rois_de_france",
+    "titre_quiz": "Les Rois et Marseille",
     "theme": "Histoire",
     "difficulte": "moyen",
     "question": "Quel empereur a échoué à prendre Marseille en 1536 ?",
@@ -433,6 +529,8 @@
   },
   {
     "id": 49,
+    "id_quiz": "pont_transbordeur",
+    "titre_quiz": "Le Pont Transbordeur",
     "theme": "Urbanisme",
     "difficulte": "moyen",
     "question": "Quel pont célèbre a été détruit en 1944 ?",
@@ -442,6 +540,8 @@
   },
   {
     "id": 50,
+    "id_quiz": "cosquer",
+    "titre_quiz": "La Grotte Cosquer",
     "theme": "Antiquité",
     "difficulte": "moyen",
     "question": "Où se trouve la réplique de la Grotte Cosquer aujourd'hui ?",
@@ -451,6 +551,8 @@
   },
   {
     "id": 51,
+    "id_quiz": "moyen_age_guerres",
+    "titre_quiz": "Invasions et Pillages",
     "theme": "Moyen-Âge",
     "difficulte": "facile",
     "question": "En quelle année les Vikings ont-ils installé un camp en Camargue pour attaquer Marseille ?",
@@ -460,6 +562,8 @@
   },
   {
     "id": 52,
+    "id_quiz": "savon",
+    "titre_quiz": "Le Savon de Marseille",
     "theme": "Histoire",
     "difficulte": "moyen",
     "question": "Quel ministre de Louis XIV a protégé la qualité du savon de Marseille ?",
@@ -469,6 +573,8 @@
   },
   {
     "id": 53,
+    "id_quiz": "rimbaud",
+    "titre_quiz": "Rimbaud à Marseille",
     "theme": "Culture",
     "difficulte": "facile",
     "question": "Dans quel hôpital marseillais le poète Arthur Rimbaud est-il décédé ?",
@@ -478,6 +584,8 @@
   },
   {
     "id": 54,
+    "id_quiz": "canebiere",
+    "titre_quiz": "La Canebière",
     "theme": "Urbanisme",
     "difficulte": "moyen",
     "question": "Le nom de la Canebière vient du provençal 'canebe'. Que signifie ce mot ?",
@@ -487,6 +595,8 @@
   },
   {
     "id": 55,
+    "id_quiz": "insolite_histoire",
+    "titre_quiz": "Légendes et Anecdotes",
     "theme": "Insolite",
     "difficulte": "difficile",
     "question": "Vrai ou Faux : Le premier café public de France a ouvert à Paris avant Marseille.",
@@ -496,6 +606,8 @@
   },
   {
     "id": 56,
+    "id_quiz": "tragedies_recentes",
+    "titre_quiz": "Tragédies Modernes",
     "theme": "Histoire",
     "difficulte": "facile",
     "question": "Qui a été assassiné sur la Canebière en 1934 ?",
@@ -505,6 +617,8 @@
   },
   {
     "id": 57,
+    "id_quiz": "insolite_histoire",
+    "titre_quiz": "Légendes et Anecdotes",
     "theme": "Nature",
     "difficulte": "moyen",
     "question": "Quel est le record d'ensoleillement moyen de Marseille par an ?",
@@ -514,6 +628,8 @@
   },
   {
     "id": 58,
+    "id_quiz": "specialites",
+    "titre_quiz": "Spécialités Marseillaises",
     "theme": "Gastronomie",
     "difficulte": "facile",
     "question": "Quelle est la particularité du 'Chichi Frégi' ?",
@@ -523,6 +639,8 @@
   },
   {
     "id": 59,
+    "id_quiz": "louis_xiv",
+    "titre_quiz": "La Colère de Louis XIV",
     "theme": "Justice",
     "difficulte": "moyen",
     "question": "Dans quel fort les canons étaient-ils tournés vers la ville pour surveiller les Marseillais ?",
@@ -532,6 +650,8 @@
   },
   {
     "id": 60,
+    "id_quiz": "insolite_histoire",
+    "titre_quiz": "Légendes et Anecdotes",
     "theme": "Ingénierie",
     "difficulte": "difficile",
     "question": "Quelle est la longueur totale du tunnel maritime du Rove ?",
@@ -541,6 +661,8 @@
   },
   {
     "id": 61,
+    "id_quiz": "marseillaise",
+    "titre_quiz": "L'Hymne National",
     "theme": "Histoire",
     "difficulte": "facile",
     "question": "Comment s'appelle l'hymne national qui doit son nom aux fédérés marseillais ?",
@@ -550,6 +672,8 @@
   },
   {
     "id": 62,
+    "id_quiz": "om_1993",
+    "titre_quiz": "A Jamais les Premiers (1993)",
     "theme": "Sport",
     "difficulte": "moyen",
     "question": "Quel joueur a marqué le but de la victoire en 1993 ?",
@@ -559,6 +683,8 @@
   },
   {
     "id": 63,
+    "id_quiz": "bonne_mere",
+    "titre_quiz": "La Bonne Mère",
     "theme": "Architecture",
     "difficulte": "difficile",
     "question": "Quelle est la hauteur de la statue de la Vierge dorée de Notre-Dame de la Garde ?",
@@ -568,6 +694,8 @@
   },
   {
     "id": 64,
+    "id_quiz": "peste_1720",
+    "titre_quiz": "La Grande Peste de 1720",
     "theme": "Tragédie",
     "difficulte": "moyen",
     "question": "En 1720, quel acte héroïque a rendu célèbre le Chevalier Roze ?",
@@ -577,6 +705,8 @@
   },
   {
     "id": 65,
+    "id_quiz": "cinema",
+    "titre_quiz": "Marseille au Cinéma",
     "theme": "Culture",
     "difficulte": "facile",
     "question": "Quel film de Luc Besson se déroule dans les rues de Marseille ?",
@@ -586,6 +716,8 @@
   },
   {
     "id": 66,
+    "id_quiz": "fondation",
+    "titre_quiz": "La Fondation de Massalia",
     "theme": "Antiquité",
     "difficulte": "moyen",
     "question": "Vrai ou Faux : Les Marseillais utilisaient de l'eau de mer pour leur vin.",
@@ -595,6 +727,8 @@
   },
   {
     "id": 67,
+    "id_quiz": "eau_longchamp",
+    "titre_quiz": "L'Eau et Longchamp",
     "theme": "Urbanisme",
     "difficulte": "facile",
     "question": "Le Palais Longchamp est-il le palais d'un ancien roi marseillais ?",
@@ -604,6 +738,8 @@
   },
   {
     "id": 68,
+    "id_quiz": "monuments_imperiaux",
+    "titre_quiz": "Monuments Impériaux",
     "theme": "Histoire",
     "difficulte": "difficile",
     "question": "Quelle impératrice devait habiter le Palais du Pharo ?",
@@ -613,6 +749,8 @@
   },
   {
     "id": 69,
+    "id_quiz": "cosquer",
+    "titre_quiz": "La Grotte Cosquer",
     "theme": "Nature",
     "difficulte": "moyen",
     "question": "Où se trouve l'entrée de la grotte Cosquer ?",
@@ -622,6 +760,8 @@
   },
   {
     "id": 70,
+    "id_quiz": "french_connection",
+    "titre_quiz": "La French Connection",
     "theme": "Justice",
     "difficulte": "moyen",
     "question": "Qu'est-ce que la 'French Connection' ?",
@@ -631,6 +771,8 @@
   },
   {
     "id": 71,
+    "id_quiz": "chateau_if",
+    "titre_quiz": "Le Château d'If",
     "theme": "Insolite",
     "difficulte": "facile",
     "question": "Qui était le premier prisonnier du Château d'If en 1516 ?",
@@ -640,6 +782,8 @@
   },
   {
     "id": 72,
+    "id_quiz": "revoltes",
+    "titre_quiz": "Marseille la Rebelle",
     "theme": "Révolte",
     "difficulte": "difficile",
     "question": "En 1640, comment se reconnaissaient les révoltés contre les taxes ?",
@@ -649,6 +793,8 @@
   },
   {
     "id": 73,
+    "id_quiz": "bouillabaisse",
+    "titre_quiz": "La Bouillabaisse",
     "theme": "Gastronomie",
     "difficulte": "facile",
     "question": "Que signifie 'Bouillabaisse' en provençal ?",
@@ -658,6 +804,8 @@
   },
   {
     "id": 74,
+    "id_quiz": "om_histoire",
+    "titre_quiz": "Légende de l'OM",
     "theme": "Sport",
     "difficulte": "moyen",
     "question": "Quel sport pratiquait-on à l'origine au Stade Vélodrome ?",
@@ -667,6 +815,8 @@
   },
   {
     "id": 75,
+    "id_quiz": "comex",
+    "titre_quiz": "Pionniers des Abysses",
     "theme": "Sciences",
     "difficulte": "facile",
     "question": "Vrai ou Faux : Le premier vol mondial en hydravion a eu lieu près de Marseille.",
@@ -676,6 +826,8 @@
   },
   {
     "id": 76,
+    "id_quiz": "peste_1720",
+    "titre_quiz": "La Grande Peste de 1720",
     "theme": "Histoire",
     "difficulte": "moyen",
     "question": "Qu'est-ce que le 'Mur de la Peste' ?",
@@ -685,6 +837,8 @@
   },
   {
     "id": 77,
+    "id_quiz": "cinema",
+    "titre_quiz": "Marseille au Cinéma",
     "theme": "Culture",
     "difficulte": "facile",
     "question": "Quelle série télévisée se déroule au quartier (fictif) du Mistral ?",
@@ -694,6 +848,8 @@
   },
   {
     "id": 78,
+    "id_quiz": "major_charite",
+    "titre_quiz": "Monuments Majeurs",
     "theme": "Architecture",
     "difficulte": "moyen",
     "question": "Quel style architectural définit la Cathédrale de la Major ?",
@@ -703,6 +859,8 @@
   },
   {
     "id": 79,
+    "id_quiz": "tragedies_recentes",
+    "titre_quiz": "Tragédies Modernes",
     "theme": "Tragédie",
     "difficulte": "difficile",
     "question": "Quel navire a explosé dans le port en 1923, brisant les vitres de la ville ?",
@@ -712,6 +870,8 @@
   },
   {
     "id": 80,
+    "id_quiz": "metro_gare",
+    "titre_quiz": "Transports Marseillais",
     "theme": "Urbanisme",
     "difficulte": "facile",
     "question": "Quelle station de métro est la plus profonde de Marseille ?",
@@ -721,6 +881,8 @@
   },
   {
     "id": 81,
+    "id_quiz": "pytheas",
+    "titre_quiz": "Le Voyage de Pythéas",
     "theme": "Histoire",
     "difficulte": "moyen",
     "question": "Quel explorateur a été traité de menteur à son retour à Marseille car il décrivait des glaces ?",
@@ -730,6 +892,8 @@
   },
   {
     "id": 82,
+    "id_quiz": "fondation",
+    "titre_quiz": "La Fondation de Massalia",
     "theme": "Antiquité",
     "difficulte": "moyen",
     "question": "Vrai ou Faux : Marseille possédait son propre bâtiment au sanctuaire de Delphes.",
@@ -739,6 +903,8 @@
   },
   {
     "id": 83,
+    "id_quiz": "rap_iam",
+    "titre_quiz": "L'École du Micro d'Argent",
     "theme": "Culture",
     "difficulte": "moyen",
     "question": "Quel groupe de rap marseillais a sorti l'album 'L'école du micro d'argent' ?",
@@ -748,6 +914,8 @@
   },
   {
     "id": 84,
+    "id_quiz": "pastis",
+    "titre_quiz": "L'Histoire du Pastis",
     "theme": "Gastronomie",
     "difficulte": "facile",
     "question": "Le Pastis 51 tire son nom de quelle année particulière ?",
@@ -757,6 +925,8 @@
   },
   {
     "id": 85,
+    "id_quiz": "calanques",
+    "titre_quiz": "Les Calanques",
     "theme": "Nature",
     "difficulte": "facile",
     "question": "Quel poisson donne son nom à la célèbre calanque ?",
@@ -766,6 +936,8 @@
   },
   {
     "id": 86,
+    "id_quiz": "eau_longchamp",
+    "titre_quiz": "L'Eau et Longchamp",
     "theme": "Ingénierie",
     "difficulte": "moyen",
     "question": "Comment s'appelle l'aqueduc géant qui enjambe l'Arc pour amener l'eau ?",
@@ -775,6 +947,8 @@
   },
   {
     "id": 87,
+    "id_quiz": "revoltes",
+    "titre_quiz": "Marseille la Rebelle",
     "theme": "Révolte",
     "difficulte": "moyen",
     "question": "En 1790, pourquoi les Marseillais ont-ils commencé à démolir le Fort Saint-Nicolas ?",
@@ -784,6 +958,8 @@
   },
   {
     "id": 88,
+    "id_quiz": "major_charite",
+    "titre_quiz": "Monuments Majeurs",
     "theme": "Architecture",
     "difficulte": "difficile",
     "question": "Quelle est la forme de la coupole de la Vieille Charité ?",
@@ -793,6 +969,8 @@
   },
   {
     "id": 89,
+    "id_quiz": "bonne_mere",
+    "titre_quiz": "La Bonne Mère",
     "theme": "Histoire",
     "difficulte": "facile",
     "question": "Qui a libéré Notre-Dame de la Garde en août 1944 ?",
@@ -802,6 +980,8 @@
   },
   {
     "id": 90,
+    "id_quiz": "pagnol",
+    "titre_quiz": "L'Univers de Pagnol",
     "theme": "Culture",
     "difficulte": "facile",
     "question": "Quel célèbre personnage de Pagnol travaille au Bar de la Marine ?",
@@ -811,6 +991,8 @@
   },
   {
     "id": 91,
+    "id_quiz": "rafle_1943",
+    "titre_quiz": "La Tragédie de 1943",
     "theme": "Urbanisme",
     "difficulte": "difficile",
     "question": "Quels quartiers ont été entièrement rasés lors de la Rafle de 1943 ?",
@@ -820,6 +1002,8 @@
   },
   {
     "id": 92,
+    "id_quiz": "french_connection",
+    "titre_quiz": "La French Connection",
     "theme": "Justice",
     "difficulte": "moyen",
     "question": "Vrai ou Faux : Le juge Michel a été tué par des trafiquants de drogue.",
@@ -829,6 +1013,8 @@
   },
   {
     "id": 93,
+    "id_quiz": "vieux_port",
+    "titre_quiz": "Le Vieux-Port Historique",
     "theme": "Insolite",
     "difficulte": "facile",
     "question": "Où se trouve l'Hôtel de Cabre, la plus vieille maison de Marseille ?",
@@ -838,6 +1024,8 @@
   },
   {
     "id": 94,
+    "id_quiz": "saint_victor",
+    "titre_quiz": "L'Abbaye Saint-Victor",
     "theme": "Histoire",
     "difficulte": "moyen",
     "question": "Quel roi français a été enterré symboliquement à l'Abbaye Saint-Victor ?",
@@ -847,6 +1035,8 @@
   },
   {
     "id": 95,
+    "id_quiz": "auffes",
+    "titre_quiz": "Le Vallon des Auffes",
     "theme": "Gastronomie",
     "difficulte": "moyen",
     "question": "Quelle herbe sert à fabriquer les paniers et les filets au Vallon des Auffes ?",
@@ -856,6 +1046,8 @@
   },
   {
     "id": 96,
+    "id_quiz": "om_histoire",
+    "titre_quiz": "Légende de l'OM",
     "theme": "Sport",
     "difficulte": "facile",
     "question": "Quel surnom donne-t-on au Stade Vélodrome depuis sa rénovation ?",
@@ -865,6 +1057,8 @@
   },
   {
     "id": 97,
+    "id_quiz": "cinema",
+    "titre_quiz": "Marseille au Cinéma",
     "theme": "Culture",
     "difficulte": "moyen",
     "question": "Vrai ou Faux : Le premier cinéma public du monde était à Marseille.",
@@ -874,6 +1068,8 @@
   },
   {
     "id": 98,
+    "id_quiz": "cosquer",
+    "titre_quiz": "La Grotte Cosquer",
     "theme": "Nature",
     "difficulte": "difficile",
     "question": "Quelle est l'espèce de pingouin dessinée dans la Grotte Cosquer ?",
@@ -883,6 +1079,8 @@
   },
   {
     "id": 99,
+    "id_quiz": "mp_2013",
+    "titre_quiz": "Marseille 2013 & MuCEM",
     "theme": "Urbanisme",
     "difficulte": "moyen",
     "question": "En 2013, Marseille était la capitale de quoi ?",
@@ -892,6 +1090,8 @@
   },
   {
     "id": 100,
+    "id_quiz": "jo_2024",
+    "titre_quiz": "Les Jeux Olympiques 2024",
     "theme": "Histoire",
     "difficulte": "facile",
     "question": "Vrai ou Faux : La flamme olympique 2024 est arrivée en France par Marseille.",
@@ -901,6 +1101,8 @@
   },
   {
     "id": 101,
+    "id_quiz": "vieux_port",
+    "titre_quiz": "Le Vieux-Port Historique",
     "theme": "Antiquité",
     "difficulte": "moyen",
     "question": "Quel jardin du centre-ville abrite les vestiges des remparts grecs et d'un port antique ?",
@@ -910,6 +1112,8 @@
   },
   {
     "id": 102,
+    "id_quiz": "louis_xiv",
+    "titre_quiz": "La Colère de Louis XIV",
     "theme": "Justice",
     "difficulte": "moyen",
     "question": "Où se situait l'Arsenal des Galères au XVIIe siècle ?",
@@ -919,6 +1123,8 @@
   },
   {
     "id": 103,
+    "id_quiz": "marseillaise",
+    "titre_quiz": "L'Hymne National",
     "theme": "Histoire",
     "difficulte": "difficile",
     "question": "En quelle année le bataillon des 500 volontaires marseillais a-t-il marché vers Paris ?",
@@ -928,6 +1134,8 @@
   },
   {
     "id": 104,
+    "id_quiz": "major_charite",
+    "titre_quiz": "Monuments Majeurs",
     "theme": "Architecture",
     "difficulte": "facile",
     "question": "Vrai ou Faux : La cathédrale de la Major est aussi longue que la basilique Saint-Pierre de Rome.",
@@ -937,6 +1145,8 @@
   },
   {
     "id": 105,
+    "id_quiz": "rimbaud",
+    "titre_quiz": "Rimbaud à Marseille",
     "theme": "Culture",
     "difficulte": "moyen",
     "question": "Quelle est la particularité du portrait de Rimbaud à l'hôpital de la Conception ?",
@@ -946,6 +1156,8 @@
   },
   {
     "id": 106,
+    "id_quiz": "insolite_histoire",
+    "titre_quiz": "Légendes et Anecdotes",
     "theme": "Insolite",
     "difficulte": "moyen",
     "question": "Quel animal accompagna les troupes hindoues au parc Borély en 1914 ?",
@@ -955,6 +1167,8 @@
   },
   {
     "id": 107,
+    "id_quiz": "savon",
+    "titre_quiz": "Le Savon de Marseille",
     "theme": "Artisanat",
     "difficulte": "facile",
     "question": "Vrai ou Faux : Le savon de Marseille servait de monnaie d'échange pendant la guerre.",
@@ -964,6 +1178,8 @@
   },
   {
     "id": 108,
+    "id_quiz": "specialites",
+    "titre_quiz": "Spécialités Marseillaises",
     "theme": "Gastronomie",
     "difficulte": "difficile",
     "question": "De quoi est composé le véritable Aïoli marseillais original ?",
@@ -973,6 +1189,8 @@
   },
   {
     "id": 109,
+    "id_quiz": "resistance_1940",
+    "titre_quiz": "Résistance 1940",
     "theme": "Histoire",
     "difficulte": "moyen",
     "question": "Quel journaliste américain a sauvé des milliers d'artistes à Marseille en 1940 ?",
@@ -982,6 +1200,8 @@
   },
   {
     "id": 110,
+    "id_quiz": "insolite_histoire",
+    "titre_quiz": "Légendes et Anecdotes",
     "theme": "Urbanisme",
     "difficulte": "moyen",
     "question": "En quelle année le tunnel routier sous le Vieux-Port a-t-il été inauguré ?",
@@ -991,6 +1211,8 @@
   },
   {
     "id": 111,
+    "id_quiz": "om_1993",
+    "titre_quiz": "A Jamais les Premiers (1993)",
     "theme": "Sport",
     "difficulte": "facile",
     "question": "Combien de personnes ont fêté la victoire de l'OM sur le Vieux-Port en 1993 ?",
@@ -1000,6 +1222,8 @@
   },
   {
     "id": 112,
+    "id_quiz": "chateau_if",
+    "titre_quiz": "Le Château d'If",
     "theme": "Nature",
     "difficulte": "facile",
     "question": "Quelle île abrite le Château d'If ?",
@@ -1009,6 +1233,8 @@
   },
   {
     "id": 113,
+    "id_quiz": "canebiere",
+    "titre_quiz": "La Canebière",
     "theme": "Artisanat",
     "difficulte": "moyen",
     "question": "Pourquoi fabriquait-on des cordes sur la Canebière autrefois ?",
@@ -1018,6 +1244,8 @@
   },
   {
     "id": 114,
+    "id_quiz": "rois_de_france",
+    "titre_quiz": "Les Rois et Marseille",
     "theme": "Histoire",
     "difficulte": "difficile",
     "question": "Qui était le dernier Comte de Provence, très aimé des Marseillais ?",
@@ -1027,6 +1255,8 @@
   },
   {
     "id": 115,
+    "id_quiz": "vieux_port",
+    "titre_quiz": "Le Vieux-Port Historique",
     "theme": "Architecture",
     "difficulte": "moyen",
     "question": "Où se trouve l'escalier qui n'est pas dans son bâtiment mais à l'extérieur ?",
@@ -1036,6 +1266,8 @@
   },
   {
     "id": 116,
+    "id_quiz": "navettes",
+    "titre_quiz": "Les Navettes",
     "theme": "Gastronomie",
     "difficulte": "facile",
     "question": "En quelle année la Navette de Saint-Victor a-t-elle été créée ?",
@@ -1045,6 +1277,8 @@
   },
   {
     "id": 117,
+    "id_quiz": "rafle_1943",
+    "titre_quiz": "La Tragédie de 1943",
     "theme": "Tragédie",
     "difficulte": "moyen",
     "question": "Quel quartier fut dynamité par les nazis en 1943 car jugé trop rebelle ?",
@@ -1054,6 +1288,8 @@
   },
   {
     "id": 118,
+    "id_quiz": "rap_iam",
+    "titre_quiz": "L'École du Micro d'Argent",
     "theme": "Culture",
     "difficulte": "moyen",
     "question": "IAM signifie 'Imperial Asiatic Men', mais que signifie le nom en anglais ?",
@@ -1063,6 +1299,8 @@
   },
   {
     "id": 119,
+    "id_quiz": "mp_2013",
+    "titre_quiz": "Marseille 2013 & MuCEM",
     "theme": "Urbanisme",
     "difficulte": "facile",
     "question": "Vrai ou Faux : Le MuCEM est relié au Fort Saint-Jean par une passerelle.",
@@ -1072,6 +1310,8 @@
   },
   {
     "id": 120,
+    "id_quiz": "jo_2024",
+    "titre_quiz": "Les Jeux Olympiques 2024",
     "theme": "Histoire",
     "difficulte": "moyen",
     "question": "En 2024, quel navire a apporté la flamme olympique à Marseille ?",
@@ -1081,6 +1321,8 @@
   },
   {
     "id": 121,
+    "id_quiz": "fondation",
+    "titre_quiz": "La Fondation de Massalia",
     "theme": "Antiquité",
     "difficulte": "moyen",
     "question": "D'où Marcus Sestius, riche marchand, gérait-il ses navires comme celui du Grand Congloué ?",
@@ -1090,6 +1332,8 @@
   },
   {
     "id": 122,
+    "id_quiz": "louis_xiv",
+    "titre_quiz": "La Colère de Louis XIV",
     "theme": "Justice",
     "difficulte": "facile",
     "question": "Vrai ou Faux : Les galériens étaient enchaînés à leur banc même pour dormir.",
@@ -1099,6 +1343,8 @@
   },
   {
     "id": 123,
+    "id_quiz": "chateau_if",
+    "titre_quiz": "Le Château d'If",
     "theme": "Nature",
     "difficulte": "difficile",
     "question": "Que signifie 'If' en vieux provençal ?",
@@ -1108,6 +1354,8 @@
   },
   {
     "id": 124,
+    "id_quiz": "peste_1720",
+    "titre_quiz": "La Grande Peste de 1720",
     "theme": "Tragédie",
     "difficulte": "facile",
     "question": "En quelle année la Peste Noire est-elle entrée en France par Marseille ?",
@@ -1117,6 +1365,8 @@
   },
   {
     "id": 125,
+    "id_quiz": "major_charite",
+    "titre_quiz": "Monuments Majeurs",
     "theme": "Architecture",
     "difficulte": "moyen",
     "question": "Quelle est la forme particulière de la coupole de la Vieille Charité ?",
@@ -1126,6 +1376,8 @@
   },
   {
     "id": 126,
+    "id_quiz": "specialites",
+    "titre_quiz": "Spécialités Marseillaises",
     "theme": "Gastronomie",
     "difficulte": "moyen",
     "question": "D'où vient la farine utilisée pour fabriquer la Panisse ?",
@@ -1135,6 +1387,8 @@
   },
   {
     "id": 127,
+    "id_quiz": "om_histoire",
+    "titre_quiz": "Légende de l'OM",
     "theme": "Insolite",
     "difficulte": "facile",
     "question": "Quel était le premier métier de l'OM à sa création en 1899 ?",
@@ -1144,6 +1398,8 @@
   },
   {
     "id": 128,
+    "id_quiz": "revoltes",
+    "titre_quiz": "Marseille la Rebelle",
     "theme": "Histoire",
     "difficulte": "difficile",
     "question": "Quel était le cri de ralliement des révoltés de 1640 ?",
@@ -1153,6 +1409,8 @@
   },
   {
     "id": 129,
+    "id_quiz": "vieux_port",
+    "titre_quiz": "Le Vieux-Port Historique",
     "theme": "Urbanisme",
     "difficulte": "moyen",
     "question": "Quel architecte a reconstruit les quais du Vieux-Port après 1945 ?",
@@ -1162,6 +1420,8 @@
   },
   {
     "id": 130,
+    "id_quiz": "comex",
+    "titre_quiz": "Pionniers des Abysses",
     "theme": "Sciences",
     "difficulte": "facile",
     "question": "Comment s'appelle l'entreprise marseillaise qui entraîne les astronautes sous l'eau ?",
@@ -1171,6 +1431,8 @@
   },
   {
     "id": 131,
+    "id_quiz": "insolite_histoire",
+    "titre_quiz": "Légendes et Anecdotes",
     "theme": "Culture",
     "difficulte": "moyen",
     "question": "Quel écrivain séjourna à Marseille et compara la ville à une cité italienne ?",
@@ -1180,6 +1442,8 @@
   },
   {
     "id": 132,
+    "id_quiz": "insolite_histoire",
+    "titre_quiz": "Légendes et Anecdotes",
     "theme": "Nature",
     "difficulte": "facile",
     "question": "Quel est le banc le plus long du monde ?",
@@ -1189,6 +1453,8 @@
   },
   {
     "id": 133,
+    "id_quiz": "revoltes",
+    "titre_quiz": "Marseille la Rebelle",
     "theme": "Révolte",
     "difficulte": "moyen",
     "question": "Vrai ou Faux : Les femmes de Marseille ont aidé à construire les remparts en 1524.",
@@ -1198,6 +1464,8 @@
   },
   {
     "id": 134,
+    "id_quiz": "canebiere",
+    "titre_quiz": "La Canebière",
     "theme": "Artisanat",
     "difficulte": "moyen",
     "question": "Quel métier occupait le quartier de la Canebière avant qu'il ne devienne une avenue ?",
@@ -1207,6 +1475,8 @@
   },
   {
     "id": 135,
+    "id_quiz": "louis_xiv",
+    "titre_quiz": "La Colère de Louis XIV",
     "theme": "Histoire",
     "difficulte": "difficile",
     "question": "Qui a fondé la première Chambre de Commerce de France à Marseille en 1650 ?",
@@ -1216,6 +1486,8 @@
   },
   {
     "id": 136,
+    "id_quiz": "bouillabaisse",
+    "titre_quiz": "La Bouillabaisse",
     "theme": "Gastronomie",
     "difficulte": "facile",
     "question": "Quel était le plat de base des pêcheurs fait avec les invendus du jour ?",
@@ -1225,6 +1497,8 @@
   },
   {
     "id": 137,
+    "id_quiz": "mp_2013",
+    "titre_quiz": "Marseille 2013 & MuCEM",
     "theme": "Urbanisme",
     "difficulte": "moyen",
     "question": "En quelle année l'ombrière miroir de Norman Foster a-t-elle été installée ?",
@@ -1234,6 +1508,8 @@
   },
   {
     "id": 138,
+    "id_quiz": "monuments_imperiaux",
+    "titre_quiz": "Monuments Impériaux",
     "theme": "Architecture",
     "difficulte": "facile",
     "question": "Vrai ou Faux : Le Palais du Pharo a été construit pour Napoléon III.",
@@ -1243,6 +1519,8 @@
   },
   {
     "id": 139,
+    "id_quiz": "om_histoire",
+    "titre_quiz": "Légende de l'OM",
     "theme": "Sport",
     "difficulte": "moyen",
     "question": "Comment s'appelle le célèbre virage des supporters de l'OM ?",
@@ -1252,6 +1530,8 @@
   },
   {
     "id": 140,
+    "id_quiz": "french_connection",
+    "titre_quiz": "La French Connection",
     "theme": "Justice",
     "difficulte": "difficile",
     "question": "Quel était le surnom de Marseille pendant l'époque de la French Connection ?",
@@ -1261,6 +1541,8 @@
   },
   {
     "id": 141,
+    "id_quiz": "fondation",
+    "titre_quiz": "La Fondation de Massalia",
     "theme": "Antiquité",
     "difficulte": "facile",
     "question": "Vrai ou Faux : Les Grecs de Marseille commerçaient avec les Celtes.",
@@ -1270,6 +1552,8 @@
   },
   {
     "id": 142,
+    "id_quiz": "cosquer",
+    "titre_quiz": "La Grotte Cosquer",
     "theme": "Sciences",
     "difficulte": "moyen",
     "question": "Quelle découverte majeure a été faite en 1985 par Henri Cosquer ?",
@@ -1279,6 +1563,8 @@
   },
   {
     "id": 143,
+    "id_quiz": "om_histoire",
+    "titre_quiz": "Légende de l'OM",
     "theme": "Insolite",
     "difficulte": "facile",
     "question": "Quel est l'emblème de la ville que l'on voit sur tous les maillots de foot ?",
@@ -1288,6 +1574,8 @@
   },
   {
     "id": 144,
+    "id_quiz": "bonne_mere",
+    "titre_quiz": "La Bonne Mère",
     "theme": "Histoire",
     "difficulte": "moyen",
     "question": "En 1944, quel char est resté exposé au pied de Notre-Dame de la Garde ?",
@@ -1297,6 +1585,8 @@
   },
   {
     "id": 145,
+    "id_quiz": "pastis",
+    "titre_quiz": "L'Histoire du Pastis",
     "theme": "Gastronomie",
     "difficulte": "facile",
     "question": "Comment appelle-t-on le mélange d'anis et de réglisse typique de Marseille ?",
@@ -1306,6 +1596,8 @@
   },
   {
     "id": 146,
+    "id_quiz": "calanques",
+    "titre_quiz": "Les Calanques",
     "theme": "Nature",
     "difficulte": "moyen",
     "question": "Vrai ou Faux : Les Calanques sont le seul parc national périurbain d'Europe.",
@@ -1315,6 +1607,8 @@
   },
   {
     "id": 147,
+    "id_quiz": "insolite_histoire",
+    "titre_quiz": "Légendes et Anecdotes",
     "theme": "Culture",
     "difficulte": "facile",
     "question": "Quel quartier marseillais est célèbre pour ses murs couverts de Street-Art ?",
@@ -1324,6 +1618,8 @@
   },
   {
     "id": 148,
+    "id_quiz": "metro_gare",
+    "titre_quiz": "Transports Marseillais",
     "theme": "Urbanisme",
     "difficulte": "difficile",
     "question": "Quelle station de métro possède des murs renforcés pour supporter le poids de l'eau ?",
@@ -1333,6 +1629,8 @@
   },
   {
     "id": 149,
+    "id_quiz": "om_histoire",
+    "titre_quiz": "Légende de l'OM",
     "theme": "Histoire",
     "difficulte": "moyen",
     "question": "En quelle année le Pape François est-il venu au Stade Vélodrome ?",
@@ -1342,6 +1640,8 @@
   },
   {
     "id": 150,
+    "id_quiz": "fondation",
+    "titre_quiz": "La Fondation de Massalia",
     "theme": "Antiquité",
     "difficulte": "difficile",
     "question": "Quelle est la date de la fondation officielle de Massalia ?",
@@ -1351,6 +1651,8 @@
   },
   {
     "id": 151,
+    "id_quiz": "comex",
+    "titre_quiz": "Pionniers des Abysses",
     "theme": "Sciences",
     "difficulte": "moyen",
     "question": "Qui a conçu le premier détendeur moderne testé dans les Calanques ?",
@@ -1360,6 +1662,8 @@
   },
   {
     "id": 152,
+    "id_quiz": "corbusier",
+    "titre_quiz": "Le Corbusier",
     "theme": "Architecture",
     "difficulte": "moyen",
     "question": "Vrai ou Faux : La Cité Radieuse possède une école et un gymnase sur son toit.",
@@ -1369,6 +1673,8 @@
   },
   {
     "id": 153,
+    "id_quiz": "om_1993",
+    "titre_quiz": "A Jamais les Premiers (1993)",
     "theme": "Histoire",
     "difficulte": "facile",
     "question": "En 1993, Marseille fut championne d'Europe. De quel sport s'agit-il ?",
@@ -1378,6 +1684,8 @@
   },
   {
     "id": 154,
+    "id_quiz": "cosquer",
+    "titre_quiz": "La Grotte Cosquer",
     "theme": "Nature",
     "difficulte": "difficile",
     "question": "Quel oiseau préhistorique est dessiné sur les parois de la Grotte Cosquer ?",
@@ -1387,6 +1695,8 @@
   },
   {
     "id": 155,
+    "id_quiz": "french_connection",
+    "titre_quiz": "La French Connection",
     "theme": "Justice",
     "difficulte": "moyen",
     "question": "Vrai ou Faux : Le Milieu marseillais s'est enrichi grâce au trafic de cigarettes après-guerre.",
@@ -1396,6 +1706,8 @@
   },
   {
     "id": 156,
+    "id_quiz": "insolite_histoire",
+    "titre_quiz": "Légendes et Anecdotes",
     "theme": "Insolite",
     "difficulte": "facile",
     "question": "Comment appelle-t-on le 'pétit train' qui longe la mer ?",
@@ -1405,6 +1717,8 @@
   },
   {
     "id": 157,
+    "id_quiz": "mp_2013",
+    "titre_quiz": "Marseille 2013 & MuCEM",
     "theme": "Urbanisme",
     "difficulte": "moyen",
     "question": "Quel bâtiment moderne ressemble à une résille de béton noir ?",
@@ -1414,6 +1728,8 @@
   },
   {
     "id": 158,
+    "id_quiz": "specialites",
+    "titre_quiz": "Spécialités Marseillaises",
     "theme": "Gastronomie",
     "difficulte": "facile",
     "question": "Vrai ou Faux : On peut manger des oursins sur les quais à Marseille.",
@@ -1423,6 +1739,8 @@
   },
   {
     "id": 159,
+    "id_quiz": "insolite_histoire",
+    "titre_quiz": "Légendes et Anecdotes",
     "theme": "Histoire",
     "difficulte": "moyen",
     "question": "Qui a débarqué à Marseille en 1962 lors de la fin de la guerre d'Algérie ?",
@@ -1432,6 +1750,8 @@
   },
   {
     "id": 160,
+    "id_quiz": "insolite_histoire",
+    "titre_quiz": "Légendes et Anecdotes",
     "theme": "Culture",
     "difficulte": "difficile",
     "question": "Quelle chanteuse égyptienne a marqué l'histoire de l'Opéra de Marseille ?",
@@ -1441,6 +1761,8 @@
   },
   {
     "id": 161,
+    "id_quiz": "fondation",
+    "titre_quiz": "La Fondation de Massalia",
     "theme": "Antiquité",
     "difficulte": "moyen",
     "question": "Quel monument à Delphes prouve la richesse de Marseille en -600 ?",
@@ -1450,6 +1772,8 @@
   },
   {
     "id": 162,
+    "id_quiz": "insolite_histoire",
+    "titre_quiz": "Légendes et Anecdotes",
     "theme": "Sciences",
     "difficulte": "facile",
     "question": "Vrai ou Faux : Henri Fabre, inventeur de l'hydravion, était marseillais.",
@@ -1459,6 +1783,8 @@
   },
   {
     "id": 163,
+    "id_quiz": "insolite_histoire",
+    "titre_quiz": "Légendes et Anecdotes",
     "theme": "Insolite",
     "difficulte": "moyen",
     "question": "Comment appelle-t-on le vent violent qui souffle sur Marseille ?",
@@ -1468,6 +1794,8 @@
   },
   {
     "id": 164,
+    "id_quiz": "major_charite",
+    "titre_quiz": "Monuments Majeurs",
     "theme": "Architecture",
     "difficulte": "difficile",
     "question": "Quel matériau compose les rayures de la cathédrale de la Major ?",
@@ -1477,6 +1805,8 @@
   },
   {
     "id": 165,
+    "id_quiz": "jo_2024",
+    "titre_quiz": "Les Jeux Olympiques 2024",
     "theme": "Sport",
     "difficulte": "facile",
     "question": "Vrai ou Faux : Le Vélodrome a accueilli les Jeux Olympiques 2024.",
@@ -1486,6 +1816,8 @@
   },
   {
     "id": 166,
+    "id_quiz": "saint_victor",
+    "titre_quiz": "L'Abbaye Saint-Victor",
     "theme": "Histoire",
     "difficulte": "moyen",
     "question": "Quel roi français a été enterré à Saint-Victor ?",
@@ -1495,6 +1827,8 @@
   },
   {
     "id": 167,
+    "id_quiz": "chateau_if",
+    "titre_quiz": "Le Château d'If",
     "theme": "Nature",
     "difficulte": "facile",
     "question": "Quel est l'archipel qui fait face au Vieux-Port ?",
@@ -1504,6 +1838,8 @@
   },
   {
     "id": 168,
+    "id_quiz": "metro_gare",
+    "titre_quiz": "Transports Marseillais",
     "theme": "Urbanisme",
     "difficulte": "difficile",
     "question": "En quelle année l'escalier de la gare Saint-Charles a-t-il été achevé ?",
@@ -1513,6 +1849,8 @@
   },
   {
     "id": 169,
+    "id_quiz": "pastis",
+    "titre_quiz": "L'Histoire du Pastis",
     "theme": "Gastronomie",
     "difficulte": "moyen",
     "question": "Quelle boisson marseillaise signifie 'Confusion' en provençal ?",
@@ -1522,6 +1860,8 @@
   },
   {
     "id": 170,
+    "id_quiz": "pagnol",
+    "titre_quiz": "L'Univers de Pagnol",
     "theme": "Culture",
     "difficulte": "facile",
     "question": "Quel célèbre acteur marseillais jouait dans 'La Trilogie' de Pagnol ?",
@@ -1531,6 +1871,8 @@
   },
   {
     "id": 171,
+    "id_quiz": "peste_1720",
+    "titre_quiz": "La Grande Peste de 1720",
     "theme": "Tragédie",
     "difficulte": "moyen",
     "question": "Combien de morts a fait la Peste de 1720 à Marseille ?",
@@ -1540,6 +1882,8 @@
   },
   {
     "id": 172,
+    "id_quiz": "insolite_histoire",
+    "titre_quiz": "Légendes et Anecdotes",
     "theme": "Insolite",
     "difficulte": "facile",
     "question": "Comment appelle-t-on les figurines de Noël marseillaises ?",
@@ -1549,6 +1893,8 @@
   },
   {
     "id": 173,
+    "id_quiz": "louis_xiv",
+    "titre_quiz": "La Colère de Louis XIV",
     "theme": "Justice",
     "difficulte": "difficile",
     "question": "Quel était le véritable but du Fort Saint-Jean sous Louis XIV ?",
@@ -1558,6 +1904,8 @@
   },
   {
     "id": 174,
+    "id_quiz": "cosquer",
+    "titre_quiz": "La Grotte Cosquer",
     "theme": "Sciences",
     "difficulte": "facile",
     "question": "Vrai ou Faux : On a trouvé des pingouins dans les Calanques autrefois.",
@@ -1567,6 +1915,8 @@
   },
   {
     "id": 175,
+    "id_quiz": "calanques",
+    "titre_quiz": "Les Calanques",
     "theme": "Nature",
     "difficulte": "moyen",
     "question": "Quel est le nom de la calanque la plus célèbre pour ses cabanons ?",
@@ -1576,6 +1926,8 @@
   },
   {
     "id": 176,
+    "id_quiz": "marseillaise",
+    "titre_quiz": "L'Hymne National",
     "theme": "Histoire",
     "difficulte": "facile",
     "question": "Vrai ou Faux : Les Marseillais ont créé l'hymne national de la France.",
@@ -1585,6 +1937,8 @@
   },
   {
     "id": 177,
+    "id_quiz": "canebiere",
+    "titre_quiz": "La Canebière",
     "theme": "Urbanisme",
     "difficulte": "moyen",
     "question": "Comment s'appelle l'avenue marseillaise la plus célèbre ?",
@@ -1594,6 +1948,8 @@
   },
   {
     "id": 178,
+    "id_quiz": "navettes",
+    "titre_quiz": "Les Navettes",
     "theme": "Gastronomie",
     "difficulte": "difficile",
     "question": "Quel ingrédient secret parfume la Navette de Saint-Victor ?",
@@ -1603,6 +1959,8 @@
   },
   {
     "id": 179,
+    "id_quiz": "om_1993",
+    "titre_quiz": "A Jamais les Premiers (1993)",
     "theme": "Sport",
     "difficulte": "facile",
     "question": "Quel joueur de l'OM a marqué sur une tête en 1993 ?",
@@ -1612,6 +1970,8 @@
   },
   {
     "id": 180,
+    "id_quiz": "monuments_imperiaux",
+    "titre_quiz": "Monuments Impériaux",
     "theme": "Architecture",
     "difficulte": "moyen",
     "question": "Quel architecte a conçu le Palais de la Bourse ?",
@@ -1621,6 +1981,8 @@
   },
   {
     "id": 181,
+    "id_quiz": "fondation",
+    "titre_quiz": "La Fondation de Massalia",
     "theme": "Insolite",
     "difficulte": "facile",
     "question": "Vrai ou Faux : Marseille est la plus ancienne ville de France.",
@@ -1630,6 +1992,8 @@
   },
   {
     "id": 182,
+    "id_quiz": "romains",
+    "titre_quiz": "Marseille et les Romains",
     "theme": "Histoire",
     "difficulte": "moyen",
     "question": "Quel empereur a assiégé Marseille en -49 ?",
@@ -1639,6 +2003,8 @@
   },
   {
     "id": 183,
+    "id_quiz": "eau_longchamp",
+    "titre_quiz": "L'Eau et Longchamp",
     "theme": "Nature",
     "difficulte": "facile",
     "question": "Comment s'appelle l'eau qui arrive par le canal de Marseille ?",
@@ -1648,6 +2014,8 @@
   },
   {
     "id": 184,
+    "id_quiz": "pont_transbordeur",
+    "titre_quiz": "Le Pont Transbordeur",
     "theme": "Urbanisme",
     "difficulte": "moyen",
     "question": "Quel pont a été dynamité par les Allemands en 1944 ?",
@@ -1657,6 +2025,8 @@
   },
   {
     "id": 185,
+    "id_quiz": "chateau_if",
+    "titre_quiz": "Le Château d'If",
     "theme": "Culture",
     "difficulte": "facile",
     "question": "Quel auteur a créé le Comte de Monte-Cristo ?",
@@ -1666,6 +2036,8 @@
   },
   {
     "id": 186,
+    "id_quiz": "jo_2024",
+    "titre_quiz": "Les Jeux Olympiques 2024",
     "theme": "Sport",
     "difficulte": "moyen",
     "question": "Où se sont déroulées les épreuves de voile des JO 2024 ?",
@@ -1675,6 +2047,8 @@
   },
   {
     "id": 187,
+    "id_quiz": "french_connection",
+    "titre_quiz": "La French Connection",
     "theme": "Justice",
     "difficulte": "difficile",
     "question": "Que fabriquait-on clandestinement dans la French Connection ?",
@@ -1684,6 +2058,8 @@
   },
   {
     "id": 188,
+    "id_quiz": "fondation",
+    "titre_quiz": "La Fondation de Massalia",
     "theme": "Antiquité",
     "difficulte": "facile",
     "question": "Vrai ou Faux : Les fondateurs de Marseille étaient Grecs.",
@@ -1693,6 +2069,8 @@
   },
   {
     "id": 189,
+    "id_quiz": "bouillabaisse",
+    "titre_quiz": "La Bouillabaisse",
     "theme": "Gastronomie",
     "difficulte": "moyen",
     "question": "Que signifie 'Manger une bouillabaisse' historiquement ?",
@@ -1702,6 +2080,8 @@
   },
   {
     "id": 190,
+    "id_quiz": "bonne_mere",
+    "titre_quiz": "La Bonne Mère",
     "theme": "Architecture",
     "difficulte": "facile",
     "question": "Quel monument domine Marseille de sa statue dorée ?",
@@ -1711,6 +2091,8 @@
   },
   {
     "id": 191,
+    "id_quiz": "jo_2024",
+    "titre_quiz": "Les Jeux Olympiques 2024",
     "theme": "Histoire",
     "difficulte": "moyen",
     "question": "Qui a débarqué au Vieux-Port avec la flamme olympique ?",
@@ -1720,6 +2102,8 @@
   },
   {
     "id": 192,
+    "id_quiz": "calanques",
+    "titre_quiz": "Les Calanques",
     "theme": "Nature",
     "difficulte": "facile",
     "question": "Vrai ou Faux : Les Calanques sont un parc marin.",
@@ -1729,6 +2113,8 @@
   },
   {
     "id": 193,
+    "id_quiz": "vieux_port",
+    "titre_quiz": "Le Vieux-Port Historique",
     "theme": "Urbanisme",
     "difficulte": "moyen",
     "question": "Quel quartier est le plus ancien de Marseille ?",
@@ -1738,6 +2124,8 @@
   },
   {
     "id": 194,
+    "id_quiz": "rap_iam",
+    "titre_quiz": "L'École du Micro d'Argent",
     "theme": "Culture",
     "difficulte": "facile",
     "question": "Quel rappeur marseillais a créé 'Le Classico Organisé' ?",
@@ -1747,6 +2135,8 @@
   },
   {
     "id": 195,
+    "id_quiz": "insolite_histoire",
+    "titre_quiz": "Légendes et Anecdotes",
     "theme": "Insolite",
     "difficulte": "moyen",
     "question": "Pourquoi la sardine a-t-elle bouché le port ?",
@@ -1756,6 +2146,8 @@
   },
   {
     "id": 196,
+    "id_quiz": "pastis",
+    "titre_quiz": "L'Histoire du Pastis",
     "theme": "Gastronomie",
     "difficulte": "facile",
     "question": "Quel ingrédient donne sa couleur jaune au pastis ?",
@@ -1765,6 +2157,8 @@
   },
   {
     "id": 197,
+    "id_quiz": "fondation",
+    "titre_quiz": "La Fondation de Massalia",
     "theme": "Histoire",
     "difficulte": "moyen",
     "question": "Combien d'années d'histoire a Marseille ?",
@@ -1774,6 +2168,8 @@
   },
   {
     "id": 198,
+    "id_quiz": "om_1993",
+    "titre_quiz": "A Jamais les Premiers (1993)",
     "theme": "Sport",
     "difficulte": "difficile",
     "question": "Quel est le seul club français champion d'Europe de foot ?",
@@ -1783,6 +2179,8 @@
   },
   {
     "id": 199,
+    "id_quiz": "cosquer",
+    "titre_quiz": "La Grotte Cosquer",
     "theme": "Sciences",
     "difficulte": "facile",
     "question": "Vrai ou Faux : Marseille possède une réplique de la Grotte Cosquer.",
@@ -1792,6 +2190,8 @@
   },
   {
     "id": 200,
+    "id_quiz": "final_quiz",
+    "titre_quiz": "Le Dernier Défi",
     "theme": "Culture",
     "difficulte": "moyen",
     "question": "Quel est le titre de ce Codex historique ?",

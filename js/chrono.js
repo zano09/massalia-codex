@@ -1,15 +1,19 @@
 /**
- * GESTION DE LA CHRONOLOGIE (Version Robuste & Corrigée)
+ * GESTION DE LA CHRONOLOGIE (Version Swipe & Navigation Fluide)
  */
 
 async function renderChrono() {
     const mainContainer = document.getElementById('app');
+    
+    // Reset scroll si on revient sur la liste
+    window.scrollTo(0,0);
+
     mainContainer.innerHTML = "<div class='loader'>Déchiffrement des archives...</div>";
 
     try {
         // Chargement des données si pas encore en mémoire
         if (!window.timelineData) {
-            const response = await fetch('data/anecdotes.json');
+            const response = await fetch('data/anecdotes.json'); // Vérifie bien que le chemin est /data/ ou data/
             let data = await response.json();
             // Tri chronologique
             data.sort((a, b) => (a.annee === b.annee ? a.id - b.id : a.annee - b.annee));
@@ -54,7 +58,7 @@ async function renderChrono() {
     }
 }
 
-// FILTRAGE
+// --- FILTRAGE ---
 function filterTimeline() {
     const queryInput = document.getElementById('searchInput');
     if (!queryInput) return; 
@@ -101,13 +105,14 @@ function filterTimeline() {
     }
 }
 
-// AFFICHER UN FRAGMENT (Avec gestion du bouton Retour dynamique)
-window.showSpecificFragment = async function(id, source = 'chrono') {
+// --- AFFICHER UN FRAGMENT (AVEC SWIPE) ---
+// Note: j'ai ajouté le paramètre 'direction' pour l'animation
+window.showSpecificFragment = async function(id, source = 'chrono', direction = 'none') {
     // 1. Gestion du Header & Nav
     const header = document.getElementById('main-header');
     if(header) header.style.display = 'none';
     
-    // Si on vient de la frise, on allume l'icône Chrono, sinon on laisse tel quel
+    // Si on vient de la frise, on allume l'icône Chrono
     if(source === 'chrono' && typeof updateActiveNav === 'function') {
         updateActiveNav('chrono');
     }
@@ -136,7 +141,7 @@ window.showSpecificFragment = async function(id, source = 'chrono') {
         localStorage.setItem("massalia_lus", JSON.stringify(lus));
     }
 
-    // 3. DÉFINITION DU BOUTON RETOUR (La solution à ton problème)
+    // 3. Configuration du Bouton Retour
     let backBtnText = "REVENIR À LA FRISE";
     let backBtnAction = "renderChrono()";
 
@@ -148,22 +153,27 @@ window.showSpecificFragment = async function(id, source = 'chrono') {
         backBtnAction = "loadSection('accueil')";
     }
 
-    // 4. RENDU
+    // 4. RENDU HTML
     const app = document.getElementById('app');
     const imageHtml = item.image ? `<div class="card-image-container"><img src="${item.image}" class="card-image"></div>` : '';
     
-    // Vérif favori
+    // Favori
     const saved = JSON.parse(localStorage.getItem('massalia_saved_fragments')) || [];
     const heartIcon = saved.includes(item.id) ? "❤️" : "🤍";
     const heartOpacity = saved.includes(item.id) ? "1" : "0.6";
 
+    // Choix de l'animation selon le Swipe
+    let animClass = "fade-in";
+    if (direction === 'next') animClass = "slide-in-right";
+    if (direction === 'prev') animClass = "slide-in-left";
+
     app.innerHTML = `
-        <div class="codex-card fade-in" style="margin-top:20px;">
+        <div id="fragment-container" class="codex-card ${animClass}" style="margin-top:20px; min-height:80vh;">
             
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;">
                 <div class="date-badge" style="margin:0;">${item.date}</div>
                 
-                <button id="fav-btn-${item.id}" onclick="toggleSaveFragment(${item.id})" 
+                <button id="fav-btn-${item.id}" onclick="toggleSaveFragment(${item.id}, this)" 
                         style="background:none; border:none; font-size:1.5rem; cursor:pointer; transition:transform 0.2s; opacity:${heartOpacity};"
                         onmousedown="this.style.transform='scale(1.2)'" 
                         onmouseup="this.style.transform='scale(1)'">
@@ -187,25 +197,104 @@ window.showSpecificFragment = async function(id, source = 'chrono') {
             ${item.source ? `<div class="text-muted" style="text-align:right; margin-top:10px;">Source : ${item.source}</div>` : ''}
             
             <div class="nav-between-fragments">
+                <div style="flex:1; text-align:left;">
                 ${prevItem ? 
-                    `<div onclick="showSpecificFragment(${prevItem.id}, '${source}')" class="nav-link text-left">
-                        <span>⬅️ Précédent</span><br>
-                        <strong>${prevItem.titre}</strong>
+                    `<div onclick="showSpecificFragment(${prevItem.id}, '${source}', 'prev')" class="nav-link text-left">
+                        <span>⬅️ Précédent</span>
                      </div>` 
-                    : '<div></div>'}
+                    : ''}
+                </div>
 
+                <div style="flex:1; text-align:right;">
                 ${nextItem ? 
-                    `<div onclick="showSpecificFragment(${nextItem.id}, '${source}')" class="nav-link text-right">
-                        <span>Suivant ➡️</span><br>
-                        <strong>${nextItem.titre}</strong>
+                    `<div onclick="showSpecificFragment(${nextItem.id}, '${source}', 'next')" class="nav-link text-right">
+                        <span>Suivant ➡️</span>
                      </div>` 
-                    : '<div></div>'}
+                    : ''}
+                </div>
             </div>
 
-            <button class="btn-primary" onclick="${backBtnAction}" style="margin-top:25px;">
+            <button class="btn-primary" onclick="${backBtnAction}" style="margin-top:25px; width:100%;">
                 ${backBtnText}
             </button>
         </div>
     `;
+    
+    // Remonter en haut de la page
     window.scrollTo(0,0);
+
+    // 5. ACTIVER LE SWIPE
+    // C'est ici que la magie opère !
+    const container = document.getElementById('fragment-container');
+    if(container) {
+        initSwipeDetection(container, prevItem, nextItem, source);
+    }
 }
+
+// --- LOGIQUE DE SWIPE (Détection Tactile) ---
+function initSwipeDetection(element, prevItem, nextItem, source) {
+    let touchstartX = 0;
+    let touchstartY = 0;
+    let touchendX = 0;
+    let touchendY = 0;
+
+    element.addEventListener('touchstart', function(event) {
+        touchstartX = event.changedTouches[0].screenX;
+        touchstartY = event.changedTouches[0].screenY;
+    }, {passive: false});
+
+    element.addEventListener('touchend', function(event) {
+        touchendX = event.changedTouches[0].screenX;
+        touchendY = event.changedTouches[0].screenY;
+        handleGesture();
+    }, {passive: false});
+
+    function handleGesture() {
+        const xDiff = touchendX - touchstartX;
+        const yDiff = touchendY - touchstartY;
+
+        // Seuil de 50px pour valider le swipe
+        if (Math.abs(xDiff) > 50) {
+            
+            // Si le mouvement est surtout vertical, on annule (c'est un scroll)
+            if (Math.abs(yDiff) > Math.abs(xDiff)) return;
+
+            // Swipe vers la Gauche (Suivant)
+            if (xDiff < 0) {
+                if (nextItem) showSpecificFragment(nextItem.id, source, 'next');
+            }
+            
+            // Swipe vers la Droite (Précédent)
+            if (xDiff > 0) {
+                if (prevItem) showSpecificFragment(prevItem.id, source, 'prev');
+            }
+        }
+    }
+}
+
+// --- GESTION FAVORIS (Helper) ---
+window.toggleSaveFragment = function(id, btnElement) {
+    let saved = JSON.parse(localStorage.getItem('massalia_saved_fragments')) || [];
+    
+    if (saved.includes(id)) {
+        saved = saved.filter(itemId => itemId !== id);
+        if(btnElement) {
+            btnElement.innerHTML = "🤍";
+            btnElement.style.opacity = "0.6";
+        }
+        if(typeof showToast === 'function') showToast("Retiré des favoris");
+    } else {
+        saved.push(id);
+        if(btnElement) {
+            btnElement.innerHTML = "❤️";
+            btnElement.style.opacity = "1";
+            btnElement.animate([
+                { transform: 'scale(1)' },
+                { transform: 'scale(1.4)' },
+                { transform: 'scale(1)' }
+            ], { duration: 300 });
+        }
+        if(typeof showToast === 'function') showToast("Ajouté aux favoris !");
+    }
+    localStorage.setItem('massalia_saved_fragments', JSON.stringify(saved));
+};

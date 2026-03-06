@@ -1,0 +1,18 @@
+[
+    {
+        "id": "nd_garde",
+        "question": "Je suis la gardienne dorée qui veille sur les marins.",
+        "hint": "Cherchez le point le plus haut au sud du port.",
+        "x": 38, "y": 63, "radius": 5,
+        "reward": 50,
+        "anecdote": "Notre-Dame de la Garde a été construite en 1864."
+    },
+    {
+        "id": "vieux_port",
+        "question": "Je suis le cœur battant de la cité.",
+        "hint": "Le bras de mer central.",
+        "x": 45, "y": 50, "radius": 2,
+        "reward": 30,
+        "anecdote": "Le Lacydon est le berceau historique de Marseille."
+    }
+]

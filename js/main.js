@@ -62,7 +62,13 @@ window.loadSection = function(sectionId) {
 
         case 'motus':
             if(typeof loadMotus === 'function') loadMotus(); 
+            break;        
+        
+        case 'carte':
+            if(typeof loadCarte === 'function') loadCarte(); 
             break;
+        
+            
             
         default:
             console.error("Section inconnue : " + sectionId);

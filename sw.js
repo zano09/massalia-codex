@@ -1,4 +1,4 @@
-const CACHE_NAME = 'massalia-v2.2'; // On change le nom pour forcer la mise à jour
+const CACHE_NAME = 'massalia-v2.3'; // On change le nom pour forcer la mise à jour
 
 // Liste de tous les fichiers nécessaires au fonctionnement de l'app
 const ASSETS = [
