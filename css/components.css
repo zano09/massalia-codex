@@ -957,9 +957,126 @@ h3.titre-card {
     opacity: 0.7;
 }
 
-/* Empêche le navigateur de gérer le swipe horizontal */
-/* On autorise seulement le scroll vertical (pan-y) */
 #fragment-container {
-    touch-action: pan-y !important; 
-    overflow-x: hidden; /* Sécurité supplémentaire */
+    touch-action: pan-y !important; /* Autorise le scroll vertical mais bloque l'horizontal pour le JS */
+}
+
+/* Animations de Slide */
+@keyframes slideInRight { from { transform: translateX(100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+@keyframes slideInLeft { from { transform: translateX(-100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+
+.slide-in-right { animation: slideInRight 0.3s ease-out forwards; }
+.slide-in-left { animation: slideInLeft 0.3s ease-out forwards; }
+
+/* Séparateur d'époque dans la frise */
+.era-separator {
+    text-align: center;
+    margin: 30px 0 15px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.era-separator span {
+    background: var(--abysse);
+    color: var(--or);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-family: 'Cinzel', serif;
+    font-size: 0.85rem;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Ligne derrière le badge */
+.era-separator::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    right: 20%;
+    height: 1px;
+    background: #ccc;
+    z-index: -1;
+}
+
+/* Fix pour le swipe */
+#fragment-container {
+    touch-action: pan-y !important;
+}
+
+/* --- MODE LECTURE IMMERSIF (Fragment) --- */
+.fragment-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh; /* Prend toute la hauteur minimum */
+    background: #fffdf0; /* Couleur papier/parchemin clair */
+    padding: 20px 20px 100px 20px; /* Marge en bas pour le scroll */
+    z-index: 1000; /* Passe par-dessus tout le reste */
+    box-sizing: border-box;
+    
+    /* Pour le Swipe */
+    touch-action: pan-y !important;
+    overflow-x: hidden;
+}
+
+/* Ajustement de l'image en mode plein écran */
+.fragment-page .card-image-container {
+    margin: -20px -20px 20px -20px; /* L'image touche les bords */
+    border-radius: 0 0 20px 20px; /* Arrondi juste en bas */
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.fragment-page .card-image {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+/* --- DÉCORATION LIVRE ANCIEN (Tranche des pages) --- */
+
+/* La base de la bande (Structure) */
+.fragment-page::before {
+    content: '';
+    position: fixed; 
+    top: 0;
+    bottom: 0;
+    width: 10px; /* Plus fin pour être élégant */
+    z-index: 1001;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4); /* Ombre pour donner du volume */
+    
+    /* TEXTURE PAPIER/OR : Lignes verticales fines pour imiter les feuilles */
+    background: repeating-linear-gradient(
+        90deg,
+        #8a6d3b,
+        #8a6d3b 1px,
+        #f1c40f 1px,
+        #f1c40f 2px
+    );
+}
+
+/* --- VARIATION PAGE GAUCHE (Bande à Gauche) --- */
+.page-left::before {
+    left: 0;
+    border-right: 1px solid #5e4d06; /* Bordure fine pour finir la reliure */
+}
+/* Décalage du contenu */
+.page-left {
+    padding-left: 35px !important; 
+    padding-right: 20px !important;
+}
+
+/* --- VARIATION PAGE DROITE (Bande à Droite) --- */
+.page-right::before {
+    right: 0;
+    border-left: 1px solid #5e4d06;
+}
+/* Décalage du contenu */
+.page-right {
+    padding-left: 20px !important;
+    padding-right: 35px !important;
 }
